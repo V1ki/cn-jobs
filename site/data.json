@@ -1,0 +1,3480 @@
+[
+  {
+    "code": "A040601",
+    "title": "总计",
+    "title_en": "Total Urban Units",
+    "category": "all",
+    "is_aggregate": true,
+    "yearly_data": {
+      "2006": {
+        "employment": 11713.1713,
+        "wage": 20856,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 12024.4285,
+        "wage": 24721,
+        "private_wage": null,
+        "employment_change_pct": 2.66,
+        "wage_growth_pct": 18.53,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 12192.5243,
+        "wage": 28898,
+        "private_wage": null,
+        "employment_change_pct": 1.4,
+        "wage_growth_pct": 16.9,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 12573.035,
+        "wage": 32244,
+        "private_wage": 18198.9933639475,
+        "employment_change_pct": 3.12,
+        "wage_growth_pct": 11.58,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 13051.5034,
+        "wage": 36539,
+        "private_wage": 20759,
+        "employment_change_pct": 3.81,
+        "wage_growth_pct": 13.32,
+        "private_wage_growth_pct": 14.07
+      },
+      "2011": {
+        "employment": 14413.3014,
+        "wage": 41799,
+        "private_wage": 24556,
+        "employment_change_pct": 10.43,
+        "wage_growth_pct": 14.4,
+        "private_wage_growth_pct": 18.29
+      },
+      "2012": {
+        "employment": 15236.3715,
+        "wage": 46769,
+        "private_wage": 28752,
+        "employment_change_pct": 5.71,
+        "wage_growth_pct": 11.89,
+        "private_wage_growth_pct": 17.09
+      },
+      "2013": {
+        "employment": 18108.4467,
+        "wage": 51483,
+        "private_wage": 32706,
+        "employment_change_pct": 18.85,
+        "wage_growth_pct": 10.08,
+        "private_wage_growth_pct": 13.75
+      },
+      "2014": {
+        "employment": 18277.7776,
+        "wage": 56360,
+        "private_wage": 36390,
+        "employment_change_pct": 0.94,
+        "wage_growth_pct": 9.47,
+        "private_wage_growth_pct": 11.26
+      },
+      "2015": {
+        "employment": 18062.4914,
+        "wage": 62029,
+        "private_wage": 39589,
+        "employment_change_pct": -1.18,
+        "wage_growth_pct": 10.06,
+        "private_wage_growth_pct": 8.79
+      },
+      "2016": {
+        "employment": 17888.0734,
+        "wage": 67569,
+        "private_wage": 42833,
+        "employment_change_pct": -0.97,
+        "wage_growth_pct": 8.93,
+        "private_wage_growth_pct": 8.19
+      },
+      "2017": {
+        "employment": 17643.8348,
+        "wage": 74318,
+        "private_wage": 45761,
+        "employment_change_pct": -1.37,
+        "wage_growth_pct": 9.99,
+        "private_wage_growth_pct": 6.84
+      },
+      "2018": {
+        "employment": 17258.1976,
+        "wage": 82413,
+        "private_wage": 49575,
+        "employment_change_pct": -2.19,
+        "wage_growth_pct": 10.89,
+        "private_wage_growth_pct": 8.33
+      },
+      "2019": {
+        "employment": 17161.7786,
+        "wage": 90501,
+        "private_wage": 53604,
+        "employment_change_pct": -0.56,
+        "wage_growth_pct": 9.81,
+        "private_wage_growth_pct": 8.13
+      },
+      "2020": {
+        "employment": 17039.0876669,
+        "wage": 97379,
+        "private_wage": 57727,
+        "employment_change_pct": -0.71,
+        "wage_growth_pct": 7.6,
+        "private_wage_growth_pct": 7.69
+      },
+      "2021": {
+        "employment": 17014.5065866,
+        "wage": 106837,
+        "private_wage": 62884,
+        "employment_change_pct": -0.14,
+        "wage_growth_pct": 9.71,
+        "private_wage_growth_pct": 8.93
+      },
+      "2022": {
+        "employment": 16700.6558961,
+        "wage": 114029,
+        "private_wage": 65237,
+        "employment_change_pct": -1.84,
+        "wage_growth_pct": 6.73,
+        "private_wage_growth_pct": 3.74
+      },
+      "2023": {
+        "employment": 16368.313857,
+        "wage": 120698,
+        "private_wage": 68340,
+        "employment_change_pct": -1.99,
+        "wage_growth_pct": 5.85,
+        "private_wage_growth_pct": 4.76
+      },
+      "2024": {
+        "employment": 16511.2,
+        "wage": 124110,
+        "private_wage": 69476,
+        "employment_change_pct": 0.87,
+        "wage_growth_pct": 2.83,
+        "private_wage_growth_pct": 1.66
+      }
+    },
+    "ai_exposure": {
+      "score": null,
+      "rationale": "汇总项代表全部城镇单位，不适合作为单一行业评估 AI 暴露度。",
+      "anchors": [
+        "汇总行业",
+        "不单独评分"
+      ],
+      "job_description": "覆盖中国城镇非私营单位整体，就业任务横跨线下服务、制造执行、行政管理和知识工作。",
+      "model": "rule-based",
+      "updated_at": "2026-03-18T11:36:36.189755+00:00"
+    }
+  },
+  {
+    "code": "A040602",
+    "title": "农林牧渔业",
+    "title_en": "Agriculture, Forestry, Animal Husbandry and Fishery",
+    "category": "primary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 435.2472,
+        "wage": 9269,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 426.3086,
+        "wage": 10847,
+        "private_wage": null,
+        "employment_change_pct": -2.05,
+        "wage_growth_pct": 17.02,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 410.0886,
+        "wage": 12560,
+        "private_wage": null,
+        "employment_change_pct": -3.8,
+        "wage_growth_pct": 15.79,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 373.6812,
+        "wage": 14356,
+        "private_wage": 14584.6306098665,
+        "employment_change_pct": -8.88,
+        "wage_growth_pct": 14.3,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 375.7384,
+        "wage": 16717,
+        "private_wage": 16370,
+        "employment_change_pct": 0.55,
+        "wage_growth_pct": 16.45,
+        "private_wage_growth_pct": 12.24
+      },
+      "2011": {
+        "employment": 359.519,
+        "wage": 19469,
+        "private_wage": 19223,
+        "employment_change_pct": -4.32,
+        "wage_growth_pct": 16.46,
+        "private_wage_growth_pct": 17.43
+      },
+      "2012": {
+        "employment": 338.8566,
+        "wage": 22687,
+        "private_wage": 21973,
+        "employment_change_pct": -5.75,
+        "wage_growth_pct": 16.53,
+        "private_wage_growth_pct": 14.31
+      },
+      "2013": {
+        "employment": 294.8334,
+        "wage": 25820,
+        "private_wage": 24645,
+        "employment_change_pct": -12.99,
+        "wage_growth_pct": 13.81,
+        "private_wage_growth_pct": 12.16
+      },
+      "2014": {
+        "employment": 284.5982,
+        "wage": 28356,
+        "private_wage": 26862,
+        "employment_change_pct": -3.47,
+        "wage_growth_pct": 9.82,
+        "private_wage_growth_pct": 9.0
+      },
+      "2015": {
+        "employment": 269.9788,
+        "wage": 31947,
+        "private_wage": 28869,
+        "employment_change_pct": -5.14,
+        "wage_growth_pct": 12.66,
+        "private_wage_growth_pct": 7.47
+      },
+      "2016": {
+        "employment": 263.2208,
+        "wage": 33612,
+        "private_wage": 31301,
+        "employment_change_pct": -2.5,
+        "wage_growth_pct": 5.21,
+        "private_wage_growth_pct": 8.42
+      },
+      "2017": {
+        "employment": 255.4087,
+        "wage": 36504,
+        "private_wage": 34272,
+        "employment_change_pct": -2.97,
+        "wage_growth_pct": 8.6,
+        "private_wage_growth_pct": 9.49
+      },
+      "2018": {
+        "employment": 192.617,
+        "wage": 36466,
+        "private_wage": 36375,
+        "employment_change_pct": -24.58,
+        "wage_growth_pct": -0.1,
+        "private_wage_growth_pct": 6.14
+      },
+      "2019": {
+        "employment": 134.0931,
+        "wage": 39340,
+        "private_wage": 37760,
+        "employment_change_pct": -30.38,
+        "wage_growth_pct": 7.88,
+        "private_wage_growth_pct": 3.81
+      },
+      "2020": {
+        "employment": 85.683295,
+        "wage": 48540,
+        "private_wage": 38956,
+        "employment_change_pct": -36.1,
+        "wage_growth_pct": 23.39,
+        "private_wage_growth_pct": 3.17
+      },
+      "2021": {
+        "employment": 86.8262,
+        "wage": 53819,
+        "private_wage": 41442,
+        "employment_change_pct": 1.33,
+        "wage_growth_pct": 10.88,
+        "private_wage_growth_pct": 6.38
+      },
+      "2022": {
+        "employment": 78.9137,
+        "wage": 58976,
+        "private_wage": 42605,
+        "employment_change_pct": -9.11,
+        "wage_growth_pct": 9.58,
+        "private_wage_growth_pct": 2.81
+      },
+      "2023": {
+        "employment": 69.3053975,
+        "wage": 62952,
+        "private_wage": 44465,
+        "employment_change_pct": -12.18,
+        "wage_growth_pct": 6.74,
+        "private_wage_growth_pct": 4.37
+      },
+      "2024": {
+        "employment": 66.2,
+        "wage": 67475,
+        "private_wage": 46433,
+        "employment_change_pct": -4.48,
+        "wage_growth_pct": 7.18,
+        "private_wage_growth_pct": 4.43
+      }
+    },
+    "ai_exposure": {
+      "score": 2.0,
+      "rationale": "农林牧渔业核心任务如田间播种、牲畜巡检、水产捕捞、疫病现场处置等高度依赖实地环境、非结构化判断和体力操作，AI与自动化难以替代；部分后台任务如农资库存管理、生产记录填报、基础气象信息查询可被轻量级软件或移动端工具辅助，但占比低；农机自动驾驶、无人机植保等技术已在局部应用，但受限于农村基础设施、地块碎片化及操作者数字素养，渗透率仍低。",
+      "anchors": [
+        "农机操作",
+        "现场养殖管理",
+        "季节性田间作业",
+        "土地依赖型生产"
+      ],
+      "job_description": "典型岗位包括水稻种植员、生猪饲养员、水产技术员、农机驾驶员和基层农技推广员；日常工作涵盖作物播种与采收、畜禽饲喂与防疫、渔塘巡护与捕捞、小型农机维护及农资使用记录；大量任务需在复杂多变的自然环境中实时判断并手工执行。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:36:44.320157+00:00"
+    }
+  },
+  {
+    "code": "A040603",
+    "title": "采矿业",
+    "title_en": "Mining",
+    "category": "secondary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 529.6735,
+        "wage": 24125,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 535.0372,
+        "wage": 28185,
+        "private_wage": null,
+        "employment_change_pct": 1.01,
+        "wage_growth_pct": 16.83,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 540.3942,
+        "wage": 34233,
+        "private_wage": null,
+        "employment_change_pct": 1.0,
+        "wage_growth_pct": 21.46,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 553.6854,
+        "wage": 38038,
+        "private_wage": 18552.6436611374,
+        "employment_change_pct": 2.46,
+        "wage_growth_pct": 11.12,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 562.037,
+        "wage": 44196,
+        "private_wage": 20981,
+        "employment_change_pct": 1.51,
+        "wage_growth_pct": 16.19,
+        "private_wage_growth_pct": 13.09
+      },
+      "2011": {
+        "employment": 611.5975,
+        "wage": 52230,
+        "private_wage": 25519,
+        "employment_change_pct": 8.82,
+        "wage_growth_pct": 18.18,
+        "private_wage_growth_pct": 21.63
+      },
+      "2012": {
+        "employment": 631.0219,
+        "wage": 56946,
+        "private_wage": 29684,
+        "employment_change_pct": 3.18,
+        "wage_growth_pct": 9.03,
+        "private_wage_growth_pct": 16.32
+      },
+      "2013": {
+        "employment": 636.45,
+        "wage": 60138,
+        "private_wage": 33081,
+        "employment_change_pct": 0.86,
+        "wage_growth_pct": 5.61,
+        "private_wage_growth_pct": 11.44
+      },
+      "2014": {
+        "employment": 596.4913,
+        "wage": 61677,
+        "private_wage": 35819,
+        "employment_change_pct": -6.28,
+        "wage_growth_pct": 2.56,
+        "private_wage_growth_pct": 8.28
+      },
+      "2015": {
+        "employment": 545.7799,
+        "wage": 59404,
+        "private_wage": 38192,
+        "employment_change_pct": -8.5,
+        "wage_growth_pct": -3.69,
+        "private_wage_growth_pct": 6.62
+      },
+      "2016": {
+        "employment": 490.9177,
+        "wage": 60544,
+        "private_wage": 39600,
+        "employment_change_pct": -10.05,
+        "wage_growth_pct": 1.92,
+        "private_wage_growth_pct": 3.69
+      },
+      "2017": {
+        "employment": 455.3768,
+        "wage": 69500,
+        "private_wage": 41236,
+        "employment_change_pct": -7.24,
+        "wage_growth_pct": 14.79,
+        "private_wage_growth_pct": 4.13
+      },
+      "2018": {
+        "employment": 414.4315,
+        "wage": 81429,
+        "private_wage": 44096,
+        "employment_change_pct": -8.99,
+        "wage_growth_pct": 17.16,
+        "private_wage_growth_pct": 6.94
+      },
+      "2019": {
+        "employment": 367.693,
+        "wage": 91068,
+        "private_wage": 49675,
+        "employment_change_pct": -11.28,
+        "wage_growth_pct": 11.84,
+        "private_wage_growth_pct": 12.65
+      },
+      "2020": {
+        "employment": 352.0913616,
+        "wage": 96674,
+        "private_wage": 54563,
+        "employment_change_pct": -4.24,
+        "wage_growth_pct": 6.16,
+        "private_wage_growth_pct": 9.84
+      },
+      "2021": {
+        "employment": 344.8497,
+        "wage": 108467,
+        "private_wage": 62665,
+        "employment_change_pct": -2.06,
+        "wage_growth_pct": 12.2,
+        "private_wage_growth_pct": 14.85
+      },
+      "2022": {
+        "employment": 340.8981,
+        "wage": 121522,
+        "private_wage": 68509,
+        "employment_change_pct": -1.15,
+        "wage_growth_pct": 12.04,
+        "private_wage_growth_pct": 9.33
+      },
+      "2023": {
+        "employment": 329.3416067,
+        "wage": 135025,
+        "private_wage": 75648,
+        "employment_change_pct": -3.39,
+        "wage_growth_pct": 11.11,
+        "private_wage_growth_pct": 10.42
+      },
+      "2024": {
+        "employment": 326.3,
+        "wage": 140706,
+        "private_wage": 76010,
+        "employment_change_pct": -0.92,
+        "wage_growth_pct": 4.21,
+        "private_wage_growth_pct": 0.48
+      }
+    },
+    "ai_exposure": {
+      "score": 4.0,
+      "rationale": "露天采掘、生产调度和部分安全巡检任务正逐步被无人机巡检、智能调度系统和机器视觉质检替代；选矿加工中的参数优化和设备维护中的故障预测已开始应用AI模型；但井下作业、复杂地质条件下的实时决策、高危环境人工干预等核心任务仍高度依赖现场经验与体力操作，难以被远程或自动化系统完全覆盖。",
+      "anchors": [
+        "露天采掘智能调度",
+        "无人机安全巡检",
+        "选矿过程参数优化",
+        "井下人工操作"
+      ],
+      "job_description": "典型岗位包括井下掘进工、露天矿卡车司机、安全巡检员、选矿技术员、采矿设备维修技师和生产调度员。工作内容涵盖爆破作业、矿石装载运输、边坡监测、破碎筛分、浮选浸出、液压系统维护及多班次协同调度，强调现场响应能力与安全合规性。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:36:49.384712+00:00"
+    }
+  },
+  {
+    "code": "A040604",
+    "title": "制造业",
+    "title_en": "Manufacturing",
+    "category": "secondary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 3351.6145,
+        "wage": 18225,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 3465.3607,
+        "wage": 21144,
+        "private_wage": null,
+        "employment_change_pct": 3.39,
+        "wage_growth_pct": 16.02,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 3434.2617,
+        "wage": 24404,
+        "private_wage": null,
+        "employment_change_pct": -0.9,
+        "wage_growth_pct": 15.42,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 3491.8986,
+        "wage": 26810,
+        "private_wage": 17259.9330925054,
+        "employment_change_pct": 1.68,
+        "wage_growth_pct": 9.86,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 3637.1514,
+        "wage": 30916,
+        "private_wage": 20090,
+        "employment_change_pct": 4.16,
+        "wage_growth_pct": 15.32,
+        "private_wage_growth_pct": 16.4
+      },
+      "2011": {
+        "employment": 4088.3267,
+        "wage": 36665,
+        "private_wage": 24138,
+        "employment_change_pct": 12.4,
+        "wage_growth_pct": 18.6,
+        "private_wage_growth_pct": 20.15
+      },
+      "2012": {
+        "employment": 4262.1887,
+        "wage": 41650,
+        "private_wage": 28215,
+        "employment_change_pct": 4.25,
+        "wage_growth_pct": 13.6,
+        "private_wage_growth_pct": 16.89
+      },
+      "2013": {
+        "employment": 5257.9395,
+        "wage": 46431,
+        "private_wage": 32035,
+        "employment_change_pct": 23.36,
+        "wage_growth_pct": 11.48,
+        "private_wage_growth_pct": 13.54
+      },
+      "2014": {
+        "employment": 5243.1393,
+        "wage": 51369,
+        "private_wage": 35653,
+        "employment_change_pct": -0.28,
+        "wage_growth_pct": 10.64,
+        "private_wage_growth_pct": 11.29
+      },
+      "2015": {
+        "employment": 5068.7033,
+        "wage": 55324,
+        "private_wage": 38948,
+        "employment_change_pct": -3.33,
+        "wage_growth_pct": 7.7,
+        "private_wage_growth_pct": 9.24
+      },
+      "2016": {
+        "employment": 4893.8403,
+        "wage": 59470,
+        "private_wage": 42115,
+        "employment_change_pct": -3.45,
+        "wage_growth_pct": 7.49,
+        "private_wage_growth_pct": 8.13
+      },
+      "2017": {
+        "employment": 4635.4597,
+        "wage": 64452,
+        "private_wage": 44991,
+        "employment_change_pct": -5.28,
+        "wage_growth_pct": 8.38,
+        "private_wage_growth_pct": 6.83
+      },
+      "2018": {
+        "employment": 4178.3095,
+        "wage": 72088,
+        "private_wage": 49275,
+        "employment_change_pct": -9.86,
+        "wage_growth_pct": 11.85,
+        "private_wage_growth_pct": 9.52
+      },
+      "2019": {
+        "employment": 3832.0304,
+        "wage": 78147,
+        "private_wage": 52858,
+        "employment_change_pct": -8.29,
+        "wage_growth_pct": 8.41,
+        "private_wage_growth_pct": 7.27
+      },
+      "2020": {
+        "employment": 3805.5259254,
+        "wage": 82783,
+        "private_wage": 57910,
+        "employment_change_pct": -0.69,
+        "wage_growth_pct": 5.93,
+        "private_wage_growth_pct": 9.56
+      },
+      "2021": {
+        "employment": 3828.0051,
+        "wage": 92459,
+        "private_wage": 63946,
+        "employment_change_pct": 0.59,
+        "wage_growth_pct": 11.69,
+        "private_wage_growth_pct": 10.42
+      },
+      "2022": {
+        "employment": 3738.4469,
+        "wage": 97528,
+        "private_wage": 67352,
+        "employment_change_pct": -2.34,
+        "wage_growth_pct": 5.48,
+        "private_wage_growth_pct": 5.33
+      },
+      "2023": {
+        "employment": 3577.821843,
+        "wage": 103932,
+        "private_wage": 71762,
+        "employment_change_pct": -4.3,
+        "wage_growth_pct": 6.57,
+        "private_wage_growth_pct": 6.55
+      },
+      "2024": {
+        "employment": 3681.8,
+        "wage": 107987,
+        "private_wage": 71467,
+        "employment_change_pct": 2.91,
+        "wage_growth_pct": 3.9,
+        "private_wage_growth_pct": -0.41
+      }
+    },
+    "ai_exposure": {
+      "score": 7.0,
+      "rationale": "制造业中计划排产、质量检测（如AI视觉质检）、设备预测性维护、采购订单处理、工艺文档生成等任务正快速被生成式AI和工业自动化系统替代或增强；但产线操作、复杂设备现场维修、多变小批量产线调试等强现场性、高不确定性任务仍高度依赖人工；工业机器人与MES系统已在中国头部工厂规模化部署，但中小企业渗透率仍偏低。",
+      "anchors": [
+        "工业机器人",
+        "机器视觉质检",
+        "MES系统",
+        "预测性维护"
+      ],
+      "job_description": "典型岗位包括产线操作工（执行装配、搬运等体力任务）、工艺工程师（设计加工流程与参数）、质量检验员（抽样或全检产品）、设备维护技师（现场检修与应急响应）、生产计划员（制定排程与物料需求）、工厂管理者（统筹运营与合规）。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:36:54.115717+00:00"
+    }
+  },
+  {
+    "code": "A040605",
+    "title": "电力、热力、燃气及水生产和供应业",
+    "title_en": "Utilities",
+    "category": "secondary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 302.5425,
+        "wage": 28424,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 303.4119,
+        "wage": 33470,
+        "private_wage": null,
+        "employment_change_pct": 0.29,
+        "wage_growth_pct": 17.75,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 306.5086,
+        "wage": 38515,
+        "private_wage": null,
+        "employment_change_pct": 1.02,
+        "wage_growth_pct": 15.07,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 307.6687,
+        "wage": 41869,
+        "private_wage": 17795.4379264291,
+        "employment_change_pct": 0.38,
+        "wage_growth_pct": 8.71,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 310.5096,
+        "wage": 47309,
+        "private_wage": 18834,
+        "employment_change_pct": 0.92,
+        "wage_growth_pct": 12.99,
+        "private_wage_growth_pct": 5.84
+      },
+      "2011": {
+        "employment": 334.6917,
+        "wage": 52723,
+        "private_wage": 22091,
+        "employment_change_pct": 7.79,
+        "wage_growth_pct": 11.44,
+        "private_wage_growth_pct": 17.29
+      },
+      "2012": {
+        "employment": 344.5578,
+        "wage": 58202,
+        "private_wage": 25478,
+        "employment_change_pct": 2.95,
+        "wage_growth_pct": 10.39,
+        "private_wage_growth_pct": 15.33
+      },
+      "2013": {
+        "employment": 404.5408,
+        "wage": 67085,
+        "private_wage": 29597,
+        "employment_change_pct": 17.41,
+        "wage_growth_pct": 15.26,
+        "private_wage_growth_pct": 16.17
+      },
+      "2014": {
+        "employment": 403.6541,
+        "wage": 73339,
+        "private_wage": 33184,
+        "employment_change_pct": -0.22,
+        "wage_growth_pct": 9.32,
+        "private_wage_growth_pct": 12.12
+      },
+      "2015": {
+        "employment": 396.0086,
+        "wage": 78886,
+        "private_wage": 34631,
+        "employment_change_pct": -1.89,
+        "wage_growth_pct": 7.56,
+        "private_wage_growth_pct": 4.36
+      },
+      "2016": {
+        "employment": 387.6131,
+        "wage": 83863,
+        "private_wage": 38605,
+        "employment_change_pct": -2.12,
+        "wage_growth_pct": 6.31,
+        "private_wage_growth_pct": 11.48
+      },
+      "2017": {
+        "employment": 376.9568,
+        "wage": 90348,
+        "private_wage": 41510,
+        "employment_change_pct": -2.75,
+        "wage_growth_pct": 7.73,
+        "private_wage_growth_pct": 7.52
+      },
+      "2018": {
+        "employment": 369.1863,
+        "wage": 100162,
+        "private_wage": 44239,
+        "employment_change_pct": -2.06,
+        "wage_growth_pct": 10.86,
+        "private_wage_growth_pct": 6.57
+      },
+      "2019": {
+        "employment": 373.1169,
+        "wage": 107733,
+        "private_wage": 49633,
+        "employment_change_pct": 1.06,
+        "wage_growth_pct": 7.56,
+        "private_wage_growth_pct": 12.19
+      },
+      "2020": {
+        "employment": 379.7458168,
+        "wage": 116728,
+        "private_wage": 54268,
+        "employment_change_pct": 1.78,
+        "wage_growth_pct": 8.35,
+        "private_wage_growth_pct": 9.34
+      },
+      "2021": {
+        "employment": 382.0015,
+        "wage": 125332,
+        "private_wage": 59271,
+        "employment_change_pct": 0.59,
+        "wage_growth_pct": 7.37,
+        "private_wage_growth_pct": 9.22
+      },
+      "2022": {
+        "employment": 375.2831,
+        "wage": 132964,
+        "private_wage": 61870,
+        "employment_change_pct": -1.76,
+        "wage_growth_pct": 6.09,
+        "private_wage_growth_pct": 4.38
+      },
+      "2023": {
+        "employment": 360.9950097,
+        "wage": 143594,
+        "private_wage": 64826,
+        "employment_change_pct": -3.81,
+        "wage_growth_pct": 7.99,
+        "private_wage_growth_pct": 4.78
+      },
+      "2024": {
+        "employment": 357.6,
+        "wage": 150285,
+        "private_wage": 63574,
+        "employment_change_pct": -0.94,
+        "wage_growth_pct": 4.66,
+        "private_wage_growth_pct": -1.93
+      }
+    },
+    "ai_exposure": {
+      "score": 6.0,
+      "rationale": "调度值守、设备监控和部分报表分析等重复性高、数据驱动的任务正快速被AI辅助系统、智能巡检平台和预测性维护算法替代；但管网维护、现场抢修、高温高压环境下的应急处置等强现场性、高安全风险任务仍高度依赖人工经验与体能；安全管理中的责任判定和跨部门协同也难以完全自动化。",
+      "anchors": [
+        "智能调度",
+        "设备监控",
+        "预测性维护",
+        "现场抢修"
+      ],
+      "job_description": "典型岗位包括电厂集控运行值班员、燃气输配调度员、供水管网巡检工、变电站监控员和安全管理员。主要任务涵盖24小时连续运行监控、SCADA系统操作、管网压力/流量异常响应、设备定期巡检与故障初判、以及突发泄漏或停电事件的现场处置。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:36:58.796188+00:00"
+    }
+  },
+  {
+    "code": "A040606",
+    "title": "建筑业",
+    "title_en": "Construction",
+    "category": "secondary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 988.6725,
+        "wage": 16164,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 1050.7825,
+        "wage": 18482,
+        "private_wage": null,
+        "employment_change_pct": 6.28,
+        "wage_growth_pct": 14.34,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 1072.5783,
+        "wage": 21223,
+        "private_wage": null,
+        "employment_change_pct": 2.07,
+        "wage_growth_pct": 14.83,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 1177.4855,
+        "wage": 24161,
+        "private_wage": 19867.0554432939,
+        "employment_change_pct": 9.78,
+        "wage_growth_pct": 13.84,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 1267.5144,
+        "wage": 27529,
+        "private_wage": 22228,
+        "employment_change_pct": 7.65,
+        "wage_growth_pct": 13.94,
+        "private_wage_growth_pct": 11.88
+      },
+      "2011": {
+        "employment": 1724.7782,
+        "wage": 32103,
+        "private_wage": 26108,
+        "employment_change_pct": 36.08,
+        "wage_growth_pct": 16.62,
+        "private_wage_growth_pct": 17.46
+      },
+      "2012": {
+        "employment": 2010.2586,
+        "wage": 36483,
+        "private_wage": 30911,
+        "employment_change_pct": 16.55,
+        "wage_growth_pct": 13.64,
+        "private_wage_growth_pct": 18.4
+      },
+      "2013": {
+        "employment": 2921.8986,
+        "wage": 42072,
+        "private_wage": 34882,
+        "employment_change_pct": 45.35,
+        "wage_growth_pct": 15.32,
+        "private_wage_growth_pct": 12.85
+      },
+      "2014": {
+        "employment": 2921.1787,
+        "wage": 45804,
+        "private_wage": 38838,
+        "employment_change_pct": -0.02,
+        "wage_growth_pct": 8.87,
+        "private_wage_growth_pct": 11.34
+      },
+      "2015": {
+        "employment": 2795.9982,
+        "wage": 48886,
+        "private_wage": 41710,
+        "employment_change_pct": -4.29,
+        "wage_growth_pct": 6.73,
+        "private_wage_growth_pct": 7.39
+      },
+      "2016": {
+        "employment": 2724.7293,
+        "wage": 52082,
+        "private_wage": 44803,
+        "employment_change_pct": -2.55,
+        "wage_growth_pct": 6.54,
+        "private_wage_growth_pct": 7.42
+      },
+      "2017": {
+        "employment": 2643.2096,
+        "wage": 55568,
+        "private_wage": 46944,
+        "employment_change_pct": -2.99,
+        "wage_growth_pct": 6.69,
+        "private_wage_growth_pct": 4.78
+      },
+      "2018": {
+        "employment": 2710.8716,
+        "wage": 60501,
+        "private_wage": 50879,
+        "employment_change_pct": 2.56,
+        "wage_growth_pct": 8.88,
+        "private_wage_growth_pct": 8.38
+      },
+      "2019": {
+        "employment": 2270.4989,
+        "wage": 65580,
+        "private_wage": 54167,
+        "employment_change_pct": -16.24,
+        "wage_growth_pct": 8.39,
+        "private_wage_growth_pct": 6.46
+      },
+      "2020": {
+        "employment": 2153.2545955,
+        "wage": 69986,
+        "private_wage": 57309,
+        "employment_change_pct": -5.16,
+        "wage_growth_pct": 6.72,
+        "private_wage_growth_pct": 5.8
+      },
+      "2021": {
+        "employment": 1971.9353,
+        "wage": 75762,
+        "private_wage": 60430,
+        "employment_change_pct": -8.42,
+        "wage_growth_pct": 8.25,
+        "private_wage_growth_pct": 5.45
+      },
+      "2022": {
+        "employment": 1835.1983,
+        "wage": 78295,
+        "private_wage": 60918,
+        "employment_change_pct": -6.93,
+        "wage_growth_pct": 3.34,
+        "private_wage_growth_pct": 0.81
+      },
+      "2023": {
+        "employment": 1638.0885388,
+        "wage": 85804,
+        "private_wage": 63857,
+        "employment_change_pct": -10.74,
+        "wage_growth_pct": 9.59,
+        "private_wage_growth_pct": 4.82
+      },
+      "2024": {
+        "employment": 1353.1,
+        "wage": 89519,
+        "private_wage": 65494,
+        "employment_change_pct": -17.4,
+        "wage_growth_pct": 4.33,
+        "private_wage_growth_pct": 2.56
+      }
+    },
+    "ai_exposure": {
+      "score": 2.0,
+      "rationale": "建筑业核心任务高度依赖现场物理操作、复杂环境判断和人际协同，如高空作业、混凝土浇筑、脚手架搭设等无法被AI或软件替代；测量放线、造价预算等部分技术性工作虽可借助BIM、智能算量工具提效，但需结合现场变更反复校核；安全监督依赖实地巡查与即时风险干预，难以完全自动化。",
+      "anchors": [
+        "施工现场体力作业",
+        "动态环境下的实时决策",
+        "多工种线下协同",
+        "不可预测的地质与天气干扰"
+      ],
+      "job_description": "典型岗位包括施工员、测量员、项目经理、造价工程师、材料员和安全员；主要任务涵盖现场施工组织、工程测量放线、进度与成本管控、建材进场验收、安全生产巡查及多方协调；工作场景以露天/半封闭工地为主，强依赖人工经验与临场应变。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:03.725672+00:00"
+    }
+  },
+  {
+    "code": "A040607",
+    "title": "交通运输、仓储和邮政业",
+    "title_en": "Transportation, Warehousing and Postal Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 612.7345,
+        "wage": 24111,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 623.0512,
+        "wage": 27903,
+        "private_wage": null,
+        "employment_change_pct": 1.68,
+        "wage_growth_pct": 15.73,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 627.2575,
+        "wage": 32041,
+        "private_wage": null,
+        "employment_change_pct": 0.68,
+        "wage_growth_pct": 14.83,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 634.3697,
+        "wage": 35315,
+        "private_wage": 19633.5350200194,
+        "employment_change_pct": 1.13,
+        "wage_growth_pct": 10.22,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 631.1113,
+        "wage": 40466,
+        "private_wage": 21989,
+        "employment_change_pct": -0.51,
+        "wage_growth_pct": 14.59,
+        "private_wage_growth_pct": 12.0
+      },
+      "2011": {
+        "employment": 662.7893,
+        "wage": 47078,
+        "private_wage": 25949,
+        "employment_change_pct": 5.02,
+        "wage_growth_pct": 16.34,
+        "private_wage_growth_pct": 18.01
+      },
+      "2012": {
+        "employment": 667.5203,
+        "wage": 53391,
+        "private_wage": 28159,
+        "employment_change_pct": 0.71,
+        "wage_growth_pct": 13.41,
+        "private_wage_growth_pct": 8.52
+      },
+      "2013": {
+        "employment": 846.2153,
+        "wage": 57993,
+        "private_wage": 33141,
+        "employment_change_pct": 26.77,
+        "wage_growth_pct": 8.62,
+        "private_wage_growth_pct": 17.69
+      },
+      "2014": {
+        "employment": 861.43,
+        "wage": 63416,
+        "private_wage": 38891,
+        "employment_change_pct": 1.8,
+        "wage_growth_pct": 9.35,
+        "private_wage_growth_pct": 17.35
+      },
+      "2015": {
+        "employment": 854.3893,
+        "wage": 68822,
+        "private_wage": 40495,
+        "employment_change_pct": -0.82,
+        "wage_growth_pct": 8.52,
+        "private_wage_growth_pct": 4.12
+      },
+      "2016": {
+        "employment": 849.5076,
+        "wage": 73650,
+        "private_wage": 42705,
+        "employment_change_pct": -0.57,
+        "wage_growth_pct": 7.02,
+        "private_wage_growth_pct": 5.46
+      },
+      "2017": {
+        "employment": 843.8919,
+        "wage": 80225,
+        "private_wage": 45852,
+        "employment_change_pct": -0.66,
+        "wage_growth_pct": 8.93,
+        "private_wage_growth_pct": 7.37
+      },
+      "2018": {
+        "employment": 819.0015,
+        "wage": 88508,
+        "private_wage": 50547,
+        "employment_change_pct": -2.95,
+        "wage_growth_pct": 10.32,
+        "private_wage_growth_pct": 10.24
+      },
+      "2019": {
+        "employment": 815.4941,
+        "wage": 97050,
+        "private_wage": 54006,
+        "employment_change_pct": -0.43,
+        "wage_growth_pct": 9.65,
+        "private_wage_growth_pct": 6.84
+      },
+      "2020": {
+        "employment": 812.1999102,
+        "wage": 100642,
+        "private_wage": 57313,
+        "employment_change_pct": -0.4,
+        "wage_growth_pct": 3.7,
+        "private_wage_growth_pct": 6.12
+      },
+      "2021": {
+        "employment": 798.0822,
+        "wage": 109851,
+        "private_wage": 62411,
+        "employment_change_pct": -1.74,
+        "wage_growth_pct": 9.15,
+        "private_wage_growth_pct": 8.9
+      },
+      "2022": {
+        "employment": 776.193,
+        "wage": 115345,
+        "private_wage": 66059,
+        "employment_change_pct": -2.74,
+        "wage_growth_pct": 5.0,
+        "private_wage_growth_pct": 5.85
+      },
+      "2023": {
+        "employment": 767.87719,
+        "wage": 122705,
+        "private_wage": 68051,
+        "employment_change_pct": -1.07,
+        "wage_growth_pct": 6.38,
+        "private_wage_growth_pct": 3.02
+      },
+      "2024": {
+        "employment": 767.3,
+        "wage": 127889,
+        "private_wage": 67973,
+        "employment_change_pct": -0.08,
+        "wage_growth_pct": 4.22,
+        "private_wage_growth_pct": -0.11
+      }
+    },
+    "ai_exposure": {
+      "score": 7.0,
+      "rationale": "调度员、运输计划、网点运营等依赖数据决策和流程标准化的任务正快速被智能调度系统、路径优化算法和物流中台替代；快递分拣、仓储管理已大规模应用AGV、机器视觉和WMS自动化；但司机、一线装卸及邮政末端派送等需复杂现场判断、非结构化环境应对和人际交互的岗位仍难以被完全替代。",
+      "anchors": [
+        "智能调度",
+        "路径优化",
+        "仓储自动化",
+        "末端派送"
+      ],
+      "job_description": "典型岗位包括货运/客运司机、物流调度员、仓储管理员、快递分拣员、邮政营业员和运输网点运营人员；核心任务涵盖运输路线规划、车辆与人力调度、货物出入库管理、快件分拣封装、末端收派服务及网点日常运营。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:08.285851+00:00"
+    }
+  },
+  {
+    "code": "A040608",
+    "title": "信息传输、软件和信息技术服务业",
+    "title_en": "Information Transmission, Software and IT Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 138.1913,
+        "wage": 43435,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 150.2277,
+        "wage": 47700,
+        "private_wage": null,
+        "employment_change_pct": 8.71,
+        "wage_growth_pct": 9.82,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 159.4985,
+        "wage": 54906,
+        "private_wage": null,
+        "employment_change_pct": 6.17,
+        "wage_growth_pct": 15.11,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 173.8119,
+        "wage": 58154,
+        "private_wage": 28166,
+        "employment_change_pct": 8.97,
+        "wage_growth_pct": 5.92,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 185.7708,
+        "wage": 64436,
+        "private_wage": 31226,
+        "employment_change_pct": 6.88,
+        "wage_growth_pct": 10.8,
+        "private_wage_growth_pct": 10.86
+      },
+      "2011": {
+        "employment": 212.7591,
+        "wage": 70918,
+        "private_wage": 35562,
+        "employment_change_pct": 14.53,
+        "wage_growth_pct": 10.06,
+        "private_wage_growth_pct": 13.89
+      },
+      "2012": {
+        "employment": 222.7996,
+        "wage": 80510,
+        "private_wage": 39518,
+        "employment_change_pct": 4.72,
+        "wage_growth_pct": 13.53,
+        "private_wage_growth_pct": 11.12
+      },
+      "2013": {
+        "employment": 327.3117,
+        "wage": 90915,
+        "private_wage": 44060,
+        "employment_change_pct": 46.91,
+        "wage_growth_pct": 12.92,
+        "private_wage_growth_pct": 11.49
+      },
+      "2014": {
+        "employment": 336.2732,
+        "wage": 100845,
+        "private_wage": 51044,
+        "employment_change_pct": 2.74,
+        "wage_growth_pct": 10.92,
+        "private_wage_growth_pct": 15.85
+      },
+      "2015": {
+        "employment": 349.8697,
+        "wage": 112042,
+        "private_wage": 57719,
+        "employment_change_pct": 4.04,
+        "wage_growth_pct": 11.1,
+        "private_wage_growth_pct": 13.08
+      },
+      "2016": {
+        "employment": 364.0667,
+        "wage": 122478,
+        "private_wage": 63578,
+        "employment_change_pct": 4.06,
+        "wage_growth_pct": 9.31,
+        "private_wage_growth_pct": 10.15
+      },
+      "2017": {
+        "employment": 395.3927,
+        "wage": 133150,
+        "private_wage": 70415,
+        "employment_change_pct": 8.6,
+        "wage_growth_pct": 8.71,
+        "private_wage_growth_pct": 10.75
+      },
+      "2018": {
+        "employment": 424.2577,
+        "wage": 147678,
+        "private_wage": 76326,
+        "employment_change_pct": 7.3,
+        "wage_growth_pct": 10.91,
+        "private_wage_growth_pct": 8.39
+      },
+      "2019": {
+        "employment": 455.2578,
+        "wage": 161352,
+        "private_wage": 85301,
+        "employment_change_pct": 7.31,
+        "wage_growth_pct": 9.26,
+        "private_wage_growth_pct": 11.76
+      },
+      "2020": {
+        "employment": 487.0599612,
+        "wage": 177544,
+        "private_wage": 101281,
+        "employment_change_pct": 6.99,
+        "wage_growth_pct": 10.04,
+        "private_wage_growth_pct": 18.73
+      },
+      "2021": {
+        "employment": 519.165,
+        "wage": 201506,
+        "private_wage": 114618,
+        "employment_change_pct": 6.59,
+        "wage_growth_pct": 13.5,
+        "private_wage_growth_pct": 13.17
+      },
+      "2022": {
+        "employment": 529.157,
+        "wage": 220418,
+        "private_wage": 123894,
+        "employment_change_pct": 1.92,
+        "wage_growth_pct": 9.39,
+        "private_wage_growth_pct": 8.09
+      },
+      "2023": {
+        "employment": 529.509325,
+        "wage": 231810,
+        "private_wage": 129215,
+        "employment_change_pct": 0.07,
+        "wage_growth_pct": 5.17,
+        "private_wage_growth_pct": 4.29
+      },
+      "2024": {
+        "employment": 553.4,
+        "wage": 238966,
+        "private_wage": 123193,
+        "employment_change_pct": 4.51,
+        "wage_growth_pct": 3.09,
+        "private_wage_growth_pct": -4.66
+      }
+    },
+    "ai_exposure": {
+      "score": 9.0,
+      "rationale": "该行业大量任务基于结构化/半结构化数字信息处理，如代码生成、测试用例编写、日志分析、SQL查询、文档撰写、客户问题分类与初筛等，正快速被Copilot类工具、AI测试平台、AIOps系统和智能客服代理替代或增强；但系统架构设计、跨部门需求对齐、高复杂度故障根因判断、涉密或强合规场景下的决策仍需资深人工；低代码/无代码平台也正在压缩初级开发与配置类岗位。",
+      "anchors": [
+        "软件开发中的重复编码",
+        "自动化测试与缺陷识别",
+        "IT运维中的异常检测与响应",
+        "客服工单的语义理解与分派"
+      ],
+      "job_description": "从事计算机软件研发、系统测试、云平台运维、数据建模与分析、IT解决方案交付及技术支持；典型任务包括编写与调试代码、设计数据库与API、监控系统性能、分析用户行为数据、撰写技术文档、响应企业级客户IT需求。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:13.798986+00:00"
+    }
+  },
+  {
+    "code": "A040609",
+    "title": "批发和零售业",
+    "title_en": "Wholesale and Retail Trade",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 515.7284,
+        "wage": 17796,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 506.8584,
+        "wage": 21074,
+        "private_wage": null,
+        "employment_change_pct": -1.72,
+        "wage_growth_pct": 18.42,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 514.353,
+        "wage": 25818,
+        "private_wage": null,
+        "employment_change_pct": 1.48,
+        "wage_growth_pct": 22.51,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 520.843,
+        "wage": 29139,
+        "private_wage": 17775,
+        "employment_change_pct": 1.26,
+        "wage_growth_pct": 12.86,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 535.088,
+        "wage": 33635,
+        "private_wage": 19928,
+        "employment_change_pct": 2.73,
+        "wage_growth_pct": 15.43,
+        "private_wage_growth_pct": 12.11
+      },
+      "2011": {
+        "employment": 647.4884,
+        "wage": 40654,
+        "private_wage": 22791,
+        "employment_change_pct": 21.01,
+        "wage_growth_pct": 20.87,
+        "private_wage_growth_pct": 14.37
+      },
+      "2012": {
+        "employment": 711.845,
+        "wage": 46340,
+        "private_wage": 27233,
+        "employment_change_pct": 9.94,
+        "wage_growth_pct": 13.99,
+        "private_wage_growth_pct": 19.49
+      },
+      "2013": {
+        "employment": 890.8129,
+        "wage": 50308,
+        "private_wage": 30604,
+        "employment_change_pct": 25.14,
+        "wage_growth_pct": 8.56,
+        "private_wage_growth_pct": 12.38
+      },
+      "2014": {
+        "employment": 888.569,
+        "wage": 55838,
+        "private_wage": 33894,
+        "employment_change_pct": -0.25,
+        "wage_growth_pct": 10.99,
+        "private_wage_growth_pct": 10.75
+      },
+      "2015": {
+        "employment": 883.3214,
+        "wage": 60328,
+        "private_wage": 36635,
+        "employment_change_pct": -0.59,
+        "wage_growth_pct": 8.04,
+        "private_wage_growth_pct": 8.09
+      },
+      "2016": {
+        "employment": 874.9994,
+        "wage": 65061,
+        "private_wage": 39589,
+        "employment_change_pct": -0.94,
+        "wage_growth_pct": 7.85,
+        "private_wage_growth_pct": 8.06
+      },
+      "2017": {
+        "employment": 842.7934,
+        "wage": 71201,
+        "private_wage": 42359,
+        "employment_change_pct": -3.68,
+        "wage_growth_pct": 9.44,
+        "private_wage_growth_pct": 7.0
+      },
+      "2018": {
+        "employment": 823.2771,
+        "wage": 80551,
+        "private_wage": 45177,
+        "employment_change_pct": -2.32,
+        "wage_growth_pct": 13.13,
+        "private_wage_growth_pct": 6.65
+      },
+      "2019": {
+        "employment": 830.0475,
+        "wage": 89047,
+        "private_wage": 48722,
+        "employment_change_pct": 0.82,
+        "wage_growth_pct": 10.55,
+        "private_wage_growth_pct": 7.85
+      },
+      "2020": {
+        "employment": 786.8964528,
+        "wage": 96521,
+        "private_wage": 53018,
+        "employment_change_pct": -5.2,
+        "wage_growth_pct": 8.39,
+        "private_wage_growth_pct": 8.82
+      },
+      "2021": {
+        "employment": 797.4965,
+        "wage": 107735,
+        "private_wage": 58071,
+        "employment_change_pct": 1.35,
+        "wage_growth_pct": 11.62,
+        "private_wage_growth_pct": 9.53
+      },
+      "2022": {
+        "employment": 785.2953,
+        "wage": 115408,
+        "private_wage": 60630,
+        "employment_change_pct": -1.53,
+        "wage_growth_pct": 7.12,
+        "private_wage_growth_pct": 4.41
+      },
+      "2023": {
+        "employment": 782.4432225,
+        "wage": 124362,
+        "private_wage": 63701,
+        "employment_change_pct": -0.36,
+        "wage_growth_pct": 7.76,
+        "private_wage_growth_pct": 5.07
+      },
+      "2024": {
+        "employment": 776.2,
+        "wage": 129658,
+        "private_wage": 67059,
+        "employment_change_pct": -0.8,
+        "wage_growth_pct": 4.26,
+        "private_wage_growth_pct": 5.27
+      }
+    },
+    "ai_exposure": {
+      "score": 8.0,
+      "rationale": "电商运营、客服响应、库存预测、促销文案生成、销售线索分发等高度结构化、数据驱动的任务正快速被生成式AI和智能系统替代或增强；采购比价、渠道数据分析、市场推广效果归因等依赖报表与规则的工作也普遍接入AI工具；但门店销售、高净值客户关系维护、突发性现场服务协调等需即时判断与情感交互的任务仍难以完全自动化。",
+      "anchors": [
+        "电商运营",
+        "智能客服",
+        "库存预测",
+        "营销内容生成"
+      ],
+      "job_description": "从事商品采购谈判、线上线下渠道分销管理、门店及电商平台销售执行、进销存系统操作、消费者咨询与售后处理、促销活动策划与落地等工作。岗位强调流程标准化、响应时效性和数据反馈闭环。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:18.197066+00:00"
+    }
+  },
+  {
+    "code": "A04060A",
+    "title": "住宿和餐饮业",
+    "title_en": "Accommodation and Food Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 183.9052,
+        "wage": 15236,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 185.8073,
+        "wage": 17046,
+        "private_wage": null,
+        "employment_change_pct": 1.03,
+        "wage_growth_pct": 11.88,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 193.2473,
+        "wage": 19321,
+        "private_wage": null,
+        "employment_change_pct": 4.0,
+        "wage_growth_pct": 13.35,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 202.1188,
+        "wage": 20860,
+        "private_wage": 15623,
+        "employment_change_pct": 4.59,
+        "wage_growth_pct": 7.97,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 209.2175,
+        "wage": 23382,
+        "private_wage": 17531,
+        "employment_change_pct": 3.51,
+        "wage_growth_pct": 12.09,
+        "private_wage_growth_pct": 12.21
+      },
+      "2011": {
+        "employment": 242.7382,
+        "wage": 27486,
+        "private_wage": 20882,
+        "employment_change_pct": 16.02,
+        "wage_growth_pct": 17.55,
+        "private_wage_growth_pct": 19.11
+      },
+      "2012": {
+        "employment": 265.0548,
+        "wage": 31267,
+        "private_wage": 23933,
+        "employment_change_pct": 9.19,
+        "wage_growth_pct": 13.76,
+        "private_wage_growth_pct": 14.61
+      },
+      "2013": {
+        "employment": 304.3938,
+        "wage": 34044,
+        "private_wage": 27352,
+        "employment_change_pct": 14.84,
+        "wage_growth_pct": 8.88,
+        "private_wage_growth_pct": 14.29
+      },
+      "2014": {
+        "employment": 289.2857,
+        "wage": 37264,
+        "private_wage": 29483,
+        "employment_change_pct": -4.96,
+        "wage_growth_pct": 9.46,
+        "private_wage_growth_pct": 7.79
+      },
+      "2015": {
+        "employment": 276.1231,
+        "wage": 40806,
+        "private_wage": 31889,
+        "employment_change_pct": -4.55,
+        "wage_growth_pct": 9.51,
+        "private_wage_growth_pct": 8.16
+      },
+      "2016": {
+        "employment": 269.7453,
+        "wage": 43382,
+        "private_wage": 34712,
+        "employment_change_pct": -2.31,
+        "wage_growth_pct": 6.31,
+        "private_wage_growth_pct": 8.85
+      },
+      "2017": {
+        "employment": 265.9378,
+        "wage": 45751,
+        "private_wage": 36886,
+        "employment_change_pct": -1.41,
+        "wage_growth_pct": 5.46,
+        "private_wage_growth_pct": 6.26
+      },
+      "2018": {
+        "employment": 269.8464,
+        "wage": 48260,
+        "private_wage": 39632,
+        "employment_change_pct": 1.47,
+        "wage_growth_pct": 5.48,
+        "private_wage_growth_pct": 7.44
+      },
+      "2019": {
+        "employment": 265.2268,
+        "wage": 50346,
+        "private_wage": 42424,
+        "employment_change_pct": -1.71,
+        "wage_growth_pct": 4.32,
+        "private_wage_growth_pct": 7.04
+      },
+      "2020": {
+        "employment": 256.6091253,
+        "wage": 48833,
+        "private_wage": 42258,
+        "employment_change_pct": -3.25,
+        "wage_growth_pct": -3.01,
+        "private_wage_growth_pct": -0.39
+      },
+      "2021": {
+        "employment": 265.2668,
+        "wage": 53631,
+        "private_wage": 46817,
+        "employment_change_pct": 3.37,
+        "wage_growth_pct": 9.83,
+        "private_wage_growth_pct": 10.79
+      },
+      "2022": {
+        "employment": 255.0024,
+        "wage": 53995,
+        "private_wage": 47547,
+        "employment_change_pct": -3.87,
+        "wage_growth_pct": 0.68,
+        "private_wage_growth_pct": 1.56
+      },
+      "2023": {
+        "employment": 288.4194886,
+        "wage": 58094,
+        "private_wage": 51583,
+        "employment_change_pct": 13.1,
+        "wage_growth_pct": 7.59,
+        "private_wage_growth_pct": 8.49
+      },
+      "2024": {
+        "employment": 290,
+        "wage": 60240,
+        "private_wage": 54042,
+        "employment_change_pct": 0.55,
+        "wage_growth_pct": 3.69,
+        "private_wage_growth_pct": 4.77
+      }
+    },
+    "ai_exposure": {
+      "score": 3.0,
+      "rationale": "前台接待、门店运营和平台运营中的预订管理、排班调度、客户咨询初筛等标准化任务正逐步被AI客服、智能PMS系统和SaaS工具替代；但客房服务、厨师操作、面对面服务员等高度依赖线下物理交互、即时情境判断和情绪劳动的任务难以自动化；供应链管理中部分数据分析和订单处理可被优化，但本地化采购与突发应急仍需人工主导。",
+      "anchors": [
+        "前台智能客服",
+        "PMS系统自动化",
+        "餐饮SaaS运营工具",
+        "情绪劳动密集型服务"
+      ],
+      "job_description": "前台接待负责入住登记、电话咨询与客诉响应；客房服务人员完成清洁、布草更换与设施巡检；厨师在后厨完成食材加工与菜品制作；服务员提供点餐、上菜与现场服务；门店与平台运营人员管理线上渠道、促销活动及基础数据分析。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:22.959405+00:00"
+    }
+  },
+  {
+    "code": "A04060B",
+    "title": "金融业",
+    "title_en": "Finance",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 367.3915,
+        "wage": 35495,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 389.7128,
+        "wage": 44011,
+        "private_wage": null,
+        "employment_change_pct": 6.08,
+        "wage_growth_pct": 23.99,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 417.5503,
+        "wage": 53897,
+        "private_wage": null,
+        "employment_change_pct": 7.14,
+        "wage_growth_pct": 22.46,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 449.0479,
+        "wage": 60398,
+        "private_wage": 30452,
+        "employment_change_pct": 7.54,
+        "wage_growth_pct": 12.06,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 470.0814,
+        "wage": 70146,
+        "private_wage": 30513,
+        "employment_change_pct": 4.68,
+        "wage_growth_pct": 16.14,
+        "private_wage_growth_pct": 0.2
+      },
+      "2011": {
+        "employment": 505.3243,
+        "wage": 81109,
+        "private_wage": 28664,
+        "employment_change_pct": 7.5,
+        "wage_growth_pct": 15.63,
+        "private_wage_growth_pct": -6.06
+      },
+      "2012": {
+        "employment": 527.7677,
+        "wage": 89743,
+        "private_wage": 32696,
+        "employment_change_pct": 4.44,
+        "wage_growth_pct": 10.64,
+        "private_wage_growth_pct": 14.07
+      },
+      "2013": {
+        "employment": 537.9393,
+        "wage": 99653,
+        "private_wage": 37253,
+        "employment_change_pct": 1.93,
+        "wage_growth_pct": 11.04,
+        "private_wage_growth_pct": 13.94
+      },
+      "2014": {
+        "employment": 566.2963,
+        "wage": 108273,
+        "private_wage": 41553,
+        "employment_change_pct": 5.27,
+        "wage_growth_pct": 8.65,
+        "private_wage_growth_pct": 11.54
+      },
+      "2015": {
+        "employment": 606.8346,
+        "wage": 114777,
+        "private_wage": 44898,
+        "employment_change_pct": 7.16,
+        "wage_growth_pct": 6.01,
+        "private_wage_growth_pct": 8.05
+      },
+      "2016": {
+        "employment": 665.166,
+        "wage": 117418,
+        "private_wage": 50366,
+        "employment_change_pct": 9.61,
+        "wage_growth_pct": 2.3,
+        "private_wage_growth_pct": 12.18
+      },
+      "2017": {
+        "employment": 688.8064,
+        "wage": 122851,
+        "private_wage": 52289,
+        "employment_change_pct": 3.55,
+        "wage_growth_pct": 4.63,
+        "private_wage_growth_pct": 3.82
+      },
+      "2018": {
+        "employment": 699.2985,
+        "wage": 129837,
+        "private_wage": 62943,
+        "employment_change_pct": 1.52,
+        "wage_growth_pct": 5.69,
+        "private_wage_growth_pct": 20.38
+      },
+      "2019": {
+        "employment": 826.062,
+        "wage": 131405,
+        "private_wage": 76107,
+        "employment_change_pct": 18.13,
+        "wage_growth_pct": 1.21,
+        "private_wage_growth_pct": 20.91
+      },
+      "2020": {
+        "employment": 858.9842962,
+        "wage": 133390,
+        "private_wage": 82930,
+        "employment_change_pct": 3.99,
+        "wage_growth_pct": 1.51,
+        "private_wage_growth_pct": 8.97
+      },
+      "2021": {
+        "employment": 818.465,
+        "wage": 150843,
+        "private_wage": 95416,
+        "employment_change_pct": -4.72,
+        "wage_growth_pct": 13.08,
+        "private_wage_growth_pct": 15.06
+      },
+      "2022": {
+        "employment": 739.5705,
+        "wage": 174341,
+        "private_wage": 110304,
+        "employment_change_pct": -9.64,
+        "wage_growth_pct": 15.58,
+        "private_wage_growth_pct": 15.6
+      },
+      "2023": {
+        "employment": 692.371145,
+        "wage": 197663,
+        "private_wage": 124812,
+        "employment_change_pct": -6.38,
+        "wage_growth_pct": 13.38,
+        "private_wage_growth_pct": 13.15
+      },
+      "2024": {
+        "employment": 792.8,
+        "wage": 201883,
+        "private_wage": 135339,
+        "employment_change_pct": 14.51,
+        "wage_growth_pct": 2.13,
+        "private_wage_growth_pct": 8.43
+      }
+    },
+    "ai_exposure": {
+      "score": 8.0,
+      "rationale": "金融业大量文档处理、报表生成、合规审查、风控模型辅助、客户画像与营销线索筛选等规则明确、数据密集型任务正快速被生成式AI和智能流程自动化替代；投研支持中的信息摘要、财报解读、新闻舆情分析已广泛接入大模型工具；但柜面服务中的复杂情绪交互、高敏决策场景、线下身份核验及重大合同面签等仍需人工主导。",
+      "anchors": [
+        "文档处理",
+        "风控辅助",
+        "投研摘要",
+        "销售线索筛选"
+      ],
+      "job_description": "典型岗位包括银行柜员、客户经理、投资研究助理、风险控制专员、合规审查员、运营结算岗和财富顾问；日常工作涉及客户身份核验、信贷审批材料整理、监管报表填报、投资策略支持、反洗钱筛查及资产配置建议等。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:27.625296+00:00"
+    }
+  },
+  {
+    "code": "A04060C",
+    "title": "房地产业",
+    "title_en": "Real Estate",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 153.9451,
+        "wage": 22238,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 166.4653,
+        "wage": 26085,
+        "private_wage": null,
+        "employment_change_pct": 8.13,
+        "wage_growth_pct": 17.3,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 172.678,
+        "wage": 30118,
+        "private_wage": null,
+        "employment_change_pct": 3.73,
+        "wage_growth_pct": 15.46,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 190.9221,
+        "wage": 32242,
+        "private_wage": 21334,
+        "employment_change_pct": 10.57,
+        "wage_growth_pct": 7.05,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 211.6302,
+        "wage": 35870,
+        "private_wage": 23228,
+        "employment_change_pct": 10.85,
+        "wage_growth_pct": 11.25,
+        "private_wage_growth_pct": 8.88
+      },
+      "2011": {
+        "employment": 248.5833,
+        "wage": 42837,
+        "private_wage": 27017,
+        "employment_change_pct": 17.46,
+        "wage_growth_pct": 19.42,
+        "private_wage_growth_pct": 16.31
+      },
+      "2012": {
+        "employment": 273.7129,
+        "wage": 46764,
+        "private_wage": 30778,
+        "employment_change_pct": 10.11,
+        "wage_growth_pct": 9.17,
+        "private_wage_growth_pct": 13.92
+      },
+      "2013": {
+        "employment": 373.7341,
+        "wage": 51048,
+        "private_wage": 35038,
+        "employment_change_pct": 36.54,
+        "wage_growth_pct": 9.16,
+        "private_wage_growth_pct": 13.84
+      },
+      "2014": {
+        "employment": 402.2447,
+        "wage": 55568,
+        "private_wage": 37826,
+        "employment_change_pct": 7.63,
+        "wage_growth_pct": 8.85,
+        "private_wage_growth_pct": 7.96
+      },
+      "2015": {
+        "employment": 417.3414,
+        "wage": 60244,
+        "private_wage": 41767,
+        "employment_change_pct": 3.75,
+        "wage_growth_pct": 8.41,
+        "private_wage_growth_pct": 10.42
+      },
+      "2016": {
+        "employment": 431.7379,
+        "wage": 65497,
+        "private_wage": 46063,
+        "employment_change_pct": 3.45,
+        "wage_growth_pct": 8.72,
+        "private_wage_growth_pct": 10.29
+      },
+      "2017": {
+        "employment": 444.7774,
+        "wage": 69277,
+        "private_wage": 48025,
+        "employment_change_pct": 3.02,
+        "wage_growth_pct": 5.77,
+        "private_wage_growth_pct": 4.26
+      },
+      "2018": {
+        "employment": 466.0072,
+        "wage": 75281,
+        "private_wage": 51393,
+        "employment_change_pct": 4.77,
+        "wage_growth_pct": 8.67,
+        "private_wage_growth_pct": 7.01
+      },
+      "2019": {
+        "employment": 510.2621,
+        "wage": 80157,
+        "private_wage": 54416,
+        "employment_change_pct": 9.5,
+        "wage_growth_pct": 6.48,
+        "private_wage_growth_pct": 5.88
+      },
+      "2020": {
+        "employment": 525.351415,
+        "wage": 83807,
+        "private_wage": 55759,
+        "employment_change_pct": 2.96,
+        "wage_growth_pct": 4.55,
+        "private_wage_growth_pct": 2.47
+      },
+      "2021": {
+        "employment": 529.3419,
+        "wage": 91143,
+        "private_wage": 58288,
+        "employment_change_pct": 0.76,
+        "wage_growth_pct": 8.75,
+        "private_wage_growth_pct": 4.54
+      },
+      "2022": {
+        "employment": 511.505,
+        "wage": 90346,
+        "private_wage": 56435,
+        "employment_change_pct": -3.37,
+        "wage_growth_pct": -0.87,
+        "private_wage_growth_pct": -3.18
+      },
+      "2023": {
+        "employment": 509.390618,
+        "wage": 91932,
+        "private_wage": 56119,
+        "employment_change_pct": -0.41,
+        "wage_growth_pct": 1.76,
+        "private_wage_growth_pct": -0.56
+      },
+      "2024": {
+        "employment": 522.1,
+        "wage": 91912,
+        "private_wage": 55979,
+        "employment_change_pct": 2.5,
+        "wage_growth_pct": -0.02,
+        "private_wage_growth_pct": -0.25
+      }
+    },
+    "ai_exposure": {
+      "score": 7.0,
+      "rationale": "营销策划、客户跟进、合同文书、估值分析中的标准化报告生成与数据初筛等任务正快速被AI工具替代；招商主管的租户匹配、物业公司的工单分派与基础投诉响应已接入智能客服与RPA系统；但现场带看、高端客户关系维护、复杂产权纠纷协调及政策性审批对接仍高度依赖人工经验与线下判断。",
+      "anchors": [
+        "营销策划文案生成",
+        "智能客服与客户线索分级",
+        "合同条款合规性初审",
+        "房产估值模型辅助分析"
+      ],
+      "job_description": "典型岗位包括房产经纪销售（负责带看、谈判、签约）、招商主管（对接商户、评估租约）、物业管理（处理报修、收费、安保）、营销策划（制定推广方案、制作宣传物料）、估值分析师（测算项目价值、撰写评估报告）以及合同与客户专员（起草文本、跟进履约、维护CRM）。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:32.618246+00:00"
+    }
+  },
+  {
+    "code": "A04060D",
+    "title": "租赁和商务服务业",
+    "title_en": "Leasing and Business Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 236.7468,
+        "wage": 24510,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 247.2289,
+        "wage": 27807,
+        "private_wage": null,
+        "employment_change_pct": 4.43,
+        "wage_growth_pct": 13.45,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 274.6931,
+        "wage": 32915,
+        "private_wage": null,
+        "employment_change_pct": 11.11,
+        "wage_growth_pct": 18.37,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 290.495,
+        "wage": 35494,
+        "private_wage": 21334,
+        "employment_change_pct": 5.75,
+        "wage_growth_pct": 7.84,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 310.065,
+        "wage": 39566,
+        "private_wage": 23879,
+        "employment_change_pct": 6.74,
+        "wage_growth_pct": 11.47,
+        "private_wage_growth_pct": 11.93
+      },
+      "2011": {
+        "employment": 286.5836,
+        "wage": 46976,
+        "private_wage": 27115,
+        "employment_change_pct": -7.57,
+        "wage_growth_pct": 18.73,
+        "private_wage_growth_pct": 13.55
+      },
+      "2012": {
+        "employment": 292.285,
+        "wage": 53162,
+        "private_wage": 31796,
+        "employment_change_pct": 1.99,
+        "wage_growth_pct": 13.17,
+        "private_wage_growth_pct": 17.26
+      },
+      "2013": {
+        "employment": 421.8913,
+        "wage": 62538,
+        "private_wage": 36243,
+        "employment_change_pct": 44.34,
+        "wage_growth_pct": 17.64,
+        "private_wage_growth_pct": 13.99
+      },
+      "2014": {
+        "employment": 449.4463,
+        "wage": 67131,
+        "private_wage": 39414,
+        "employment_change_pct": 6.53,
+        "wage_growth_pct": 7.34,
+        "private_wage_growth_pct": 8.75
+      },
+      "2015": {
+        "employment": 474.0413,
+        "wage": 72489,
+        "private_wage": 43770,
+        "employment_change_pct": 5.47,
+        "wage_growth_pct": 7.98,
+        "private_wage_growth_pct": 11.05
+      },
+      "2016": {
+        "employment": 488.4125,
+        "wage": 76782,
+        "private_wage": 47836,
+        "employment_change_pct": 3.03,
+        "wage_growth_pct": 5.92,
+        "private_wage_growth_pct": 9.29
+      },
+      "2017": {
+        "employment": 522.5646,
+        "wage": 81393,
+        "private_wage": 51394,
+        "employment_change_pct": 6.99,
+        "wage_growth_pct": 6.01,
+        "private_wage_growth_pct": 7.44
+      },
+      "2018": {
+        "employment": 529.5228,
+        "wage": 85147,
+        "private_wage": 53382,
+        "employment_change_pct": 1.33,
+        "wage_growth_pct": 4.61,
+        "private_wage_growth_pct": 3.87
+      },
+      "2019": {
+        "employment": 660.3662,
+        "wage": 88190,
+        "private_wage": 57248,
+        "employment_change_pct": 24.71,
+        "wage_growth_pct": 3.57,
+        "private_wage_growth_pct": 7.24
+      },
+      "2020": {
+        "employment": 643.6369645,
+        "wage": 92924,
+        "private_wage": 58155,
+        "employment_change_pct": -2.53,
+        "wage_growth_pct": 5.37,
+        "private_wage_growth_pct": 1.58
+      },
+      "2021": {
+        "employment": 680.3468,
+        "wage": 102537,
+        "private_wage": 64490,
+        "employment_change_pct": 5.7,
+        "wage_growth_pct": 10.35,
+        "private_wage_growth_pct": 10.89
+      },
+      "2022": {
+        "employment": 738.2784,
+        "wage": 106500,
+        "private_wage": 65731,
+        "employment_change_pct": 8.52,
+        "wage_growth_pct": 3.86,
+        "private_wage_growth_pct": 1.92
+      },
+      "2023": {
+        "employment": 827.8410341,
+        "wage": 109264,
+        "private_wage": 67107,
+        "employment_change_pct": 12.13,
+        "wage_growth_pct": 2.6,
+        "private_wage_growth_pct": 2.09
+      },
+      "2024": {
+        "employment": 910.8,
+        "wage": 110353,
+        "private_wage": 69214,
+        "employment_change_pct": 10.02,
+        "wage_growth_pct": 1.0,
+        "private_wage_growth_pct": 3.14
+      }
+    },
+    "ai_exposure": {
+      "score": 8.0,
+      "rationale": "该行业大量依赖文本生成、信息整合、流程协调和标准化沟通，如招聘简历筛选、合同初审、营销文案撰写、客户问题响应、行政报表整理等任务已广泛接入AI工具；但高层战略咨询、复杂法务判断、高信任度客户关系维护及跨部门现场协同仍需人工主导；生成式AI正快速压缩初级岗位工作量，并推动中阶岗位向AI协同模式转型。",
+      "anchors": [
+        "法务辅助",
+        "广告营销",
+        "人力资源",
+        "客户成功"
+      ],
+      "job_description": "典型岗位包括HR专员处理招聘与员工关系、管理咨询顾问开展企业诊断与方案设计、广告策划人员制作营销内容与投放策略、法务助理进行合同审查与合规支持、客户成功经理维系SaaS客户并推动续费、行政外包人员执行会议统筹与文档归档。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:37.400652+00:00"
+    }
+  },
+  {
+    "code": "A04060E",
+    "title": "科学研究和技术服务业",
+    "title_en": "Scientific Research and Technical Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 235.4549,
+        "wage": 31644,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 243.3867,
+        "wage": 38432,
+        "private_wage": null,
+        "employment_change_pct": 3.37,
+        "wage_growth_pct": 21.45,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 257.0449,
+        "wage": 45512,
+        "private_wage": null,
+        "employment_change_pct": 5.61,
+        "wage_growth_pct": 18.42,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 272.5885,
+        "wage": 50143,
+        "private_wage": 26187,
+        "employment_change_pct": 6.05,
+        "wage_growth_pct": 10.18,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 292.2915,
+        "wage": 56376,
+        "private_wage": 28886,
+        "employment_change_pct": 7.23,
+        "wage_growth_pct": 12.43,
+        "private_wage_growth_pct": 10.31
+      },
+      "2011": {
+        "employment": 298.4714,
+        "wage": 64252,
+        "private_wage": 31320,
+        "employment_change_pct": 2.11,
+        "wage_growth_pct": 13.97,
+        "private_wage_growth_pct": 8.43
+      },
+      "2012": {
+        "employment": 330.6752,
+        "wage": 69254,
+        "private_wage": 36598,
+        "employment_change_pct": 10.79,
+        "wage_growth_pct": 7.78,
+        "private_wage_growth_pct": 16.85
+      },
+      "2013": {
+        "employment": 387.7646,
+        "wage": 76602,
+        "private_wage": 42854,
+        "employment_change_pct": 17.26,
+        "wage_growth_pct": 10.61,
+        "private_wage_growth_pct": 17.09
+      },
+      "2014": {
+        "employment": 408.0405,
+        "wage": 82259,
+        "private_wage": 47462,
+        "employment_change_pct": 5.23,
+        "wage_growth_pct": 7.38,
+        "private_wage_growth_pct": 10.75
+      },
+      "2015": {
+        "employment": 410.5829,
+        "wage": 89410,
+        "private_wage": 50441,
+        "employment_change_pct": 0.62,
+        "wage_growth_pct": 8.69,
+        "private_wage_growth_pct": 6.28
+      },
+      "2016": {
+        "employment": 419.5578,
+        "wage": 96638,
+        "private_wage": 54764,
+        "employment_change_pct": 2.19,
+        "wage_growth_pct": 8.08,
+        "private_wage_growth_pct": 8.57
+      },
+      "2017": {
+        "employment": 420.4109,
+        "wage": 107815,
+        "private_wage": 58102,
+        "employment_change_pct": 0.2,
+        "wage_growth_pct": 11.57,
+        "private_wage_growth_pct": 6.1
+      },
+      "2018": {
+        "employment": 411.5301,
+        "wage": 123343,
+        "private_wage": 61876,
+        "employment_change_pct": -2.11,
+        "wage_growth_pct": 14.4,
+        "private_wage_growth_pct": 6.5
+      },
+      "2019": {
+        "employment": 434.3238,
+        "wage": 133459,
+        "private_wage": 67642,
+        "employment_change_pct": 5.54,
+        "wage_growth_pct": 8.2,
+        "private_wage_growth_pct": 9.32
+      },
+      "2020": {
+        "employment": 431.1950261,
+        "wage": 139851,
+        "private_wage": 72233,
+        "employment_change_pct": -0.72,
+        "wage_growth_pct": 4.79,
+        "private_wage_growth_pct": 6.79
+      },
+      "2021": {
+        "employment": 450.1163,
+        "wage": 151776,
+        "private_wage": 77708,
+        "employment_change_pct": 4.39,
+        "wage_growth_pct": 8.53,
+        "private_wage_growth_pct": 7.58
+      },
+      "2022": {
+        "employment": 455.8142,
+        "wage": 163486,
+        "private_wage": 81569,
+        "employment_change_pct": 1.27,
+        "wage_growth_pct": 7.72,
+        "private_wage_growth_pct": 4.97
+      },
+      "2023": {
+        "employment": 451.6607345,
+        "wage": 171447,
+        "private_wage": 82277,
+        "employment_change_pct": -0.91,
+        "wage_growth_pct": 4.87,
+        "private_wage_growth_pct": 0.87
+      },
+      "2024": {
+        "employment": 482.1,
+        "wage": 175425,
+        "private_wage": 82387,
+        "employment_change_pct": 6.74,
+        "wage_growth_pct": 2.32,
+        "private_wage_growth_pct": 0.13
+      }
+    },
+    "ai_exposure": {
+      "score": 7.0,
+      "rationale": "研发工程师的文献综述、实验方案生成、代码辅助、仿真建模等任务正快速被AI工具（如Copilot、AlphaFold、MATLAB AI助手）增强或部分替代；检测检验中的图像识别、数据异常分析已广泛部署机器视觉与智能算法；知识产权服务的专利检索、权利要求比对、初稿撰写高度依赖NLP和知识图谱。但原创性理论突破、跨学科复杂系统设计、高不确定性实验现场决策及客户深度技术咨询仍难以被自动化。",
+      "anchors": [
+        "AI辅助研发",
+        "智能检测分析",
+        "专利文本生成",
+        "科技咨询分诊"
+      ],
+      "job_description": "研发工程师开展前沿技术攻关与产品原型开发；检测检验人员执行标准测试、数据分析与合规判定；设计咨询师提供技术路线规划与系统集成方案；实验技术人员操作精密仪器并优化实验流程；知识产权专员处理专利申请、检索与布局分析；科技服务管理者协调产学研资源与成果转化。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:42.673086+00:00"
+    }
+  },
+  {
+    "code": "A04060F",
+    "title": "水利、环境和公共设施管理业",
+    "title_en": "Water Conservancy, Environment and Public Facilities Management",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 187.0049,
+        "wage": 15630,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 193.4645,
+        "wage": 18383,
+        "private_wage": null,
+        "employment_change_pct": 3.45,
+        "wage_growth_pct": 17.61,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 197.2912,
+        "wage": 21103,
+        "private_wage": null,
+        "employment_change_pct": 1.98,
+        "wage_growth_pct": 14.8,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 205.6635,
+        "wage": 23159,
+        "private_wage": 17170,
+        "employment_change_pct": 4.24,
+        "wage_growth_pct": 9.74,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 218.9109,
+        "wage": 25544,
+        "private_wage": 19607,
+        "employment_change_pct": 6.44,
+        "wage_growth_pct": 10.3,
+        "private_wage_growth_pct": 14.19
+      },
+      "2011": {
+        "employment": 230.3493,
+        "wage": 28868,
+        "private_wage": 22958,
+        "employment_change_pct": 5.23,
+        "wage_growth_pct": 13.01,
+        "private_wage_growth_pct": 17.09
+      },
+      "2012": {
+        "employment": 243.7831,
+        "wage": 32343,
+        "private_wage": 26402,
+        "employment_change_pct": 5.83,
+        "wage_growth_pct": 12.04,
+        "private_wage_growth_pct": 15.0
+      },
+      "2013": {
+        "employment": 259.195,
+        "wage": 36123,
+        "private_wage": 31241,
+        "employment_change_pct": 6.32,
+        "wage_growth_pct": 11.69,
+        "private_wage_growth_pct": 18.33
+      },
+      "2014": {
+        "employment": 269.1186,
+        "wage": 39198,
+        "private_wage": 33847,
+        "employment_change_pct": 3.83,
+        "wage_growth_pct": 8.51,
+        "private_wage_growth_pct": 8.34
+      },
+      "2015": {
+        "employment": 273.3293,
+        "wage": 43528,
+        "private_wage": 37222,
+        "employment_change_pct": 1.56,
+        "wage_growth_pct": 11.05,
+        "private_wage_growth_pct": 9.97
+      },
+      "2016": {
+        "employment": 269.5962,
+        "wage": 47750,
+        "private_wage": 40099,
+        "employment_change_pct": -1.37,
+        "wage_growth_pct": 9.7,
+        "private_wage_growth_pct": 7.73
+      },
+      "2017": {
+        "employment": 268.4986,
+        "wage": 52229,
+        "private_wage": 41061,
+        "employment_change_pct": -0.41,
+        "wage_growth_pct": 9.38,
+        "private_wage_growth_pct": 2.4
+      },
+      "2018": {
+        "employment": 260.6323,
+        "wage": 56670,
+        "private_wage": 42409,
+        "employment_change_pct": -2.93,
+        "wage_growth_pct": 8.5,
+        "private_wage_growth_pct": 3.28
+      },
+      "2019": {
+        "employment": 244.4517,
+        "wage": 61158,
+        "private_wage": 44444,
+        "employment_change_pct": -6.21,
+        "wage_growth_pct": 7.92,
+        "private_wage_growth_pct": 4.8
+      },
+      "2020": {
+        "employment": 245.564164,
+        "wage": 63914,
+        "private_wage": 43287,
+        "employment_change_pct": 0.46,
+        "wage_growth_pct": 4.51,
+        "private_wage_growth_pct": -2.6
+      },
+      "2021": {
+        "employment": 252.5631,
+        "wage": 65802,
+        "private_wage": 43366,
+        "employment_change_pct": 2.85,
+        "wage_growth_pct": 2.95,
+        "private_wage_growth_pct": 0.18
+      },
+      "2022": {
+        "employment": 253.5957,
+        "wage": 68256,
+        "private_wage": 44714,
+        "employment_change_pct": 0.41,
+        "wage_growth_pct": 3.73,
+        "private_wage_growth_pct": 3.11
+      },
+      "2023": {
+        "employment": 257.8987702,
+        "wage": 68656,
+        "private_wage": 47504,
+        "employment_change_pct": 1.7,
+        "wage_growth_pct": 0.59,
+        "private_wage_growth_pct": 6.24
+      },
+      "2024": {
+        "employment": 274.4,
+        "wage": 68315,
+        "private_wage": 49007,
+        "employment_change_pct": 6.4,
+        "wage_growth_pct": -0.5,
+        "private_wage_growth_pct": 3.16
+      }
+    },
+    "ai_exposure": {
+      "score": 4.0,
+      "rationale": "该行业大量任务依赖现场作业（如水务管道巡检、园林养护、垃圾清运调度）、环境物理感知（水质采样、噪声监测）及基层协调（社区供水应急响应、公园人流疏导），难以被远程AI替代；但部分文书性、分析性和调度类任务正快速被渗透，如环保数据自动报表生成、GIS辅助设施巡检路径规划、智能水表读数异常识别、政务服务平台的市民诉求分类与初筛；AI主要起辅助提效作用，而非岗位替代。",
+      "anchors": [
+        "环保监测数据处理",
+        "市政设施智能巡检",
+        "园林养护数字化台账",
+        "公共服务工单分派"
+      ],
+      "job_description": "典型岗位包括环保监测员（负责空气/水质采样与基础数据分析）、市政设施维护工（巡查养护道路、路灯、排水管网）、园林绿化工（公园绿地养护与病虫害防治）、水务巡检员（供水/排水设施日常检查与应急处置）、公共服务运营专员（12345热线工单响应与协调）。工作兼具高频户外作业、本地化判断和行政文书处理特征。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:48.547479+00:00"
+    }
+  },
+  {
+    "code": "A04060G",
+    "title": "居民服务、修理和其他服务业",
+    "title_en": "Resident Services, Repairs and Other Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 56.5556,
+        "wage": 18030,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 57.3878,
+        "wage": 20370,
+        "private_wage": null,
+        "employment_change_pct": 1.47,
+        "wage_growth_pct": 12.98,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 56.5306,
+        "wage": 22858,
+        "private_wage": null,
+        "employment_change_pct": -1.49,
+        "wage_growth_pct": 12.21,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 58.822,
+        "wage": 25172,
+        "private_wage": 15688,
+        "employment_change_pct": 4.05,
+        "wage_growth_pct": 10.12,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 60.2479,
+        "wage": 28206,
+        "private_wage": 18350,
+        "employment_change_pct": 2.42,
+        "wage_growth_pct": 12.05,
+        "private_wage_growth_pct": 16.97
+      },
+      "2011": {
+        "employment": 59.8548,
+        "wage": 33169,
+        "private_wage": 20543,
+        "employment_change_pct": -0.65,
+        "wage_growth_pct": 17.6,
+        "private_wage_growth_pct": 11.95
+      },
+      "2012": {
+        "employment": 62.1331,
+        "wage": 35135,
+        "private_wage": 24068,
+        "employment_change_pct": 3.81,
+        "wage_growth_pct": 5.93,
+        "private_wage_growth_pct": 17.16
+      },
+      "2013": {
+        "employment": 72.3342,
+        "wage": 38429,
+        "private_wage": 27483,
+        "employment_change_pct": 16.42,
+        "wage_growth_pct": 9.38,
+        "private_wage_growth_pct": 14.19
+      },
+      "2014": {
+        "employment": 75.4145,
+        "wage": 41882,
+        "private_wage": 30580,
+        "employment_change_pct": 4.26,
+        "wage_growth_pct": 8.99,
+        "private_wage_growth_pct": 11.27
+      },
+      "2015": {
+        "employment": 75.1831,
+        "wage": 44802,
+        "private_wage": 33203,
+        "employment_change_pct": -0.31,
+        "wage_growth_pct": 6.97,
+        "private_wage_growth_pct": 8.58
+      },
+      "2016": {
+        "employment": 75.3757,
+        "wage": 47577,
+        "private_wage": 35824,
+        "employment_change_pct": 0.26,
+        "wage_growth_pct": 6.19,
+        "private_wage_growth_pct": 7.89
+      },
+      "2017": {
+        "employment": 78.2342,
+        "wage": 50552,
+        "private_wage": 38417,
+        "employment_change_pct": 3.79,
+        "wage_growth_pct": 6.25,
+        "private_wage_growth_pct": 7.24
+      },
+      "2018": {
+        "employment": 77.4059,
+        "wage": 55343,
+        "private_wage": 41058,
+        "employment_change_pct": -1.06,
+        "wage_growth_pct": 9.48,
+        "private_wage_growth_pct": 6.87
+      },
+      "2019": {
+        "employment": 86.3239,
+        "wage": 60232,
+        "private_wage": 43926,
+        "employment_change_pct": 11.52,
+        "wage_growth_pct": 8.83,
+        "private_wage_growth_pct": 6.99
+      },
+      "2020": {
+        "employment": 82.8103494,
+        "wage": 60722,
+        "private_wage": 44536,
+        "employment_change_pct": -4.07,
+        "wage_growth_pct": 0.81,
+        "private_wage_growth_pct": 1.39
+      },
+      "2021": {
+        "employment": 85.8618,
+        "wage": 65193,
+        "private_wage": 47193,
+        "employment_change_pct": 3.68,
+        "wage_growth_pct": 7.36,
+        "private_wage_growth_pct": 5.97
+      },
+      "2022": {
+        "employment": 90.1009,
+        "wage": 65478,
+        "private_wage": 47760,
+        "employment_change_pct": 4.94,
+        "wage_growth_pct": 0.44,
+        "private_wage_growth_pct": 1.2
+      },
+      "2023": {
+        "employment": 85.1624877,
+        "wage": 68919,
+        "private_wage": 49907,
+        "employment_change_pct": -5.48,
+        "wage_growth_pct": 5.26,
+        "private_wage_growth_pct": 4.5
+      },
+      "2024": {
+        "employment": 89.8,
+        "wage": 68159,
+        "private_wage": 52139,
+        "employment_change_pct": 5.45,
+        "wage_growth_pct": -1.1,
+        "private_wage_growth_pct": 4.47
+      }
+    },
+    "ai_exposure": {
+      "score": 2.0,
+      "rationale": "该行业高度依赖面对面服务、现场体力操作和即时情境判断，如家政清洁、电器维修、美发造型、汽车故障诊断等任务难以被远程AI或软件自动化替代；部分行政类辅助工作（如预约登记、工单录入）可能被轻量级SaaS工具优化，但占比极小；客户情绪识别与信任建立、非标环境下的灵活应变仍是AI能力短板。",
+      "anchors": [
+        "家政清洁",
+        "电器维修",
+        "美容美发",
+        "汽车维修接待"
+      ],
+      "job_description": "典型岗位包括保洁员、家电维修技师、美发师、社区养老护理员、洗染店技工和汽车维修前台接待；主要任务涉及上门服务、设备拆装调试、个性化造型设计、老人陪护及现场问题诊断；工作场景分散、环境非结构化，强调手眼协调、体能投入与人际信任。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:53.524951+00:00"
+    }
+  },
+  {
+    "code": "A04060H",
+    "title": "教育业",
+    "title_en": "Education",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 1504.4142,
+        "wage": 20918,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 1520.9106,
+        "wage": 25908,
+        "private_wage": null,
+        "employment_change_pct": 1.1,
+        "wage_growth_pct": 23.86,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 1533.9899,
+        "wage": 29831,
+        "private_wage": null,
+        "employment_change_pct": 0.86,
+        "wage_growth_pct": 15.14,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 1550.3524,
+        "wage": 34543,
+        "private_wage": 21066,
+        "employment_change_pct": 1.07,
+        "wage_growth_pct": 15.8,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 1581.7543,
+        "wage": 38968,
+        "private_wage": 21862,
+        "employment_change_pct": 2.03,
+        "wage_growth_pct": 12.81,
+        "private_wage_growth_pct": 3.78
+      },
+      "2011": {
+        "employment": 1617.7726,
+        "wage": 43194,
+        "private_wage": 23636,
+        "employment_change_pct": 2.28,
+        "wage_growth_pct": 10.84,
+        "private_wage_growth_pct": 8.11
+      },
+      "2012": {
+        "employment": 1653.3788,
+        "wage": 47734,
+        "private_wage": 26625,
+        "employment_change_pct": 2.2,
+        "wage_growth_pct": 10.51,
+        "private_wage_growth_pct": 12.65
+      },
+      "2013": {
+        "employment": 1687.2273,
+        "wage": 51950,
+        "private_wage": 31521,
+        "employment_change_pct": 2.05,
+        "wage_growth_pct": 8.83,
+        "private_wage_growth_pct": 18.39
+      },
+      "2014": {
+        "employment": 1727.326,
+        "wage": 56580,
+        "private_wage": 33678,
+        "employment_change_pct": 2.38,
+        "wage_growth_pct": 8.91,
+        "private_wage_growth_pct": 6.84
+      },
+      "2015": {
+        "employment": 1736.468,
+        "wage": 66592,
+        "private_wage": 37040,
+        "employment_change_pct": 0.53,
+        "wage_growth_pct": 17.7,
+        "private_wage_growth_pct": 9.98
+      },
+      "2016": {
+        "employment": 1729.2418,
+        "wage": 74498,
+        "private_wage": 39508,
+        "employment_change_pct": -0.42,
+        "wage_growth_pct": 11.87,
+        "private_wage_growth_pct": 6.66
+      },
+      "2017": {
+        "employment": 1730.3682,
+        "wage": 83412,
+        "private_wage": 43263,
+        "employment_change_pct": 0.07,
+        "wage_growth_pct": 11.97,
+        "private_wage_growth_pct": 9.5
+      },
+      "2018": {
+        "employment": 1735.5819,
+        "wage": 92383,
+        "private_wage": 46228,
+        "employment_change_pct": 0.3,
+        "wage_growth_pct": 10.76,
+        "private_wage_growth_pct": 6.85
+      },
+      "2019": {
+        "employment": 1909.3201,
+        "wage": 97681,
+        "private_wage": 50761,
+        "employment_change_pct": 10.01,
+        "wage_growth_pct": 5.73,
+        "private_wage_growth_pct": 9.81
+      },
+      "2020": {
+        "employment": 1958.9256854,
+        "wage": 106474,
+        "private_wage": 48443,
+        "employment_change_pct": 2.6,
+        "wage_growth_pct": 9.0,
+        "private_wage_growth_pct": -4.57
+      },
+      "2021": {
+        "employment": 1971.9496,
+        "wage": 111392,
+        "private_wage": 52579,
+        "employment_change_pct": 0.66,
+        "wage_growth_pct": 4.62,
+        "private_wage_growth_pct": 8.54
+      },
+      "2022": {
+        "employment": 1950.6241,
+        "wage": 120422,
+        "private_wage": 52771,
+        "employment_change_pct": -1.08,
+        "wage_growth_pct": 8.11,
+        "private_wage_growth_pct": 0.37
+      },
+      "2023": {
+        "employment": 1940.5041179,
+        "wage": 124067,
+        "private_wage": 55775,
+        "employment_change_pct": -0.52,
+        "wage_growth_pct": 3.03,
+        "private_wage_growth_pct": 5.69
+      },
+      "2024": {
+        "employment": 1949,
+        "wage": 126185,
+        "private_wage": 60719,
+        "employment_change_pct": 0.44,
+        "wage_growth_pct": 1.71,
+        "private_wage_growth_pct": 8.86
+      }
+    },
+    "ai_exposure": {
+      "score": 6.0,
+      "rationale": "教务管理、课程运营、作业批改、学情分析、教案生成等标准化或文档密集型任务正快速被AI助教、智能教学平台和教育大模型替代；但课堂授课、情感引导、个性化育人、临场应变等高度依赖师生互动与教育机智的核心教学行为仍难以被自动化系统取代；教研中的创新设计与教育理论建构也保持较高人工依赖度。",
+      "anchors": [
+        "AI助教批改作业",
+        "智能学情分析",
+        "自动生成教案",
+        "在线课程运营"
+      ],
+      "job_description": "教师负责课堂教学与学生发展指导；教研人员开展课程设计与教学研究；教务管理人员处理排课、考务与数据统计；课程运营岗维护线上学习平台与用户学习路径；内容制作岗开发课件、视频与交互式学习资源。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:37:58.120631+00:00"
+    }
+  },
+  {
+    "code": "A04060I",
+    "title": "卫生和社会工作",
+    "title_en": "Health and Social Work",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 525.4252,
+        "wage": 23590,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 542.8019,
+        "wage": 27892,
+        "private_wage": null,
+        "employment_change_pct": 3.31,
+        "wage_growth_pct": 18.24,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 563.6075,
+        "wage": 32185,
+        "private_wage": null,
+        "employment_change_pct": 3.83,
+        "wage_growth_pct": 15.39,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 595.7664,
+        "wage": 35662,
+        "private_wage": 18641,
+        "employment_change_pct": 5.71,
+        "wage_growth_pct": 10.8,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 632.5394,
+        "wage": 40232,
+        "private_wage": 21571,
+        "employment_change_pct": 6.17,
+        "wage_growth_pct": 12.81,
+        "private_wage_growth_pct": 15.72
+      },
+      "2011": {
+        "employment": 679.0566,
+        "wage": 46206,
+        "private_wage": 25590,
+        "employment_change_pct": 7.35,
+        "wage_growth_pct": 14.85,
+        "private_wage_growth_pct": 18.63
+      },
+      "2012": {
+        "employment": 719.2776,
+        "wage": 52564,
+        "private_wage": 29173,
+        "employment_change_pct": 5.92,
+        "wage_growth_pct": 13.76,
+        "private_wage_growth_pct": 14.0
+      },
+      "2013": {
+        "employment": 770.0266,
+        "wage": 57979,
+        "private_wage": 33862,
+        "employment_change_pct": 7.06,
+        "wage_growth_pct": 10.3,
+        "private_wage_growth_pct": 16.07
+      },
+      "2014": {
+        "employment": 810.4272,
+        "wage": 63267,
+        "private_wage": 37205,
+        "employment_change_pct": 5.25,
+        "wage_growth_pct": 9.12,
+        "private_wage_growth_pct": 9.87
+      },
+      "2015": {
+        "employment": 841.6482,
+        "wage": 71624,
+        "private_wage": 40558,
+        "employment_change_pct": 3.85,
+        "wage_growth_pct": 13.21,
+        "private_wage_growth_pct": 9.01
+      },
+      "2016": {
+        "employment": 866.9874,
+        "wage": 80026,
+        "private_wage": 43993,
+        "employment_change_pct": 3.01,
+        "wage_growth_pct": 11.73,
+        "private_wage_growth_pct": 8.47
+      },
+      "2017": {
+        "employment": 897.9367,
+        "wage": 89648,
+        "private_wage": 47296,
+        "employment_change_pct": 3.57,
+        "wage_growth_pct": 12.02,
+        "private_wage_growth_pct": 7.51
+      },
+      "2018": {
+        "employment": 912.3741,
+        "wage": 98118,
+        "private_wage": 52343,
+        "employment_change_pct": 1.61,
+        "wage_growth_pct": 9.45,
+        "private_wage_growth_pct": 10.67
+      },
+      "2019": {
+        "employment": 1006.2298,
+        "wage": 108903,
+        "private_wage": 57140,
+        "employment_change_pct": 10.29,
+        "wage_growth_pct": 10.99,
+        "private_wage_growth_pct": 9.16
+      },
+      "2020": {
+        "employment": 1051.8573986,
+        "wage": 115449,
+        "private_wage": 60689,
+        "employment_change_pct": 4.53,
+        "wage_growth_pct": 6.01,
+        "private_wage_growth_pct": 6.21
+      },
+      "2021": {
+        "employment": 1094.6985,
+        "wage": 126828,
+        "private_wage": 67750,
+        "employment_change_pct": 4.07,
+        "wage_growth_pct": 9.86,
+        "private_wage_growth_pct": 11.63
+      },
+      "2022": {
+        "employment": 1114.4959,
+        "wage": 135222,
+        "private_wage": 71060,
+        "employment_change_pct": 1.81,
+        "wage_growth_pct": 6.62,
+        "private_wage_growth_pct": 4.89
+      },
+      "2023": {
+        "employment": 1126.8723209,
+        "wage": 143818,
+        "private_wage": 74462,
+        "employment_change_pct": 1.11,
+        "wage_growth_pct": 6.36,
+        "private_wage_growth_pct": 4.79
+      },
+      "2024": {
+        "employment": 1132.3,
+        "wage": 143173,
+        "private_wage": 75287,
+        "employment_change_pct": 0.48,
+        "wage_growth_pct": -0.45,
+        "private_wage_growth_pct": 1.11
+      }
+    },
+    "ai_exposure": {
+      "score": 4.0,
+      "rationale": "挂号收费、病案管理、健康咨询等标准化行政与信息处理任务正快速被AI分诊系统、电子病历NLP工具和智能客服替代；但医生诊疗、护士床旁照护、康复实操和社工面对面干预等高度依赖临床判断、共情能力与现场体感的任务极难自动化；监管合规性要求也延缓了高风险环节的AI深度介入。",
+      "anchors": [
+        "智能分诊与导诊",
+        "电子病历结构化",
+        "健康咨询问答机器人",
+        "病案编码自动化"
+      ],
+      "job_description": "医生开展疾病诊断与治疗决策；护士执行临床护理、用药监护与患者沟通；药师负责处方审核与用药指导；康复师实施个性化功能训练；社工提供心理支持与资源链接；挂号收费员、病案管理员处理窗口服务与文书归档。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:38:02.962698+00:00"
+    }
+  },
+  {
+    "code": "A04060J",
+    "title": "文化、体育和娱乐业",
+    "title_en": "Culture, Sports and Entertainment",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 122.3566,
+        "wage": 25847,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 125.0123,
+        "wage": 30430,
+        "private_wage": null,
+        "employment_change_pct": 2.17,
+        "wage_growth_pct": 17.73,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 125.9592,
+        "wage": 34158,
+        "private_wage": null,
+        "employment_change_pct": 0.76,
+        "wage_growth_pct": 12.25,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 129.5161,
+        "wage": 37755,
+        "private_wage": 17339,
+        "employment_change_pct": 2.82,
+        "wage_growth_pct": 10.53,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 131.3736,
+        "wage": 41428,
+        "private_wage": 20012,
+        "employment_change_pct": 1.43,
+        "wage_growth_pct": 9.73,
+        "private_wage_growth_pct": 15.42
+      },
+      "2011": {
+        "employment": 134.9854,
+        "wage": 47878,
+        "private_wage": 22666,
+        "employment_change_pct": 2.75,
+        "wage_growth_pct": 15.57,
+        "private_wage_growth_pct": 13.26
+      },
+      "2012": {
+        "employment": 137.7422,
+        "wage": 53558,
+        "private_wage": 26177,
+        "employment_change_pct": 2.04,
+        "wage_growth_pct": 11.86,
+        "private_wage_growth_pct": 15.49
+      },
+      "2013": {
+        "employment": 146.9503,
+        "wage": 59336,
+        "private_wage": 30402,
+        "employment_change_pct": 6.69,
+        "wage_growth_pct": 10.79,
+        "private_wage_growth_pct": 16.14
+      },
+      "2014": {
+        "employment": 145.519,
+        "wage": 64375,
+        "private_wage": 32024,
+        "employment_change_pct": -0.97,
+        "wage_growth_pct": 8.49,
+        "private_wage_growth_pct": 5.34
+      },
+      "2015": {
+        "employment": 149.0884,
+        "wage": 72764,
+        "private_wage": 34974,
+        "employment_change_pct": 2.45,
+        "wage_growth_pct": 13.03,
+        "private_wage_growth_pct": 9.21
+      },
+      "2016": {
+        "employment": 150.7728,
+        "wage": 79875,
+        "private_wage": 38228,
+        "employment_change_pct": 1.13,
+        "wage_growth_pct": 9.77,
+        "private_wage_growth_pct": 9.3
+      },
+      "2017": {
+        "employment": 152.2395,
+        "wage": 87803,
+        "private_wage": 41201,
+        "employment_change_pct": 0.97,
+        "wage_growth_pct": 9.93,
+        "private_wage_growth_pct": 7.78
+      },
+      "2018": {
+        "employment": 146.5829,
+        "wage": 98621,
+        "private_wage": 44592,
+        "employment_change_pct": -3.72,
+        "wage_growth_pct": 12.32,
+        "private_wage_growth_pct": 8.23
+      },
+      "2019": {
+        "employment": 151.162,
+        "wage": 107708,
+        "private_wage": 49289,
+        "employment_change_pct": 3.12,
+        "wage_growth_pct": 9.21,
+        "private_wage_growth_pct": 10.53
+      },
+      "2020": {
+        "employment": 149.5132553,
+        "wage": 112081,
+        "private_wage": 51300,
+        "employment_change_pct": -1.09,
+        "wage_growth_pct": 4.06,
+        "private_wage_growth_pct": 4.08
+      },
+      "2021": {
+        "employment": 151.7059,
+        "wage": 117329,
+        "private_wage": 56171,
+        "employment_change_pct": 1.47,
+        "wage_growth_pct": 4.68,
+        "private_wage_growth_pct": 9.5
+      },
+      "2022": {
+        "employment": 146.5018,
+        "wage": 121151,
+        "private_wage": 56769,
+        "employment_change_pct": -3.43,
+        "wage_growth_pct": 3.26,
+        "private_wage_growth_pct": 1.06
+      },
+      "2023": {
+        "employment": 147.0247783,
+        "wage": 127334,
+        "private_wage": 59407,
+        "employment_change_pct": 0.36,
+        "wage_growth_pct": 5.1,
+        "private_wage_growth_pct": 4.65
+      },
+      "2024": {
+        "employment": 159.1,
+        "wage": 126040,
+        "private_wage": 61669,
+        "employment_change_pct": 8.21,
+        "wage_growth_pct": -1.02,
+        "private_wage_growth_pct": 3.81
+      }
+    },
+    "ai_exposure": {
+      "score": 7.0,
+      "rationale": "短视频制作、内容剪辑、标题生成、热点选题、基础文案撰写等高度模板化或数据驱动的任务正被AIGC工具（如剪映AI、通义万相、Kimi长文本辅助）快速渗透；记者采编中的信息整合、初稿生成、赛事快讯自动播报已实现规模化应用；但演员表演、导演艺术决策、深度纪实采访、现场即兴互动、场馆临场调度等依赖人类情感表达、身体在场与复杂情境判断的工作仍难以替代。",
+      "anchors": [
+        "短视频制作",
+        "新闻初稿生成",
+        "赛事快讯自动化",
+        "基础文案与选题辅助"
+      ],
+      "job_description": "典型岗位包括编辑、记者、编导、演员、赛事运营、场馆管理、短视频制作和经纪执行。工作涵盖内容策划与生产、现场演出与赛事组织、媒体传播与粉丝运营、文化项目统筹与执行。创意构思、叙事表达、人际协调与现场应变是核心能力要求。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:38:08.434993+00:00"
+    }
+  },
+  {
+    "code": "A04060K",
+    "title": "公共管理、社会保障和社会组织",
+    "title_en": "Public Administration, Social Security and Social Organizations",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 1265.5669,
+        "wage": 22546,
+        "private_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 1291.2122,
+        "wage": 27731,
+        "private_wage": null,
+        "employment_change_pct": 2.03,
+        "wage_growth_pct": 23.0,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 1334.9919,
+        "wage": 32296,
+        "private_wage": null,
+        "employment_change_pct": 3.39,
+        "wage_growth_pct": 16.46,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 1394.2983,
+        "wage": 35326,
+        "private_wage": 8190.54760339755,
+        "employment_change_pct": 4.44,
+        "wage_growth_pct": 9.38,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 1428.4708,
+        "wage": 38242,
+        "private_wage": 8900,
+        "employment_change_pct": 2.45,
+        "wage_growth_pct": 8.25,
+        "private_wage_growth_pct": 8.66
+      },
+      "2011": {
+        "employment": 1467.632,
+        "wage": 42062,
+        "private_wage": 11738,
+        "employment_change_pct": 2.74,
+        "wage_growth_pct": 9.99,
+        "private_wage_growth_pct": 31.89
+      },
+      "2012": {
+        "employment": 1541.5126,
+        "wage": 46074,
+        "private_wage": 10858,
+        "employment_change_pct": 5.03,
+        "wage_growth_pct": 9.54,
+        "private_wage_growth_pct": -7.5
+      },
+      "2013": {
+        "employment": 1566.988,
+        "wage": 49259,
+        "private_wage": 33953,
+        "employment_change_pct": 1.65,
+        "wage_growth_pct": 6.91,
+        "private_wage_growth_pct": 212.7
+      },
+      "2014": {
+        "employment": 1599.325,
+        "wage": 53110,
+        "private_wage": 26744,
+        "employment_change_pct": 2.06,
+        "wage_growth_pct": 7.82,
+        "private_wage_growth_pct": -21.23
+      },
+      "2015": {
+        "employment": 1637.8019,
+        "wage": 62323,
+        "private_wage": null,
+        "employment_change_pct": 2.41,
+        "wage_growth_pct": 17.35,
+        "private_wage_growth_pct": null
+      },
+      "2016": {
+        "employment": 1672.5851,
+        "wage": 70959,
+        "private_wage": null,
+        "employment_change_pct": 2.12,
+        "wage_growth_pct": 13.86,
+        "private_wage_growth_pct": null
+      },
+      "2017": {
+        "employment": 1725.5709,
+        "wage": 80372,
+        "private_wage": null,
+        "employment_change_pct": 3.17,
+        "wage_growth_pct": 13.27,
+        "private_wage_growth_pct": null
+      },
+      "2018": {
+        "employment": 1817.4633,
+        "wage": 87932,
+        "private_wage": null,
+        "employment_change_pct": 5.33,
+        "wage_growth_pct": 9.41,
+        "private_wage_growth_pct": null
+      },
+      "2019": {
+        "employment": 1989.8185,
+        "wage": 94369,
+        "private_wage": null,
+        "employment_change_pct": 9.48,
+        "wage_growth_pct": 7.32,
+        "private_wage_growth_pct": null
+      },
+      "2020": {
+        "employment": 1972.1826686,
+        "wage": 104487,
+        "private_wage": null,
+        "employment_change_pct": -0.89,
+        "wage_growth_pct": 10.72,
+        "private_wage_growth_pct": null
+      },
+      "2021": {
+        "employment": 1985.8295,
+        "wage": 111361,
+        "private_wage": null,
+        "employment_change_pct": 0.69,
+        "wage_growth_pct": 6.58,
+        "private_wage_growth_pct": null
+      },
+      "2022": {
+        "employment": 1985.7817,
+        "wage": 117440,
+        "private_wage": null,
+        "employment_change_pct": -0.0,
+        "wage_growth_pct": 5.46,
+        "private_wage_growth_pct": null
+      },
+      "2023": {
+        "employment": 1985.7779286,
+        "wage": 117108,
+        "private_wage": null,
+        "employment_change_pct": -0.0,
+        "wage_growth_pct": -0.28,
+        "private_wage_growth_pct": null
+      },
+      "2024": {
+        "employment": 2026.8,
+        "wage": 114840,
+        "private_wage": null,
+        "employment_change_pct": 2.07,
+        "wage_growth_pct": -1.94,
+        "private_wage_growth_pct": null
+      }
+    },
+    "ai_exposure": {
+      "score": 7.0,
+      "rationale": "大量标准化文书处理、政策咨询问答、社保信息录入与核验、报表生成与报送等流程型任务正快速被政务大模型、RPA和智能审批系统替代；但基层政策执行、跨部门协调、现场核查、群众情绪沟通及复杂个案裁量仍高度依赖人工判断与现场经验；AI 主要压缩中低层级事务性岗位的工时，而非完全替代复合型政务人员。",
+      "anchors": [
+        "政务大模型问答",
+        "RPA自动填报",
+        "社保智能核验",
+        "电子督查与公文流转"
+      ],
+      "job_description": "典型岗位包括街道办行政岗、社保中心经办员、政务服务中心窗口人员、机关单位文秘和政策执行专员；日常工作涵盖公文收发与起草、居民信息登记与审核、社保待遇核算与发放、政策宣传与答疑、跨部门材料协同报送等。",
+      "model": "qwen-plus",
+      "updated_at": "2026-03-18T11:38:13.218481+00:00"
+    }
+  }
+]

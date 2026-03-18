@@ -1,0 +1,1813 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>中国就业市场可视化</title>
+    <style>
+      :root {
+        --bg: #0a0a0f;
+        --bg2: #12121a;
+        --bg3: #1a1b26;
+        --panel: rgba(18, 18, 26, 0.92);
+        --panel-strong: rgba(23, 24, 35, 0.98);
+        --fg: #f3f5fb;
+        --muted: #9ca3b9;
+        --muted-2: #7f879d;
+        --line: rgba(255, 255, 255, 0.09);
+        --line-strong: rgba(255, 255, 255, 0.18);
+        --green: #37d67a;
+        --green-soft: #8befb5;
+        --red: #ff6565;
+        --red-soft: #ffb0a8;
+        --yellow: #f8c451;
+        --blue: #7edbff;
+        --shadow:
+          0 22px 44px rgba(0, 0, 0, 0.38),
+          inset 0 1px 0 rgba(255, 255, 255, 0.03);
+        --radius: 20px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+      }
+
+      body {
+        margin: 0;
+        color: var(--fg);
+        background:
+          radial-gradient(circle at top left, rgba(72, 96, 189, 0.16), transparent 28%),
+          radial-gradient(circle at top right, rgba(35, 150, 109, 0.1), transparent 26%),
+          linear-gradient(180deg, #0d0e15 0%, var(--bg) 40%, #07070b 100%);
+        font-family:
+          'IBM Plex Sans',
+          'PingFang SC',
+          'Noto Sans SC',
+          'Hiragino Sans GB',
+          sans-serif;
+      }
+
+      a {
+        color: var(--blue);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .wrapper {
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 26px;
+      }
+
+      .header {
+        display: grid;
+        gap: 16px;
+      }
+
+      .panel {
+        background: linear-gradient(180deg, rgba(26, 27, 38, 0.96), rgba(15, 16, 24, 0.96));
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(14px);
+      }
+
+      .intro {
+        display: grid;
+        gap: 12px;
+        padding: 22px 24px;
+      }
+
+      .title-row {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+
+      h1 {
+        margin: 0;
+        font-family:
+          'Space Grotesk',
+          'IBM Plex Sans',
+          'PingFang SC',
+          sans-serif;
+        font-size: clamp(32px, 4vw, 56px);
+        line-height: 0.95;
+        letter-spacing: -0.04em;
+      }
+
+      .subtitle {
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      .intro-copy {
+        max-width: 980px;
+        color: #d0d5e5;
+        font-size: 15px;
+        line-height: 1.75;
+      }
+
+      .controls {
+        display: grid;
+        gap: 16px;
+        padding: 20px 22px 22px;
+      }
+
+      .controls-grid {
+        display: grid;
+        grid-template-columns: minmax(280px, 360px) 1fr;
+        gap: 18px;
+      }
+
+      .control-card {
+        display: grid;
+        gap: 12px;
+        padding: 16px 18px;
+        background: rgba(255, 255, 255, 0.025);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+      }
+
+      .eyebrow {
+        color: var(--muted-2);
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .year-row {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 14px;
+      }
+
+      .year-current {
+        font-size: clamp(34px, 5vw, 54px);
+        font-weight: 700;
+        line-height: 0.9;
+        letter-spacing: -0.05em;
+      }
+
+      .range-caption {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .range-input {
+        width: 100%;
+        height: 32px;
+        margin: 0;
+        appearance: none;
+        background: transparent;
+      }
+
+      .range-input::-webkit-slider-runnable-track {
+        height: 8px;
+        border-radius: 999px;
+        background:
+          linear-gradient(
+            90deg,
+            rgba(126, 219, 255, 0.8) 0%,
+            rgba(87, 245, 164, 0.68) 50%,
+            rgba(255, 101, 101, 0.72) 100%
+          );
+      }
+
+      .range-input::-moz-range-track {
+        height: 8px;
+        border-radius: 999px;
+        background:
+          linear-gradient(
+            90deg,
+            rgba(126, 219, 255, 0.8) 0%,
+            rgba(87, 245, 164, 0.68) 50%,
+            rgba(255, 101, 101, 0.72) 100%
+          );
+      }
+
+      .range-input::-webkit-slider-thumb {
+        appearance: none;
+        width: 20px;
+        height: 20px;
+        margin-top: -6px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        background: #0f1017;
+        box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.09);
+      }
+
+      .range-input::-moz-range-thumb {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        background: #0f1017;
+        box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.09);
+      }
+
+      .range-ticks {
+        display: flex;
+        justify-content: space-between;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .mode-stack {
+        display: grid;
+        gap: 14px;
+      }
+
+      .mode-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+
+      .mode-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .mode-button {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.03);
+        color: var(--fg);
+        padding: 10px 14px;
+        font: inherit;
+        font-size: 14px;
+        cursor: pointer;
+        transition:
+          border-color 0.15s ease,
+          background 0.15s ease,
+          transform 0.15s ease;
+      }
+
+      .mode-button:hover {
+        transform: translateY(-1px);
+        border-color: rgba(255, 255, 255, 0.22);
+      }
+
+      .mode-button.active {
+        background: rgba(126, 219, 255, 0.1);
+        border-color: rgba(126, 219, 255, 0.4);
+        color: #ecf8ff;
+      }
+
+      .legend-wrap {
+        min-width: 240px;
+        display: grid;
+        gap: 8px;
+      }
+
+      .legend-bar {
+        height: 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        background: linear-gradient(90deg, #2ad467 0%, #ffd25b 50%, #ff6363 100%);
+      }
+
+      .legend-labels {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .legend-labels span:nth-child(2) {
+        text-align: center;
+        flex: 1;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        gap: 12px;
+      }
+
+      .stat-card {
+        min-height: 160px;
+        padding: 16px 18px 18px;
+        background: rgba(255, 255, 255, 0.025);
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        display: grid;
+        gap: 12px;
+      }
+
+      .stat-card.big {
+        grid-column: span 4;
+      }
+
+      .stat-card.medium {
+        grid-column: span 4;
+      }
+
+      .stat-card.wide {
+        grid-column: span 6;
+      }
+
+      .stat-card.full {
+        grid-column: 1 / -1;
+      }
+
+      .stat-head {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .stat-title {
+        font-size: 13px;
+        color: var(--muted);
+      }
+
+      .stat-tag {
+        font-size: 11px;
+        color: var(--muted-2);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .stat-big {
+        font-size: clamp(28px, 4vw, 42px);
+        line-height: 0.95;
+        font-weight: 700;
+        letter-spacing: -0.04em;
+      }
+
+      .stat-sub {
+        color: var(--muted);
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .kpi-pair {
+        display: flex;
+        gap: 16px;
+        align-items: stretch;
+      }
+
+      .kpi-box {
+        flex: 1;
+        padding: 14px;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+
+      .kpi-label {
+        color: var(--muted);
+        font-size: 12px;
+        margin-bottom: 6px;
+      }
+
+      .kpi-value {
+        font-size: 26px;
+        font-weight: 700;
+      }
+
+      .kpi-value.positive {
+        color: var(--green-soft);
+      }
+
+      .kpi-value.negative {
+        color: var(--red-soft);
+      }
+
+      .histogram {
+        display: grid;
+        grid-template-columns: repeat(var(--bars, 6), minmax(0, 1fr));
+        align-items: end;
+        gap: 8px;
+        min-height: 110px;
+      }
+
+      .hist-item {
+        display: grid;
+        align-items: end;
+        gap: 8px;
+      }
+
+      .hist-bar {
+        min-height: 4px;
+        border-radius: 10px 10px 3px 3px;
+        background: linear-gradient(180deg, rgba(126, 219, 255, 0.95), rgba(55, 214, 122, 0.6));
+      }
+
+      .hist-label {
+        color: var(--muted);
+        font-size: 11px;
+        line-height: 1.35;
+        text-align: center;
+      }
+
+      .list-rows,
+      .bar-rows {
+        display: grid;
+        gap: 10px;
+      }
+
+      .list-row {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 12px;
+      }
+
+      .list-row .name {
+        font-size: 14px;
+        color: #edf1fe;
+      }
+
+      .list-row .value {
+        font-size: 13px;
+        color: var(--muted);
+        white-space: nowrap;
+      }
+
+      .bar-row {
+        display: grid;
+        gap: 6px;
+      }
+
+      .bar-label {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 13px;
+      }
+
+      .bar-label span:last-child {
+        color: var(--muted);
+      }
+
+      .bar-track {
+        position: relative;
+        height: 10px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.05);
+      }
+
+      .bar-fill {
+        position: absolute;
+        inset: 0 auto 0 0;
+        border-radius: 999px;
+        background: linear-gradient(90deg, rgba(126, 219, 255, 0.92), rgba(55, 214, 122, 0.92));
+      }
+
+      .bar-fill.red {
+        background: linear-gradient(90deg, rgba(255, 101, 101, 0.88), rgba(248, 196, 81, 0.88));
+      }
+
+      .bar-fill.muted {
+        background: linear-gradient(90deg, rgba(180, 190, 214, 0.72), rgba(126, 219, 255, 0.78));
+      }
+
+      .canvas-shell {
+        position: relative;
+        margin-top: 16px;
+        min-height: 620px;
+        height: min(74vh, 900px);
+        overflow: hidden;
+      }
+
+      #treemap {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
+
+      .canvas-hint {
+        position: absolute;
+        right: 18px;
+        bottom: 18px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        color: var(--muted);
+        font-size: 12px;
+        pointer-events: none;
+      }
+
+      .tooltip {
+        position: fixed;
+        z-index: 12;
+        width: min(360px, calc(100vw - 20px));
+        padding: 14px 16px 16px;
+        border-radius: 16px;
+        background: rgba(12, 13, 20, 0.96);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        box-shadow: 0 22px 50px rgba(0, 0, 0, 0.45);
+        pointer-events: none;
+        opacity: 0;
+        transform: translate3d(0, 0, 0);
+        transition: opacity 0.12s ease;
+      }
+
+      .tooltip.visible {
+        opacity: 1;
+      }
+
+      .tooltip-title {
+        display: grid;
+        gap: 3px;
+        margin-bottom: 12px;
+      }
+
+      .tooltip-title strong {
+        font-size: 18px;
+      }
+
+      .tooltip-title span {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .metric-box {
+        display: grid;
+        gap: 8px;
+        padding: 10px 12px;
+        margin-bottom: 12px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.035);
+        border: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .metric-head {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        font-size: 13px;
+      }
+
+      .metric-track {
+        position: relative;
+        height: 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        overflow: hidden;
+      }
+
+      .metric-thumb {
+        position: absolute;
+        top: 50%;
+        width: 12px;
+        height: 12px;
+        margin-top: -6px;
+        margin-left: -6px;
+        border-radius: 50%;
+        background: #ffffff;
+        box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.14);
+      }
+
+      .metric-empty {
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .tooltip-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 14px;
+      }
+
+      .tooltip-item {
+        display: grid;
+        gap: 4px;
+      }
+
+      .tooltip-item .label {
+        color: var(--muted);
+        font-size: 11px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .tooltip-item .value {
+        font-size: 14px;
+      }
+
+      .tooltip-section {
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid rgba(255, 255, 255, 0.07);
+      }
+
+      .tooltip-section h3 {
+        margin: 0 0 6px;
+        font-size: 12px;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .tooltip-section p {
+        margin: 0;
+        color: #d5d9e6;
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      .empty-state {
+        padding: 36px 22px 42px;
+        color: var(--muted);
+        font-size: 15px;
+        line-height: 1.7;
+      }
+
+      @media (max-width: 1200px) {
+        .stat-card.big,
+        .stat-card.medium,
+        .stat-card.wide {
+          grid-column: span 6;
+        }
+      }
+
+      @media (max-width: 980px) {
+        .wrapper {
+          padding: 16px;
+        }
+
+        .controls-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .canvas-shell {
+          min-height: 540px;
+          height: 68vh;
+        }
+
+        .stat-card.big,
+        .stat-card.medium,
+        .stat-card.wide {
+          grid-column: 1 / -1;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .intro,
+        .controls {
+          padding: 18px;
+        }
+
+        .tooltip-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .canvas-shell {
+          min-height: 480px;
+          height: 62vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <section class="intro panel">
+          <div class="title-row">
+            <div>
+              <h1>中国就业市场可视化</h1>
+              <div class="subtitle">
+                数据与交互灵感参考
+                <a href="https://github.com/karpathy/jobs" target="_blank" rel="noreferrer"
+                  >karpathy/jobs</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="intro-copy">
+            这张图基于国家统计局 20 个行业门类的城镇单位就业与工资数据，覆盖 2006 至 2024
+            年。矩形面积代表对应年份的就业规模，颜色可切换为 AI 暴露度、平均工资、就业变化或工资增长。
+            AI 暴露分数来自行业任务结构、职业锚点与岗位描述的启发式评分，用来帮助比较哪些行业更可能首先受到生成式
+            AI 和自动化工具的影响。
+          </div>
+        </section>
+
+        <section class="controls panel">
+          <div class="controls-grid">
+            <div class="control-card">
+              <div class="eyebrow">年份</div>
+              <div class="year-row">
+                <div class="year-current" id="yearCurrent">2024</div>
+                <div class="range-caption" id="yearRangeCaption">2006 - 2024</div>
+              </div>
+              <input class="range-input" id="yearSlider" type="range" min="2006" max="2024" step="1" />
+              <div class="range-ticks">
+                <span id="yearStart">2006</span>
+                <span id="yearEnd">2024</span>
+              </div>
+            </div>
+
+            <div class="control-card mode-stack">
+              <div class="eyebrow">着色模式</div>
+              <div class="mode-top">
+                <div class="mode-buttons" id="modeButtons"></div>
+                <div class="legend-wrap">
+                  <div class="legend-bar" id="legendBar"></div>
+                  <div class="legend-labels" id="legendLabels"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="stats" id="stats"></div>
+        </section>
+      </header>
+
+      <section class="canvas-shell panel">
+        <canvas id="treemap"></canvas>
+        <div class="canvas-hint">悬停矩形查看行业详情</div>
+      </section>
+
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+
+    <script>
+      const CATEGORY_META = {
+        primary: { label: '第一产业', short: '一产', tint: 'rgba(83, 210, 138, 0.08)' },
+        secondary: { label: '第二产业', short: '二产', tint: 'rgba(120, 168, 255, 0.08)' },
+        tertiary: { label: '第三产业', short: '三产', tint: 'rgba(255, 170, 94, 0.08)' },
+      }
+
+      const MODE_META = {
+        ai: {
+          label: 'AI 暴露度',
+          shortLabel: 'AI',
+          legend: {
+            gradient: 'linear-gradient(90deg, #2ad467 0%, #ffd25b 55%, #ff6363 100%)',
+            labels: ['低暴露', '中位', '高暴露'],
+          },
+          metricValue: (item, row) => item.ai_exposure?.score,
+          formatValue: (value) => formatExposure(value),
+          tileInfo: (item, row) => `AI ${formatExposure(item.ai_exposure?.score)}`,
+          normalize: (value) => clamp((value ?? 0) / 10, 0, 1),
+          color: (value, hover = false) => sequentialColor(value, 0, 10, hover),
+        },
+        wage: {
+          label: '平均工资',
+          shortLabel: '工资',
+          legend: {
+            gradient: 'linear-gradient(90deg, #2ad467 0%, #6be2af 25%, #ffc45f 62%, #ff6363 100%)',
+            labels: ['¥30,000', '¥100,000', '¥250,000+'],
+          },
+          metricValue: (item, row) => row?.wage,
+          formatValue: (value) => formatCurrency(value),
+          tileInfo: (item, row) => `工资 ${formatCompactCurrency(row?.wage)}`,
+          normalize: (value) => {
+            if (value == null) return 0
+            const min = Math.log(30000)
+            const max = Math.log(250000)
+            return clamp((Math.log(clamp(value, 30000, 250000)) - min) / (max - min), 0, 1)
+          },
+          color: (value, hover = false) => {
+            if (value == null) return missingColor(hover)
+            const t = MODE_META.wage.normalize(value)
+            return hslColor(138 - t * 130, 78, hover ? 62 : 48)
+          },
+        },
+        employmentChange: {
+          label: '就业变化',
+          shortLabel: '就业变化',
+          legend: {
+            gradient: 'linear-gradient(90deg, #ff6363 0%, #514b58 50%, #2ad467 100%)',
+            labels: ['-10%', '0%', '+10%'],
+          },
+          metricValue: (item, row) => row?.employment_change_pct,
+          formatValue: (value) => formatPercent(value),
+          tileInfo: (item, row) => `就业 ${formatPercent(row?.employment_change_pct)}`,
+          normalize: (value) => clamp(((value ?? 0) + 10) / 20, 0, 1),
+          color: (value, hover = false) => divergingColor(value, -10, 0, 10, hover),
+        },
+        wageGrowth: {
+          label: '工资增长',
+          shortLabel: '工资增长',
+          legend: {
+            gradient: 'linear-gradient(90deg, #ff6363 0%, #ffc45f 45%, #2ad467 100%)',
+            labels: ['0%', '10%', '20%'],
+          },
+          metricValue: (item, row) => row?.wage_growth_pct,
+          formatValue: (value) => formatPercent(value),
+          tileInfo: (item, row) => `工资 ${formatPercent(row?.wage_growth_pct)}`,
+          normalize: (value) => clamp((value ?? 0) / 20, 0, 1),
+          color: (value, hover = false) => {
+            if (value == null) return missingColor(hover)
+            const t = clamp(value / 20, 0, 1)
+            return hslColor(2 + t * 132, 76, hover ? 62 : 48)
+          },
+        },
+      }
+
+      const state = {
+        data: [],
+        industries: [],
+        years: [],
+        selectedYear: null,
+        mode: 'ai',
+        hovered: null,
+        layout: [],
+      }
+
+      const canvas = document.getElementById('treemap')
+      const ctx = canvas.getContext('2d')
+      const yearSlider = document.getElementById('yearSlider')
+      const yearCurrent = document.getElementById('yearCurrent')
+      const yearRangeCaption = document.getElementById('yearRangeCaption')
+      const yearStart = document.getElementById('yearStart')
+      const yearEnd = document.getElementById('yearEnd')
+      const modeButtons = document.getElementById('modeButtons')
+      const legendBar = document.getElementById('legendBar')
+      const legendLabels = document.getElementById('legendLabels')
+      const stats = document.getElementById('stats')
+      const tooltip = document.getElementById('tooltip')
+
+      init().catch((error) => {
+        console.error(error)
+        stats.innerHTML = ''
+        tooltip.classList.remove('visible')
+        document.querySelector('.canvas-shell').insertAdjacentHTML(
+          'beforeend',
+          `<div class="empty-state">无法加载 <code>data.json</code>。请在本地静态服务器下打开该目录，例如使用 <code>python3 -m http.server</code>。</div>`,
+        )
+      })
+
+      async function init() {
+        const response = await fetch('data.json')
+        if (!response.ok) {
+          throw new Error(`Failed to load data.json: ${response.status}`)
+        }
+
+        state.data = await response.json()
+        state.industries = state.data.filter((item) => !item.is_aggregate)
+        state.years = [...new Set(state.data.flatMap((item) => Object.keys(item.yearly_data || {})))]
+          .map(Number)
+          .sort((a, b) => a - b)
+        state.selectedYear = state.years[state.years.length - 1]
+
+        setupControls()
+        attachEvents()
+        renderAll()
+      }
+
+      function setupControls() {
+        yearSlider.min = String(state.years[0])
+        yearSlider.max = String(state.years[state.years.length - 1])
+        yearSlider.value = String(state.selectedYear)
+        yearCurrent.textContent = String(state.selectedYear)
+        yearRangeCaption.textContent = `${state.years[0]} - ${state.years[state.years.length - 1]}`
+        yearStart.textContent = String(state.years[0])
+        yearEnd.textContent = String(state.years[state.years.length - 1])
+
+        modeButtons.innerHTML = Object.entries(MODE_META)
+          .map(
+            ([key, meta]) =>
+              `<button class="mode-button ${key === state.mode ? 'active' : ''}" data-mode="${key}">${meta.label}</button>`,
+          )
+          .join('')
+
+        updateLegend()
+      }
+
+      function attachEvents() {
+        yearSlider.addEventListener('input', (event) => {
+          state.selectedYear = Number(event.target.value)
+          state.hovered = null
+          tooltip.classList.remove('visible')
+          yearCurrent.textContent = String(state.selectedYear)
+          renderAll()
+        })
+
+        modeButtons.addEventListener('click', (event) => {
+          const button = event.target.closest('button[data-mode]')
+          if (!button) return
+          state.mode = button.dataset.mode
+          state.hovered = null
+          tooltip.classList.remove('visible')
+          updateModeButtons()
+          updateLegend()
+          renderAll()
+        })
+
+        canvas.addEventListener('mousemove', handlePointerMove)
+        canvas.addEventListener('mouseleave', () => {
+          state.hovered = null
+          tooltip.classList.remove('visible')
+          renderTreemap()
+        })
+
+        window.addEventListener('resize', renderTreemap)
+
+        if ('ResizeObserver' in window) {
+          const observer = new ResizeObserver(() => renderTreemap())
+          observer.observe(document.querySelector('.canvas-shell'))
+        }
+      }
+
+      function updateModeButtons() {
+        for (const button of modeButtons.querySelectorAll('.mode-button')) {
+          button.classList.toggle('active', button.dataset.mode === state.mode)
+        }
+      }
+
+      function updateLegend() {
+        const meta = MODE_META[state.mode]
+        legendBar.style.background = meta.legend.gradient
+        legendLabels.innerHTML = meta.legend.labels.map((label) => `<span>${label}</span>`).join('')
+      }
+
+      function renderAll() {
+        renderStats()
+        renderTreemap()
+      }
+
+      function getYearRow(item) {
+        return item.yearly_data?.[String(state.selectedYear)] || null
+      }
+
+      function getVisibleItems() {
+        return state.industries
+          .map((item) => ({ item, row: getYearRow(item) }))
+          .filter(({ row }) => row && typeof row.employment === 'number' && row.employment > 0)
+      }
+
+      function renderStats() {
+        const items = getVisibleItems()
+        const totalEmployment = sum(items, ({ row }) => row.employment)
+        const cards = []
+
+        cards.push(
+          createCard({
+            size: 'big',
+            title: '总就业规模',
+            tag: `${state.selectedYear} 年`,
+            body: `
+              <div class="stat-big">${formatEmployment(totalEmployment)}</div>
+              <div class="stat-sub">面积按非汇总行业就业人数加总，单位为万人。选中年份变化时，矩形面积与下方统计同步更新。</div>
+            `,
+          }),
+        )
+
+        if (state.mode === 'ai') {
+          cards.push(...buildAiStats(items))
+        } else if (state.mode === 'wage') {
+          cards.push(...buildWageStats(items))
+        } else if (state.mode === 'employmentChange') {
+          cards.push(...buildEmploymentChangeStats(items))
+        } else {
+          cards.push(...buildWageGrowthStats(items))
+        }
+
+        stats.innerHTML = cards.join('')
+      }
+
+      function buildAiStats(items) {
+        const weightedAvg = weightedAverage(items, ({ item }) => item.ai_exposure?.score, ({ row }) => row.employment)
+        const buckets = Array.from({ length: 11 }, (_, index) => ({
+          label: String(index),
+          value: 0,
+        }))
+
+        for (const entry of items) {
+          const score = entry.item.ai_exposure?.score
+          if (score == null) continue
+          buckets[Math.round(clamp(score, 0, 10))].value += entry.row.employment
+        }
+
+        const tiers = [
+          { label: '低 0-3', min: 0, max: 3 },
+          { label: '中 4-5', min: 4, max: 5 },
+          { label: '中高 6-7', min: 6, max: 7 },
+          { label: '高 8-10', min: 8, max: 10 },
+        ].map((tier) => {
+          const employment = sum(items, ({ item, row }) => {
+            const score = item.ai_exposure?.score
+            return score != null && score >= tier.min && score <= tier.max ? row.employment : 0
+          })
+          return {
+            label: tier.label,
+            value: employment,
+            display: `${formatEmployment(employment)} · ${formatShare(employment, sum(items, ({ row }) => row.employment))}`,
+          }
+        })
+
+        const categories = Object.keys(CATEGORY_META).map((category) => {
+          const subset = items.filter((entry) => entry.item.category === category)
+          const avg = weightedAverage(
+            subset,
+            ({ item }) => item.ai_exposure?.score,
+            ({ row }) => row.employment,
+          )
+          return {
+            label: CATEGORY_META[category].label,
+            value: avg ?? 0,
+            display: avg == null ? '暂无数据' : formatExposure(avg),
+          }
+        })
+
+        return [
+          createCard({
+            size: 'medium',
+            title: '就业加权 AI 暴露度',
+            tag: 'Weighted Avg',
+            body: `
+              <div class="stat-big">${formatExposure(weightedAvg)}</div>
+              <div class="stat-sub">按行业就业规模加权。分数越高，说明行业任务更接近信息处理、内容生成、结构化分析与自动化决策。</div>
+            `,
+          }),
+          createCard({
+            size: 'wide',
+            title: '暴露分数分布',
+            tag: '按就业规模',
+            body: histogramHTML(buckets, formatEmploymentCompact),
+          }),
+          createCard({
+            size: 'medium',
+            title: '暴露度层级',
+            tag: 'Tier Breakdown',
+            body: barRowsHTML(tiers, {
+              formatter: (value, item) => item.display,
+              variant: 'muted',
+            }),
+          }),
+          createCard({
+            size: 'wide',
+            title: '分产业暴露度',
+            tag: 'Category View',
+            body: barRowsHTML(categories, {
+              formatter: (value, item) => item.display,
+              max: 10,
+            }),
+          }),
+        ]
+      }
+
+      function buildWageStats(items) {
+        const highest = [...items]
+          .filter(({ row }) => row.wage != null)
+          .sort((a, b) => b.row.wage - a.row.wage)[0]
+
+        const buckets = [
+          { label: '3-5万', min: 30000, max: 50000, value: 0 },
+          { label: '5-7万', min: 50000, max: 70000, value: 0 },
+          { label: '7-10万', min: 70000, max: 100000, value: 0 },
+          { label: '10-15万', min: 100000, max: 150000, value: 0 },
+          { label: '15万+', min: 150000, max: Infinity, value: 0 },
+        ]
+
+        for (const entry of items) {
+          const wage = entry.row.wage
+          const bucket = buckets.find((item) => wage >= item.min && wage < item.max)
+          if (bucket) bucket.value += entry.row.employment
+        }
+
+        const categories = Object.keys(CATEGORY_META).map((category) => {
+          const subset = items.filter((entry) => entry.item.category === category)
+          const avg = weightedAverage(subset, ({ row }) => row.wage, ({ row }) => row.employment)
+          return {
+            label: CATEGORY_META[category].label,
+            value: avg ?? 0,
+            display: avg == null ? '暂无数据' : formatCurrency(avg),
+          }
+        })
+
+        const gaps = Object.keys(CATEGORY_META).map((category) => {
+          const subset = items.filter(
+            (entry) => entry.item.category === category && entry.row.private_wage != null,
+          )
+          const publicAvg = weightedAverage(subset, ({ row }) => row.wage, ({ row }) => row.employment)
+          const privateAvg = weightedAverage(
+            subset,
+            ({ row }) => row.private_wage,
+            ({ row }) => row.employment,
+          )
+          const gap = publicAvg != null && privateAvg != null ? publicAvg - privateAvg : null
+          return {
+            label: CATEGORY_META[category].label,
+            value: Math.max(gap ?? 0, 0),
+            display: gap == null ? '暂无数据' : formatCurrency(gap),
+          }
+        })
+
+        return [
+          createCard({
+            size: 'medium',
+            title: '最高工资行业',
+            tag: `${state.selectedYear} 年`,
+            body: highest
+              ? `
+                <div class="stat-big">${formatCurrency(highest.row.wage)}</div>
+                <div class="stat-sub">${highest.item.title} · 就业 ${formatEmployment(highest.row.employment)}</div>
+              `
+              : `<div class="stat-sub">暂无工资数据。</div>`,
+          }),
+          createCard({
+            size: 'wide',
+            title: '工资分布',
+            tag: '按就业规模',
+            body: histogramHTML(buckets, formatEmploymentCompact),
+          }),
+          createCard({
+            size: 'medium',
+            title: '分产业平均工资',
+            tag: 'Employment Weighted',
+            body: barRowsHTML(categories, { formatter: (value, item) => item.display }),
+          }),
+          createCard({
+            size: 'wide',
+            title: '非私营与私营工资差',
+            tag: 'Category Gap',
+            body: barRowsHTML(gaps, {
+              formatter: (value, item) => item.display,
+              variant: 'red',
+            }),
+          }),
+        ]
+      }
+
+      function buildEmploymentChangeStats(items) {
+        const valid = items.filter(({ row }) => row.employment_change_pct != null)
+        const growing = valid.filter(({ row }) => row.employment_change_pct > 0)
+        const declining = valid.filter(({ row }) => row.employment_change_pct < 0)
+        const topGrowing = [...growing]
+          .sort((a, b) => b.row.employment_change_pct - a.row.employment_change_pct)
+          .slice(0, 5)
+        const topDeclining = [...declining]
+          .sort((a, b) => a.row.employment_change_pct - b.row.employment_change_pct)
+          .slice(0, 5)
+
+        const categoryAverages = Object.keys(CATEGORY_META).map((category) => {
+          const subset = valid.filter((entry) => entry.item.category === category)
+          const avg = weightedAverage(
+            subset,
+            ({ row }) => row.employment_change_pct,
+            ({ row }) => row.employment,
+          )
+          return {
+            label: CATEGORY_META[category].label,
+            value: Math.abs(avg ?? 0),
+            display: avg == null ? '暂无数据' : formatPercent(avg),
+          }
+        })
+
+        return [
+          createCard({
+            size: 'medium',
+            title: '增长 / 收缩行业数',
+            tag: 'Count',
+            body: `
+              <div class="kpi-pair">
+                <div class="kpi-box">
+                  <div class="kpi-label">增长行业</div>
+                  <div class="kpi-value positive">${growing.length}</div>
+                </div>
+                <div class="kpi-box">
+                  <div class="kpi-label">收缩行业</div>
+                  <div class="kpi-value negative">${declining.length}</div>
+                </div>
+              </div>
+              <div class="stat-sub">第一年没有同比变化数据，因此图中只统计有可比口径的行业。</div>
+            `,
+          }),
+          createCard({
+            size: 'medium',
+            title: '增长最快行业',
+            tag: 'Top Positive',
+            body: listRowsHTML(topGrowing, (entry) => formatPercent(entry.row.employment_change_pct)),
+          }),
+          createCard({
+            size: 'medium',
+            title: '收缩最快行业',
+            tag: 'Top Negative',
+            body: listRowsHTML(topDeclining, (entry) => formatPercent(entry.row.employment_change_pct)),
+          }),
+          createCard({
+            size: 'wide',
+            title: '分产业就业变化',
+            tag: 'Employment Weighted',
+            body: barRowsHTML(categoryAverages, {
+              formatter: (value, item) => item.display,
+              variant: 'muted',
+            }),
+          }),
+        ]
+      }
+
+      function buildWageGrowthStats(items) {
+        const valid = items.filter(({ row }) => row.wage_growth_pct != null)
+        const weightedAvg = weightedAverage(valid, ({ row }) => row.wage_growth_pct, ({ row }) => row.employment)
+        const buckets = [
+          { label: '0-3%', min: 0, max: 3, value: 0 },
+          { label: '3-6%', min: 3, max: 6, value: 0 },
+          { label: '6-10%', min: 6, max: 10, value: 0 },
+          { label: '10-15%', min: 10, max: 15, value: 0 },
+          { label: '15%+', min: 15, max: Infinity, value: 0 },
+        ]
+
+        for (const entry of valid) {
+          const growth = entry.row.wage_growth_pct
+          const bucket = buckets.find((item) => growth >= item.min && growth < item.max)
+          if (bucket) bucket.value += entry.row.employment
+        }
+
+        const top = [...valid].sort((a, b) => b.row.wage_growth_pct - a.row.wage_growth_pct).slice(0, 5)
+        const categoryAverages = Object.keys(CATEGORY_META).map((category) => {
+          const subset = valid.filter((entry) => entry.item.category === category)
+          const avg = weightedAverage(subset, ({ row }) => row.wage_growth_pct, ({ row }) => row.employment)
+          return {
+            label: CATEGORY_META[category].label,
+            value: avg ?? 0,
+            display: avg == null ? '暂无数据' : formatPercent(avg),
+          }
+        })
+
+        return [
+          createCard({
+            size: 'medium',
+            title: '就业加权工资增长',
+            tag: 'Weighted Avg',
+            body: `
+              <div class="stat-big">${formatPercent(weightedAvg)}</div>
+              <div class="stat-sub">反映当前年份行业平均工资同比增速的就业加权均值。</div>
+            `,
+          }),
+          createCard({
+            size: 'wide',
+            title: '工资增长分布',
+            tag: '按就业规模',
+            body: histogramHTML(buckets, formatEmploymentCompact),
+          }),
+          createCard({
+            size: 'medium',
+            title: '工资增速最快行业',
+            tag: 'Top Growth',
+            body: listRowsHTML(top, (entry) => formatPercent(entry.row.wage_growth_pct)),
+          }),
+          createCard({
+            size: 'wide',
+            title: '分产业工资增长',
+            tag: 'Employment Weighted',
+            body: barRowsHTML(categoryAverages, {
+              formatter: (value, item) => item.display,
+              variant: 'muted',
+            }),
+          }),
+        ]
+      }
+
+      function createCard({ size, title, tag, body }) {
+        return `
+          <article class="stat-card ${size}">
+            <div class="stat-head">
+              <div class="stat-title">${title}</div>
+              <div class="stat-tag">${tag}</div>
+            </div>
+            ${body}
+          </article>
+        `
+      }
+
+      function histogramHTML(buckets, formatter) {
+        const max = Math.max(...buckets.map((bucket) => bucket.value), 0)
+        return `
+          <div class="histogram" style="--bars: ${buckets.length}">
+            ${buckets
+              .map((bucket) => {
+                const height = max > 0 ? `${(bucket.value / max) * 96 + 4}px` : '4px'
+                return `
+                  <div class="hist-item">
+                    <div class="hist-bar" style="height: ${height}"></div>
+                    <div class="hist-label">${bucket.label}<br />${formatter(bucket.value)}</div>
+                  </div>
+                `
+              })
+              .join('')}
+          </div>
+        `
+      }
+
+      function listRowsHTML(entries, valueFormatter) {
+        if (!entries.length) {
+          return '<div class="stat-sub">当前年份暂无可比较数据。</div>'
+        }
+
+        return `
+          <div class="list-rows">
+            ${entries
+              .map(
+                (entry) => `
+                  <div class="list-row">
+                    <div class="name">${entry.item.title}</div>
+                    <div class="value">${valueFormatter(entry)}</div>
+                  </div>
+                `,
+              )
+              .join('')}
+          </div>
+        `
+      }
+
+      function barRowsHTML(entries, { formatter, max, variant = '' } = {}) {
+        const computedMax = max ?? Math.max(...entries.map((entry) => entry.value), 0)
+        return `
+          <div class="bar-rows">
+            ${entries
+              .map((entry) => {
+                const width = computedMax > 0 ? clamp((entry.value / computedMax) * 100, 0, 100) : 0
+                const fillClass = variant ? `bar-fill ${variant}` : 'bar-fill'
+                return `
+                  <div class="bar-row">
+                    <div class="bar-label">
+                      <span>${entry.label}</span>
+                      <span>${formatter(entry.value, entry)}</span>
+                    </div>
+                    <div class="bar-track">
+                      <div class="${fillClass}" style="width: ${width}%"></div>
+                    </div>
+                  </div>
+                `
+              })
+              .join('')}
+          </div>
+        `
+      }
+
+      function renderTreemap() {
+        const dpr = window.devicePixelRatio || 1
+        const bounds = canvas.getBoundingClientRect()
+        if (!bounds.width || !bounds.height) return
+
+        canvas.width = Math.round(bounds.width * dpr)
+        canvas.height = Math.round(bounds.height * dpr)
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
+        ctx.clearRect(0, 0, bounds.width, bounds.height)
+
+        const outer = { x: 12, y: 12, w: bounds.width - 24, h: bounds.height - 24 }
+        drawRoundedRect(ctx, outer.x, outer.y, outer.w, outer.h, 18)
+        ctx.fillStyle = 'rgba(8, 9, 14, 0.62)'
+        ctx.fill()
+        ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)'
+        ctx.stroke()
+
+        const items = getVisibleItems()
+        const categories = Object.keys(CATEGORY_META)
+          .map((category) => {
+            const subset = items.filter((entry) => entry.item.category === category)
+            return {
+              key: category,
+              label: CATEGORY_META[category].label,
+              size: sum(subset, ({ row }) => row.employment),
+              items: subset
+                .slice()
+                .sort((a, b) => b.row.employment - a.row.employment)
+                .map((entry) => ({
+                  ...entry,
+                  size: entry.row.employment,
+                })),
+            }
+          })
+          .filter((category) => category.size > 0)
+          .sort((a, b) => b.size - a.size)
+
+        state.layout = []
+
+        const categoryRects = squarify(
+          categories.map((category) => ({ ...category, value: category.size })),
+          outer.x + 8,
+          outer.y + 8,
+          outer.w - 16,
+          outer.h - 16,
+        )
+
+        for (const categoryRect of categoryRects) {
+          const meta = CATEGORY_META[categoryRect.key]
+          const categoryPadding = 7
+          const headerHeight = Math.min(28, categoryRect.h * 0.18)
+
+          drawRoundedRect(
+            ctx,
+            categoryRect.x,
+            categoryRect.y,
+            categoryRect.w,
+            categoryRect.h,
+            Math.min(16, categoryRect.w * 0.08),
+          )
+          ctx.fillStyle = meta.tint
+          ctx.fill()
+          ctx.strokeStyle = 'rgba(255, 255, 255, 0.08)'
+          ctx.stroke()
+
+          ctx.fillStyle = 'rgba(243, 245, 251, 0.96)'
+          ctx.font = '600 13px "IBM Plex Sans", "PingFang SC", sans-serif'
+          ctx.fillText(
+            `${meta.label} · ${formatEmploymentCompact(categoryRect.size)}`,
+            categoryRect.x + 12,
+            categoryRect.y + 18,
+          )
+
+          const innerX = categoryRect.x + categoryPadding
+          const innerY = categoryRect.y + headerHeight + 4
+          const innerW = Math.max(categoryRect.w - categoryPadding * 2, 0)
+          const innerH = Math.max(categoryRect.h - headerHeight - categoryPadding - 4, 0)
+          if (innerW < 20 || innerH < 20) continue
+
+          const tileRects = squarify(
+            categoryRect.items.map((entry) => ({ ...entry, value: entry.size })),
+            innerX,
+            innerY,
+            innerW,
+            innerH,
+          )
+
+          for (const tile of tileRects) {
+            const gap = 3
+            const rect = {
+              x: tile.x + gap,
+              y: tile.y + gap,
+              w: Math.max(tile.w - gap * 2, 2),
+              h: Math.max(tile.h - gap * 2, 2),
+            }
+
+            const value = MODE_META[state.mode].metricValue(tile.item, tile.row)
+            const isHovered = state.hovered?.code === tile.item.code
+
+            drawRoundedRect(ctx, rect.x, rect.y, rect.w, rect.h, Math.min(14, rect.w * 0.08, rect.h * 0.08))
+            ctx.fillStyle = MODE_META[state.mode].color(value, isHovered)
+            ctx.fill()
+            ctx.strokeStyle = isHovered ? 'rgba(255, 255, 255, 0.95)' : 'rgba(255, 255, 255, 0.08)'
+            ctx.lineWidth = isHovered ? 2 : 1
+            ctx.stroke()
+            ctx.lineWidth = 1
+
+            state.layout.push({
+              code: tile.item.code,
+              rect,
+              item: tile.item,
+              row: tile.row,
+              value,
+            })
+
+            drawTileLabel(rect, tile.item.title, MODE_META[state.mode].tileInfo(tile.item, tile.row))
+          }
+        }
+      }
+
+      function drawTileLabel(rect, title, subline) {
+        if (rect.w < 56 || rect.h < 36) return
+
+        const padding = rect.w > 110 ? 12 : 8
+        const titleFontSize = rect.w > 220 ? 18 : rect.w > 140 ? 15 : 13
+        const subFontSize = rect.w > 200 ? 12 : 11
+        const maxTitleLines = rect.h > 130 ? 3 : rect.h > 78 ? 2 : 1
+        const availableWidth = Math.max(rect.w - padding * 2, 20)
+
+        ctx.save()
+        ctx.beginPath()
+        ctx.rect(rect.x + 1, rect.y + 1, rect.w - 2, rect.h - 2)
+        ctx.clip()
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.96)'
+        ctx.font = `600 ${titleFontSize}px "IBM Plex Sans", "PingFang SC", sans-serif`
+        ctx.textBaseline = 'top'
+        ctx.shadowColor = 'rgba(0, 0, 0, 0.35)'
+        ctx.shadowBlur = 10
+
+        const titleLines = wrapText(title, availableWidth, maxTitleLines)
+        let cursorY = rect.y + padding
+
+        for (const line of titleLines) {
+          ctx.fillText(line, rect.x + padding, cursorY)
+          cursorY += titleFontSize + 2
+        }
+
+        if (rect.h >= cursorY - rect.y + subFontSize + padding + 4) {
+          ctx.shadowBlur = 0
+          ctx.fillStyle = 'rgba(241, 244, 251, 0.82)'
+          ctx.font = `500 ${subFontSize}px "IBM Plex Sans", "PingFang SC", sans-serif`
+          const subLines = wrapText(subline || '暂无数据', availableWidth, 1)
+          ctx.fillText(subLines[0], rect.x + padding, cursorY + 3)
+        }
+        ctx.restore()
+      }
+
+      function handlePointerMove(event) {
+        const bounds = canvas.getBoundingClientRect()
+        const x = event.clientX - bounds.left
+        const y = event.clientY - bounds.top
+        const hovered = state.layout.find(
+          (entry) =>
+            x >= entry.rect.x &&
+            x <= entry.rect.x + entry.rect.w &&
+            y >= entry.rect.y &&
+            y <= entry.rect.y + entry.rect.h,
+        )
+
+        if (hovered?.code !== state.hovered?.code) {
+          state.hovered = hovered || null
+          renderTreemap()
+        }
+
+        if (!hovered) {
+          tooltip.classList.remove('visible')
+          return
+        }
+
+        tooltip.innerHTML = tooltipHTML(hovered.item, hovered.row)
+        tooltip.classList.add('visible')
+
+        const pad = 16
+        const tooltipBounds = tooltip.getBoundingClientRect()
+        let left = event.clientX + 18
+        let top = event.clientY + 18
+
+        if (left + tooltipBounds.width > window.innerWidth - pad) {
+          left = event.clientX - tooltipBounds.width - 18
+        }
+        if (top + tooltipBounds.height > window.innerHeight - pad) {
+          top = event.clientY - tooltipBounds.height - 18
+        }
+
+        tooltip.style.left = `${Math.max(pad, left)}px`
+        tooltip.style.top = `${Math.max(pad, top)}px`
+      }
+
+      function tooltipHTML(item, row) {
+        const metricMeta = MODE_META[state.mode]
+        const metricValue = metricMeta.metricValue(item, row)
+        const metricPosition = Math.round(metricMeta.normalize(metricValue) * 100)
+
+        return `
+          <div class="tooltip-title">
+            <strong>${item.title}</strong>
+            <span>${item.title_en || '暂无英文标题'}</span>
+          </div>
+          ${
+            metricValue == null
+              ? `<div class="metric-box"><div class="metric-empty">${metricMeta.label}：暂无数据</div></div>`
+              : `
+                <div class="metric-box">
+                  <div class="metric-head">
+                    <span>${metricMeta.label}</span>
+                    <strong>${metricMeta.formatValue(metricValue)}</strong>
+                  </div>
+                  <div class="metric-track" style="background: ${metricMeta.legend.gradient}">
+                    <div class="metric-thumb" style="left: ${metricPosition}%"></div>
+                  </div>
+                </div>
+              `
+          }
+          <div class="tooltip-grid">
+            <div class="tooltip-item">
+              <div class="label">就业人数</div>
+              <div class="value">${formatEmployment(row.employment)}</div>
+            </div>
+            <div class="tooltip-item">
+              <div class="label">非私营平均工资</div>
+              <div class="value">${formatCurrency(row.wage)}</div>
+            </div>
+            <div class="tooltip-item">
+              <div class="label">私营平均工资</div>
+              <div class="value">${formatCurrency(row.private_wage)}</div>
+            </div>
+            <div class="tooltip-item">
+              <div class="label">就业变化</div>
+              <div class="value">${formatPercent(row.employment_change_pct)}</div>
+            </div>
+            <div class="tooltip-item">
+              <div class="label">工资增长</div>
+              <div class="value">${formatPercent(row.wage_growth_pct)}</div>
+            </div>
+            <div class="tooltip-item">
+              <div class="label">AI 暴露度</div>
+              <div class="value">${formatExposure(item.ai_exposure?.score)}</div>
+            </div>
+          </div>
+          ${
+            state.mode === 'ai'
+              ? `
+                <div class="tooltip-section">
+                  <h3>评分理由</h3>
+                  <p>${item.ai_exposure?.rationale || '暂无说明。'}</p>
+                </div>
+              `
+              : ''
+          }
+          <div class="tooltip-section">
+            <h3>岗位描述</h3>
+            <p>${item.ai_exposure?.job_description || '暂无岗位描述。'}</p>
+          </div>
+        `
+      }
+
+      function wrapText(text, maxWidth, maxLines) {
+        if (!text) return ['']
+        const chars = [...String(text)]
+        const lines = []
+        let current = ''
+
+        for (const char of chars) {
+          const next = current + char
+          if (ctx.measureText(next).width <= maxWidth || current.length === 0) {
+            current = next
+            continue
+          }
+
+          lines.push(current)
+          current = char
+        }
+
+        if (current) {
+          lines.push(current)
+        }
+
+        if (lines.length <= maxLines) {
+          return lines
+        }
+
+        const visibleLines = lines.slice(0, maxLines - 1)
+        const overflow = lines.slice(maxLines - 1).join('')
+        visibleLines.push(truncateText(overflow, maxWidth))
+        return visibleLines
+      }
+
+      function truncateText(text, maxWidth) {
+        if (ctx.measureText(text).width <= maxWidth) return text
+        let result = text
+        while (result.length > 1 && ctx.measureText(`${result}…`).width > maxWidth) {
+          result = result.slice(0, -1)
+        }
+        return `${result}…`
+      }
+
+      // Squarified treemap – ported directly from karpathy/jobs
+      function squarify(items, x, y, w, h) {
+        if (items.length === 0) return []
+        if (items.length === 1) return [{ ...items[0], x, y, w, h }]
+        const total = items.reduce((s, d) => s + d.value, 0)
+        if (total === 0) return []
+        const results = []
+        let remaining = [...items].sort((a, b) => b.value - a.value)
+        let cx = x, cy = y, cw = w, ch = h
+        while (remaining.length > 0) {
+          const remTotal = remaining.reduce((s, d) => s + d.value, 0)
+          const vertical = cw >= ch
+          const side = vertical ? ch : cw
+          let row = [remaining[0]], rowSum = remaining[0].value
+          for (let i = 1; i < remaining.length; i++) {
+            const candidate = [...row, remaining[i]]
+            const candidateSum = rowSum + remaining[i].value
+            if (worstAspect(candidate, candidateSum, side, remTotal, vertical ? cw : ch) <
+                worstAspect(row, rowSum, side, remTotal, vertical ? cw : ch)) {
+              row = candidate
+              rowSum = candidateSum
+            } else break
+          }
+          const rowFraction = rowSum / remTotal
+          const rowThickness = vertical ? cw * rowFraction : ch * rowFraction
+          let offset = 0
+          for (const item of row) {
+            const itemFraction = item.value / rowSum
+            const itemLength = side * itemFraction
+            if (vertical) {
+              results.push({ ...item, x: cx, y: cy + offset, w: rowThickness, h: itemLength })
+            } else {
+              results.push({ ...item, x: cx + offset, y: cy, w: itemLength, h: rowThickness })
+            }
+            offset += itemLength
+          }
+          if (vertical) { cx += rowThickness; cw -= rowThickness }
+          else { cy += rowThickness; ch -= rowThickness }
+          remaining = remaining.slice(row.length)
+        }
+        return results
+      }
+
+      function worstAspect(row, rowSum, side, totalArea, availableExtent) {
+        const rowExtent = availableExtent * (rowSum / totalArea)
+        if (rowExtent === 0) return Infinity
+        let worst = 0
+        for (const item of row) {
+          const itemLen = side * (item.value / rowSum)
+          if (itemLen === 0) continue
+          const aspect = Math.max(rowExtent / itemLen, itemLen / rowExtent)
+          if (aspect > worst) worst = aspect
+        }
+        return worst
+      }
+
+      function drawRoundedRect(context, x, y, w, h, r) {
+        const radius = Math.max(0, Math.min(r, w / 2, h / 2))
+        context.beginPath()
+        context.moveTo(x + radius, y)
+        context.arcTo(x + w, y, x + w, y + h, radius)
+        context.arcTo(x + w, y + h, x, y + h, radius)
+        context.arcTo(x, y + h, x, y, radius)
+        context.arcTo(x, y, x + w, y, radius)
+        context.closePath()
+      }
+
+      function weightedAverage(items, valueAccessor, weightAccessor) {
+        let totalWeight = 0
+        let total = 0
+        for (const item of items) {
+          const value = valueAccessor(item)
+          const weight = weightAccessor(item)
+          if (value == null || weight == null || weight <= 0) continue
+          totalWeight += weight
+          total += value * weight
+        }
+        return totalWeight > 0 ? total / totalWeight : null
+      }
+
+      function sum(items, accessor) {
+        return items.reduce((total, item) => total + (accessor(item) || 0), 0)
+      }
+
+      function clamp(value, min, max) {
+        return Math.min(max, Math.max(min, value))
+      }
+
+      function formatEmployment(value) {
+        if (value == null) return '暂无数据'
+        return `${Math.round(value).toLocaleString('zh-CN')} 万人`
+      }
+
+      function formatEmploymentCompact(value) {
+        if (value == null) return '暂无'
+        return `${Math.round(value).toLocaleString('zh-CN')}万`
+      }
+
+      function formatCurrency(value) {
+        if (value == null) return '暂无数据'
+        return `¥${Math.round(value).toLocaleString('zh-CN')}`
+      }
+
+      function formatCompactCurrency(value) {
+        if (value == null) return '暂无'
+        if (value >= 10000) return `¥${(value / 10000).toFixed(value >= 100000 ? 1 : 2)}万`
+        return formatCurrency(value)
+      }
+
+      function formatPercent(value) {
+        if (value == null) return '暂无数据'
+        const rounded = Number(value).toFixed(1)
+        return `${value > 0 ? '+' : ''}${rounded}%`
+      }
+
+      function formatExposure(value) {
+        if (value == null) return '暂无数据'
+        return `${Number(value).toFixed(1)} / 10`
+      }
+
+      function formatShare(value, total) {
+        if (!total) return '0%'
+        return `${((value / total) * 100).toFixed(1)}%`
+      }
+
+      function hslColor(h, s, l) {
+        return `hsl(${h}, ${s}%, ${l}%)`
+      }
+
+      function missingColor(hover = false) {
+        return hover ? 'hsl(224, 12%, 46%)' : 'hsl(224, 10%, 34%)'
+      }
+
+      function sequentialColor(value, min, max, hover = false) {
+        if (value == null) return missingColor(hover)
+        const t = clamp((value - min) / (max - min), 0, 1)
+        return hslColor(132 - t * 130, 76, hover ? 62 : 48)
+      }
+
+      function divergingColor(value, min, mid, max, hover = false) {
+        if (value == null) return missingColor(hover)
+        if (value <= mid) {
+          const t = clamp((value - min) / (mid - min || 1), 0, 1)
+          return hslColor(0 + t * 42, 74, hover ? 62 : 46)
+        }
+        const t = clamp((value - mid) / (max - mid || 1), 0, 1)
+        return hslColor(42 + t * 92, 72, hover ? 62 : 46)
+      }
+    </script>
+  </body>
+</html>

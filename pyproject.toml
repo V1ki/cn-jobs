@@ -1,0 +1,23 @@
+[build-system]
+requires = ['setuptools>=68']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'cn-jobs'
+version = '0.1.0'
+description = 'Chinese industry employment, wage, and AI exposure dataset builder.'
+readme = 'README.md'
+requires-python = '>=3.10'
+dependencies = [
+  'httpx>=0.27.0',
+  'python-dotenv>=1.0.0',
+]
+
+[tool.setuptools]
+py-modules = [
+  'industry_metadata',
+  'scrape_stats',
+  'build_dataset',
+  'score_ai_exposure',
+  'build_site_data',
+]

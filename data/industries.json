@@ -1,0 +1,3222 @@
+[
+  {
+    "code": "A040601",
+    "name": "总计",
+    "name_en": "Total Urban Units",
+    "category": "all",
+    "is_aggregate": true,
+    "yearly_data": {
+      "2006": {
+        "employment": 11713.1713,
+        "avg_wage": 20856,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 12024.4285,
+        "avg_wage": 24721,
+        "private_avg_wage": null,
+        "employment_change_pct": 2.66,
+        "wage_growth_pct": 18.53,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 12192.5243,
+        "avg_wage": 28898,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.4,
+        "wage_growth_pct": 16.9,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 12573.035,
+        "avg_wage": 32244,
+        "private_avg_wage": 18198.9933639475,
+        "employment_change_pct": 3.12,
+        "wage_growth_pct": 11.58,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 13051.5034,
+        "avg_wage": 36539,
+        "private_avg_wage": 20759,
+        "employment_change_pct": 3.81,
+        "wage_growth_pct": 13.32,
+        "private_wage_growth_pct": 14.07
+      },
+      "2011": {
+        "employment": 14413.3014,
+        "avg_wage": 41799,
+        "private_avg_wage": 24556,
+        "employment_change_pct": 10.43,
+        "wage_growth_pct": 14.4,
+        "private_wage_growth_pct": 18.29
+      },
+      "2012": {
+        "employment": 15236.3715,
+        "avg_wage": 46769,
+        "private_avg_wage": 28752,
+        "employment_change_pct": 5.71,
+        "wage_growth_pct": 11.89,
+        "private_wage_growth_pct": 17.09
+      },
+      "2013": {
+        "employment": 18108.4467,
+        "avg_wage": 51483,
+        "private_avg_wage": 32706,
+        "employment_change_pct": 18.85,
+        "wage_growth_pct": 10.08,
+        "private_wage_growth_pct": 13.75
+      },
+      "2014": {
+        "employment": 18277.7776,
+        "avg_wage": 56360,
+        "private_avg_wage": 36390,
+        "employment_change_pct": 0.94,
+        "wage_growth_pct": 9.47,
+        "private_wage_growth_pct": 11.26
+      },
+      "2015": {
+        "employment": 18062.4914,
+        "avg_wage": 62029,
+        "private_avg_wage": 39589,
+        "employment_change_pct": -1.18,
+        "wage_growth_pct": 10.06,
+        "private_wage_growth_pct": 8.79
+      },
+      "2016": {
+        "employment": 17888.0734,
+        "avg_wage": 67569,
+        "private_avg_wage": 42833,
+        "employment_change_pct": -0.97,
+        "wage_growth_pct": 8.93,
+        "private_wage_growth_pct": 8.19
+      },
+      "2017": {
+        "employment": 17643.8348,
+        "avg_wage": 74318,
+        "private_avg_wage": 45761,
+        "employment_change_pct": -1.37,
+        "wage_growth_pct": 9.99,
+        "private_wage_growth_pct": 6.84
+      },
+      "2018": {
+        "employment": 17258.1976,
+        "avg_wage": 82413,
+        "private_avg_wage": 49575,
+        "employment_change_pct": -2.19,
+        "wage_growth_pct": 10.89,
+        "private_wage_growth_pct": 8.33
+      },
+      "2019": {
+        "employment": 17161.7786,
+        "avg_wage": 90501,
+        "private_avg_wage": 53604,
+        "employment_change_pct": -0.56,
+        "wage_growth_pct": 9.81,
+        "private_wage_growth_pct": 8.13
+      },
+      "2020": {
+        "employment": 17039.0876669,
+        "avg_wage": 97379,
+        "private_avg_wage": 57727,
+        "employment_change_pct": -0.71,
+        "wage_growth_pct": 7.6,
+        "private_wage_growth_pct": 7.69
+      },
+      "2021": {
+        "employment": 17014.5065866,
+        "avg_wage": 106837,
+        "private_avg_wage": 62884,
+        "employment_change_pct": -0.14,
+        "wage_growth_pct": 9.71,
+        "private_wage_growth_pct": 8.93
+      },
+      "2022": {
+        "employment": 16700.6558961,
+        "avg_wage": 114029,
+        "private_avg_wage": 65237,
+        "employment_change_pct": -1.84,
+        "wage_growth_pct": 6.73,
+        "private_wage_growth_pct": 3.74
+      },
+      "2023": {
+        "employment": 16368.313857,
+        "avg_wage": 120698,
+        "private_avg_wage": 68340,
+        "employment_change_pct": -1.99,
+        "wage_growth_pct": 5.85,
+        "private_wage_growth_pct": 4.76
+      },
+      "2024": {
+        "employment": 16511.2,
+        "avg_wage": 124110,
+        "private_avg_wage": 69476,
+        "employment_change_pct": 0.87,
+        "wage_growth_pct": 2.83,
+        "private_wage_growth_pct": 1.66
+      }
+    }
+  },
+  {
+    "code": "A040602",
+    "name": "农林牧渔业",
+    "name_en": "Agriculture, Forestry, Animal Husbandry and Fishery",
+    "category": "primary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 435.2472,
+        "avg_wage": 9269,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 426.3086,
+        "avg_wage": 10847,
+        "private_avg_wage": null,
+        "employment_change_pct": -2.05,
+        "wage_growth_pct": 17.02,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 410.0886,
+        "avg_wage": 12560,
+        "private_avg_wage": null,
+        "employment_change_pct": -3.8,
+        "wage_growth_pct": 15.79,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 373.6812,
+        "avg_wage": 14356,
+        "private_avg_wage": 14584.6306098665,
+        "employment_change_pct": -8.88,
+        "wage_growth_pct": 14.3,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 375.7384,
+        "avg_wage": 16717,
+        "private_avg_wage": 16370,
+        "employment_change_pct": 0.55,
+        "wage_growth_pct": 16.45,
+        "private_wage_growth_pct": 12.24
+      },
+      "2011": {
+        "employment": 359.519,
+        "avg_wage": 19469,
+        "private_avg_wage": 19223,
+        "employment_change_pct": -4.32,
+        "wage_growth_pct": 16.46,
+        "private_wage_growth_pct": 17.43
+      },
+      "2012": {
+        "employment": 338.8566,
+        "avg_wage": 22687,
+        "private_avg_wage": 21973,
+        "employment_change_pct": -5.75,
+        "wage_growth_pct": 16.53,
+        "private_wage_growth_pct": 14.31
+      },
+      "2013": {
+        "employment": 294.8334,
+        "avg_wage": 25820,
+        "private_avg_wage": 24645,
+        "employment_change_pct": -12.99,
+        "wage_growth_pct": 13.81,
+        "private_wage_growth_pct": 12.16
+      },
+      "2014": {
+        "employment": 284.5982,
+        "avg_wage": 28356,
+        "private_avg_wage": 26862,
+        "employment_change_pct": -3.47,
+        "wage_growth_pct": 9.82,
+        "private_wage_growth_pct": 9.0
+      },
+      "2015": {
+        "employment": 269.9788,
+        "avg_wage": 31947,
+        "private_avg_wage": 28869,
+        "employment_change_pct": -5.14,
+        "wage_growth_pct": 12.66,
+        "private_wage_growth_pct": 7.47
+      },
+      "2016": {
+        "employment": 263.2208,
+        "avg_wage": 33612,
+        "private_avg_wage": 31301,
+        "employment_change_pct": -2.5,
+        "wage_growth_pct": 5.21,
+        "private_wage_growth_pct": 8.42
+      },
+      "2017": {
+        "employment": 255.4087,
+        "avg_wage": 36504,
+        "private_avg_wage": 34272,
+        "employment_change_pct": -2.97,
+        "wage_growth_pct": 8.6,
+        "private_wage_growth_pct": 9.49
+      },
+      "2018": {
+        "employment": 192.617,
+        "avg_wage": 36466,
+        "private_avg_wage": 36375,
+        "employment_change_pct": -24.58,
+        "wage_growth_pct": -0.1,
+        "private_wage_growth_pct": 6.14
+      },
+      "2019": {
+        "employment": 134.0931,
+        "avg_wage": 39340,
+        "private_avg_wage": 37760,
+        "employment_change_pct": -30.38,
+        "wage_growth_pct": 7.88,
+        "private_wage_growth_pct": 3.81
+      },
+      "2020": {
+        "employment": 85.683295,
+        "avg_wage": 48540,
+        "private_avg_wage": 38956,
+        "employment_change_pct": -36.1,
+        "wage_growth_pct": 23.39,
+        "private_wage_growth_pct": 3.17
+      },
+      "2021": {
+        "employment": 86.8262,
+        "avg_wage": 53819,
+        "private_avg_wage": 41442,
+        "employment_change_pct": 1.33,
+        "wage_growth_pct": 10.88,
+        "private_wage_growth_pct": 6.38
+      },
+      "2022": {
+        "employment": 78.9137,
+        "avg_wage": 58976,
+        "private_avg_wage": 42605,
+        "employment_change_pct": -9.11,
+        "wage_growth_pct": 9.58,
+        "private_wage_growth_pct": 2.81
+      },
+      "2023": {
+        "employment": 69.3053975,
+        "avg_wage": 62952,
+        "private_avg_wage": 44465,
+        "employment_change_pct": -12.18,
+        "wage_growth_pct": 6.74,
+        "private_wage_growth_pct": 4.37
+      },
+      "2024": {
+        "employment": 66.2,
+        "avg_wage": 67475,
+        "private_avg_wage": 46433,
+        "employment_change_pct": -4.48,
+        "wage_growth_pct": 7.18,
+        "private_wage_growth_pct": 4.43
+      }
+    }
+  },
+  {
+    "code": "A040603",
+    "name": "采矿业",
+    "name_en": "Mining",
+    "category": "secondary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 529.6735,
+        "avg_wage": 24125,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 535.0372,
+        "avg_wage": 28185,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.01,
+        "wage_growth_pct": 16.83,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 540.3942,
+        "avg_wage": 34233,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.0,
+        "wage_growth_pct": 21.46,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 553.6854,
+        "avg_wage": 38038,
+        "private_avg_wage": 18552.6436611374,
+        "employment_change_pct": 2.46,
+        "wage_growth_pct": 11.12,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 562.037,
+        "avg_wage": 44196,
+        "private_avg_wage": 20981,
+        "employment_change_pct": 1.51,
+        "wage_growth_pct": 16.19,
+        "private_wage_growth_pct": 13.09
+      },
+      "2011": {
+        "employment": 611.5975,
+        "avg_wage": 52230,
+        "private_avg_wage": 25519,
+        "employment_change_pct": 8.82,
+        "wage_growth_pct": 18.18,
+        "private_wage_growth_pct": 21.63
+      },
+      "2012": {
+        "employment": 631.0219,
+        "avg_wage": 56946,
+        "private_avg_wage": 29684,
+        "employment_change_pct": 3.18,
+        "wage_growth_pct": 9.03,
+        "private_wage_growth_pct": 16.32
+      },
+      "2013": {
+        "employment": 636.45,
+        "avg_wage": 60138,
+        "private_avg_wage": 33081,
+        "employment_change_pct": 0.86,
+        "wage_growth_pct": 5.61,
+        "private_wage_growth_pct": 11.44
+      },
+      "2014": {
+        "employment": 596.4913,
+        "avg_wage": 61677,
+        "private_avg_wage": 35819,
+        "employment_change_pct": -6.28,
+        "wage_growth_pct": 2.56,
+        "private_wage_growth_pct": 8.28
+      },
+      "2015": {
+        "employment": 545.7799,
+        "avg_wage": 59404,
+        "private_avg_wage": 38192,
+        "employment_change_pct": -8.5,
+        "wage_growth_pct": -3.69,
+        "private_wage_growth_pct": 6.62
+      },
+      "2016": {
+        "employment": 490.9177,
+        "avg_wage": 60544,
+        "private_avg_wage": 39600,
+        "employment_change_pct": -10.05,
+        "wage_growth_pct": 1.92,
+        "private_wage_growth_pct": 3.69
+      },
+      "2017": {
+        "employment": 455.3768,
+        "avg_wage": 69500,
+        "private_avg_wage": 41236,
+        "employment_change_pct": -7.24,
+        "wage_growth_pct": 14.79,
+        "private_wage_growth_pct": 4.13
+      },
+      "2018": {
+        "employment": 414.4315,
+        "avg_wage": 81429,
+        "private_avg_wage": 44096,
+        "employment_change_pct": -8.99,
+        "wage_growth_pct": 17.16,
+        "private_wage_growth_pct": 6.94
+      },
+      "2019": {
+        "employment": 367.693,
+        "avg_wage": 91068,
+        "private_avg_wage": 49675,
+        "employment_change_pct": -11.28,
+        "wage_growth_pct": 11.84,
+        "private_wage_growth_pct": 12.65
+      },
+      "2020": {
+        "employment": 352.0913616,
+        "avg_wage": 96674,
+        "private_avg_wage": 54563,
+        "employment_change_pct": -4.24,
+        "wage_growth_pct": 6.16,
+        "private_wage_growth_pct": 9.84
+      },
+      "2021": {
+        "employment": 344.8497,
+        "avg_wage": 108467,
+        "private_avg_wage": 62665,
+        "employment_change_pct": -2.06,
+        "wage_growth_pct": 12.2,
+        "private_wage_growth_pct": 14.85
+      },
+      "2022": {
+        "employment": 340.8981,
+        "avg_wage": 121522,
+        "private_avg_wage": 68509,
+        "employment_change_pct": -1.15,
+        "wage_growth_pct": 12.04,
+        "private_wage_growth_pct": 9.33
+      },
+      "2023": {
+        "employment": 329.3416067,
+        "avg_wage": 135025,
+        "private_avg_wage": 75648,
+        "employment_change_pct": -3.39,
+        "wage_growth_pct": 11.11,
+        "private_wage_growth_pct": 10.42
+      },
+      "2024": {
+        "employment": 326.3,
+        "avg_wage": 140706,
+        "private_avg_wage": 76010,
+        "employment_change_pct": -0.92,
+        "wage_growth_pct": 4.21,
+        "private_wage_growth_pct": 0.48
+      }
+    }
+  },
+  {
+    "code": "A040604",
+    "name": "制造业",
+    "name_en": "Manufacturing",
+    "category": "secondary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 3351.6145,
+        "avg_wage": 18225,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 3465.3607,
+        "avg_wage": 21144,
+        "private_avg_wage": null,
+        "employment_change_pct": 3.39,
+        "wage_growth_pct": 16.02,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 3434.2617,
+        "avg_wage": 24404,
+        "private_avg_wage": null,
+        "employment_change_pct": -0.9,
+        "wage_growth_pct": 15.42,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 3491.8986,
+        "avg_wage": 26810,
+        "private_avg_wage": 17259.9330925054,
+        "employment_change_pct": 1.68,
+        "wage_growth_pct": 9.86,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 3637.1514,
+        "avg_wage": 30916,
+        "private_avg_wage": 20090,
+        "employment_change_pct": 4.16,
+        "wage_growth_pct": 15.32,
+        "private_wage_growth_pct": 16.4
+      },
+      "2011": {
+        "employment": 4088.3267,
+        "avg_wage": 36665,
+        "private_avg_wage": 24138,
+        "employment_change_pct": 12.4,
+        "wage_growth_pct": 18.6,
+        "private_wage_growth_pct": 20.15
+      },
+      "2012": {
+        "employment": 4262.1887,
+        "avg_wage": 41650,
+        "private_avg_wage": 28215,
+        "employment_change_pct": 4.25,
+        "wage_growth_pct": 13.6,
+        "private_wage_growth_pct": 16.89
+      },
+      "2013": {
+        "employment": 5257.9395,
+        "avg_wage": 46431,
+        "private_avg_wage": 32035,
+        "employment_change_pct": 23.36,
+        "wage_growth_pct": 11.48,
+        "private_wage_growth_pct": 13.54
+      },
+      "2014": {
+        "employment": 5243.1393,
+        "avg_wage": 51369,
+        "private_avg_wage": 35653,
+        "employment_change_pct": -0.28,
+        "wage_growth_pct": 10.64,
+        "private_wage_growth_pct": 11.29
+      },
+      "2015": {
+        "employment": 5068.7033,
+        "avg_wage": 55324,
+        "private_avg_wage": 38948,
+        "employment_change_pct": -3.33,
+        "wage_growth_pct": 7.7,
+        "private_wage_growth_pct": 9.24
+      },
+      "2016": {
+        "employment": 4893.8403,
+        "avg_wage": 59470,
+        "private_avg_wage": 42115,
+        "employment_change_pct": -3.45,
+        "wage_growth_pct": 7.49,
+        "private_wage_growth_pct": 8.13
+      },
+      "2017": {
+        "employment": 4635.4597,
+        "avg_wage": 64452,
+        "private_avg_wage": 44991,
+        "employment_change_pct": -5.28,
+        "wage_growth_pct": 8.38,
+        "private_wage_growth_pct": 6.83
+      },
+      "2018": {
+        "employment": 4178.3095,
+        "avg_wage": 72088,
+        "private_avg_wage": 49275,
+        "employment_change_pct": -9.86,
+        "wage_growth_pct": 11.85,
+        "private_wage_growth_pct": 9.52
+      },
+      "2019": {
+        "employment": 3832.0304,
+        "avg_wage": 78147,
+        "private_avg_wage": 52858,
+        "employment_change_pct": -8.29,
+        "wage_growth_pct": 8.41,
+        "private_wage_growth_pct": 7.27
+      },
+      "2020": {
+        "employment": 3805.5259254,
+        "avg_wage": 82783,
+        "private_avg_wage": 57910,
+        "employment_change_pct": -0.69,
+        "wage_growth_pct": 5.93,
+        "private_wage_growth_pct": 9.56
+      },
+      "2021": {
+        "employment": 3828.0051,
+        "avg_wage": 92459,
+        "private_avg_wage": 63946,
+        "employment_change_pct": 0.59,
+        "wage_growth_pct": 11.69,
+        "private_wage_growth_pct": 10.42
+      },
+      "2022": {
+        "employment": 3738.4469,
+        "avg_wage": 97528,
+        "private_avg_wage": 67352,
+        "employment_change_pct": -2.34,
+        "wage_growth_pct": 5.48,
+        "private_wage_growth_pct": 5.33
+      },
+      "2023": {
+        "employment": 3577.821843,
+        "avg_wage": 103932,
+        "private_avg_wage": 71762,
+        "employment_change_pct": -4.3,
+        "wage_growth_pct": 6.57,
+        "private_wage_growth_pct": 6.55
+      },
+      "2024": {
+        "employment": 3681.8,
+        "avg_wage": 107987,
+        "private_avg_wage": 71467,
+        "employment_change_pct": 2.91,
+        "wage_growth_pct": 3.9,
+        "private_wage_growth_pct": -0.41
+      }
+    }
+  },
+  {
+    "code": "A040605",
+    "name": "电力、热力、燃气及水生产和供应业",
+    "name_en": "Utilities",
+    "category": "secondary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 302.5425,
+        "avg_wage": 28424,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 303.4119,
+        "avg_wage": 33470,
+        "private_avg_wage": null,
+        "employment_change_pct": 0.29,
+        "wage_growth_pct": 17.75,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 306.5086,
+        "avg_wage": 38515,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.02,
+        "wage_growth_pct": 15.07,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 307.6687,
+        "avg_wage": 41869,
+        "private_avg_wage": 17795.4379264291,
+        "employment_change_pct": 0.38,
+        "wage_growth_pct": 8.71,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 310.5096,
+        "avg_wage": 47309,
+        "private_avg_wage": 18834,
+        "employment_change_pct": 0.92,
+        "wage_growth_pct": 12.99,
+        "private_wage_growth_pct": 5.84
+      },
+      "2011": {
+        "employment": 334.6917,
+        "avg_wage": 52723,
+        "private_avg_wage": 22091,
+        "employment_change_pct": 7.79,
+        "wage_growth_pct": 11.44,
+        "private_wage_growth_pct": 17.29
+      },
+      "2012": {
+        "employment": 344.5578,
+        "avg_wage": 58202,
+        "private_avg_wage": 25478,
+        "employment_change_pct": 2.95,
+        "wage_growth_pct": 10.39,
+        "private_wage_growth_pct": 15.33
+      },
+      "2013": {
+        "employment": 404.5408,
+        "avg_wage": 67085,
+        "private_avg_wage": 29597,
+        "employment_change_pct": 17.41,
+        "wage_growth_pct": 15.26,
+        "private_wage_growth_pct": 16.17
+      },
+      "2014": {
+        "employment": 403.6541,
+        "avg_wage": 73339,
+        "private_avg_wage": 33184,
+        "employment_change_pct": -0.22,
+        "wage_growth_pct": 9.32,
+        "private_wage_growth_pct": 12.12
+      },
+      "2015": {
+        "employment": 396.0086,
+        "avg_wage": 78886,
+        "private_avg_wage": 34631,
+        "employment_change_pct": -1.89,
+        "wage_growth_pct": 7.56,
+        "private_wage_growth_pct": 4.36
+      },
+      "2016": {
+        "employment": 387.6131,
+        "avg_wage": 83863,
+        "private_avg_wage": 38605,
+        "employment_change_pct": -2.12,
+        "wage_growth_pct": 6.31,
+        "private_wage_growth_pct": 11.48
+      },
+      "2017": {
+        "employment": 376.9568,
+        "avg_wage": 90348,
+        "private_avg_wage": 41510,
+        "employment_change_pct": -2.75,
+        "wage_growth_pct": 7.73,
+        "private_wage_growth_pct": 7.52
+      },
+      "2018": {
+        "employment": 369.1863,
+        "avg_wage": 100162,
+        "private_avg_wage": 44239,
+        "employment_change_pct": -2.06,
+        "wage_growth_pct": 10.86,
+        "private_wage_growth_pct": 6.57
+      },
+      "2019": {
+        "employment": 373.1169,
+        "avg_wage": 107733,
+        "private_avg_wage": 49633,
+        "employment_change_pct": 1.06,
+        "wage_growth_pct": 7.56,
+        "private_wage_growth_pct": 12.19
+      },
+      "2020": {
+        "employment": 379.7458168,
+        "avg_wage": 116728,
+        "private_avg_wage": 54268,
+        "employment_change_pct": 1.78,
+        "wage_growth_pct": 8.35,
+        "private_wage_growth_pct": 9.34
+      },
+      "2021": {
+        "employment": 382.0015,
+        "avg_wage": 125332,
+        "private_avg_wage": 59271,
+        "employment_change_pct": 0.59,
+        "wage_growth_pct": 7.37,
+        "private_wage_growth_pct": 9.22
+      },
+      "2022": {
+        "employment": 375.2831,
+        "avg_wage": 132964,
+        "private_avg_wage": 61870,
+        "employment_change_pct": -1.76,
+        "wage_growth_pct": 6.09,
+        "private_wage_growth_pct": 4.38
+      },
+      "2023": {
+        "employment": 360.9950097,
+        "avg_wage": 143594,
+        "private_avg_wage": 64826,
+        "employment_change_pct": -3.81,
+        "wage_growth_pct": 7.99,
+        "private_wage_growth_pct": 4.78
+      },
+      "2024": {
+        "employment": 357.6,
+        "avg_wage": 150285,
+        "private_avg_wage": 63574,
+        "employment_change_pct": -0.94,
+        "wage_growth_pct": 4.66,
+        "private_wage_growth_pct": -1.93
+      }
+    }
+  },
+  {
+    "code": "A040606",
+    "name": "建筑业",
+    "name_en": "Construction",
+    "category": "secondary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 988.6725,
+        "avg_wage": 16164,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 1050.7825,
+        "avg_wage": 18482,
+        "private_avg_wage": null,
+        "employment_change_pct": 6.28,
+        "wage_growth_pct": 14.34,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 1072.5783,
+        "avg_wage": 21223,
+        "private_avg_wage": null,
+        "employment_change_pct": 2.07,
+        "wage_growth_pct": 14.83,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 1177.4855,
+        "avg_wage": 24161,
+        "private_avg_wage": 19867.0554432939,
+        "employment_change_pct": 9.78,
+        "wage_growth_pct": 13.84,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 1267.5144,
+        "avg_wage": 27529,
+        "private_avg_wage": 22228,
+        "employment_change_pct": 7.65,
+        "wage_growth_pct": 13.94,
+        "private_wage_growth_pct": 11.88
+      },
+      "2011": {
+        "employment": 1724.7782,
+        "avg_wage": 32103,
+        "private_avg_wage": 26108,
+        "employment_change_pct": 36.08,
+        "wage_growth_pct": 16.62,
+        "private_wage_growth_pct": 17.46
+      },
+      "2012": {
+        "employment": 2010.2586,
+        "avg_wage": 36483,
+        "private_avg_wage": 30911,
+        "employment_change_pct": 16.55,
+        "wage_growth_pct": 13.64,
+        "private_wage_growth_pct": 18.4
+      },
+      "2013": {
+        "employment": 2921.8986,
+        "avg_wage": 42072,
+        "private_avg_wage": 34882,
+        "employment_change_pct": 45.35,
+        "wage_growth_pct": 15.32,
+        "private_wage_growth_pct": 12.85
+      },
+      "2014": {
+        "employment": 2921.1787,
+        "avg_wage": 45804,
+        "private_avg_wage": 38838,
+        "employment_change_pct": -0.02,
+        "wage_growth_pct": 8.87,
+        "private_wage_growth_pct": 11.34
+      },
+      "2015": {
+        "employment": 2795.9982,
+        "avg_wage": 48886,
+        "private_avg_wage": 41710,
+        "employment_change_pct": -4.29,
+        "wage_growth_pct": 6.73,
+        "private_wage_growth_pct": 7.39
+      },
+      "2016": {
+        "employment": 2724.7293,
+        "avg_wage": 52082,
+        "private_avg_wage": 44803,
+        "employment_change_pct": -2.55,
+        "wage_growth_pct": 6.54,
+        "private_wage_growth_pct": 7.42
+      },
+      "2017": {
+        "employment": 2643.2096,
+        "avg_wage": 55568,
+        "private_avg_wage": 46944,
+        "employment_change_pct": -2.99,
+        "wage_growth_pct": 6.69,
+        "private_wage_growth_pct": 4.78
+      },
+      "2018": {
+        "employment": 2710.8716,
+        "avg_wage": 60501,
+        "private_avg_wage": 50879,
+        "employment_change_pct": 2.56,
+        "wage_growth_pct": 8.88,
+        "private_wage_growth_pct": 8.38
+      },
+      "2019": {
+        "employment": 2270.4989,
+        "avg_wage": 65580,
+        "private_avg_wage": 54167,
+        "employment_change_pct": -16.24,
+        "wage_growth_pct": 8.39,
+        "private_wage_growth_pct": 6.46
+      },
+      "2020": {
+        "employment": 2153.2545955,
+        "avg_wage": 69986,
+        "private_avg_wage": 57309,
+        "employment_change_pct": -5.16,
+        "wage_growth_pct": 6.72,
+        "private_wage_growth_pct": 5.8
+      },
+      "2021": {
+        "employment": 1971.9353,
+        "avg_wage": 75762,
+        "private_avg_wage": 60430,
+        "employment_change_pct": -8.42,
+        "wage_growth_pct": 8.25,
+        "private_wage_growth_pct": 5.45
+      },
+      "2022": {
+        "employment": 1835.1983,
+        "avg_wage": 78295,
+        "private_avg_wage": 60918,
+        "employment_change_pct": -6.93,
+        "wage_growth_pct": 3.34,
+        "private_wage_growth_pct": 0.81
+      },
+      "2023": {
+        "employment": 1638.0885388,
+        "avg_wage": 85804,
+        "private_avg_wage": 63857,
+        "employment_change_pct": -10.74,
+        "wage_growth_pct": 9.59,
+        "private_wage_growth_pct": 4.82
+      },
+      "2024": {
+        "employment": 1353.1,
+        "avg_wage": 89519,
+        "private_avg_wage": 65494,
+        "employment_change_pct": -17.4,
+        "wage_growth_pct": 4.33,
+        "private_wage_growth_pct": 2.56
+      }
+    }
+  },
+  {
+    "code": "A040607",
+    "name": "交通运输、仓储和邮政业",
+    "name_en": "Transportation, Warehousing and Postal Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 612.7345,
+        "avg_wage": 24111,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 623.0512,
+        "avg_wage": 27903,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.68,
+        "wage_growth_pct": 15.73,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 627.2575,
+        "avg_wage": 32041,
+        "private_avg_wage": null,
+        "employment_change_pct": 0.68,
+        "wage_growth_pct": 14.83,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 634.3697,
+        "avg_wage": 35315,
+        "private_avg_wage": 19633.5350200194,
+        "employment_change_pct": 1.13,
+        "wage_growth_pct": 10.22,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 631.1113,
+        "avg_wage": 40466,
+        "private_avg_wage": 21989,
+        "employment_change_pct": -0.51,
+        "wage_growth_pct": 14.59,
+        "private_wage_growth_pct": 12.0
+      },
+      "2011": {
+        "employment": 662.7893,
+        "avg_wage": 47078,
+        "private_avg_wage": 25949,
+        "employment_change_pct": 5.02,
+        "wage_growth_pct": 16.34,
+        "private_wage_growth_pct": 18.01
+      },
+      "2012": {
+        "employment": 667.5203,
+        "avg_wage": 53391,
+        "private_avg_wage": 28159,
+        "employment_change_pct": 0.71,
+        "wage_growth_pct": 13.41,
+        "private_wage_growth_pct": 8.52
+      },
+      "2013": {
+        "employment": 846.2153,
+        "avg_wage": 57993,
+        "private_avg_wage": 33141,
+        "employment_change_pct": 26.77,
+        "wage_growth_pct": 8.62,
+        "private_wage_growth_pct": 17.69
+      },
+      "2014": {
+        "employment": 861.43,
+        "avg_wage": 63416,
+        "private_avg_wage": 38891,
+        "employment_change_pct": 1.8,
+        "wage_growth_pct": 9.35,
+        "private_wage_growth_pct": 17.35
+      },
+      "2015": {
+        "employment": 854.3893,
+        "avg_wage": 68822,
+        "private_avg_wage": 40495,
+        "employment_change_pct": -0.82,
+        "wage_growth_pct": 8.52,
+        "private_wage_growth_pct": 4.12
+      },
+      "2016": {
+        "employment": 849.5076,
+        "avg_wage": 73650,
+        "private_avg_wage": 42705,
+        "employment_change_pct": -0.57,
+        "wage_growth_pct": 7.02,
+        "private_wage_growth_pct": 5.46
+      },
+      "2017": {
+        "employment": 843.8919,
+        "avg_wage": 80225,
+        "private_avg_wage": 45852,
+        "employment_change_pct": -0.66,
+        "wage_growth_pct": 8.93,
+        "private_wage_growth_pct": 7.37
+      },
+      "2018": {
+        "employment": 819.0015,
+        "avg_wage": 88508,
+        "private_avg_wage": 50547,
+        "employment_change_pct": -2.95,
+        "wage_growth_pct": 10.32,
+        "private_wage_growth_pct": 10.24
+      },
+      "2019": {
+        "employment": 815.4941,
+        "avg_wage": 97050,
+        "private_avg_wage": 54006,
+        "employment_change_pct": -0.43,
+        "wage_growth_pct": 9.65,
+        "private_wage_growth_pct": 6.84
+      },
+      "2020": {
+        "employment": 812.1999102,
+        "avg_wage": 100642,
+        "private_avg_wage": 57313,
+        "employment_change_pct": -0.4,
+        "wage_growth_pct": 3.7,
+        "private_wage_growth_pct": 6.12
+      },
+      "2021": {
+        "employment": 798.0822,
+        "avg_wage": 109851,
+        "private_avg_wage": 62411,
+        "employment_change_pct": -1.74,
+        "wage_growth_pct": 9.15,
+        "private_wage_growth_pct": 8.9
+      },
+      "2022": {
+        "employment": 776.193,
+        "avg_wage": 115345,
+        "private_avg_wage": 66059,
+        "employment_change_pct": -2.74,
+        "wage_growth_pct": 5.0,
+        "private_wage_growth_pct": 5.85
+      },
+      "2023": {
+        "employment": 767.87719,
+        "avg_wage": 122705,
+        "private_avg_wage": 68051,
+        "employment_change_pct": -1.07,
+        "wage_growth_pct": 6.38,
+        "private_wage_growth_pct": 3.02
+      },
+      "2024": {
+        "employment": 767.3,
+        "avg_wage": 127889,
+        "private_avg_wage": 67973,
+        "employment_change_pct": -0.08,
+        "wage_growth_pct": 4.22,
+        "private_wage_growth_pct": -0.11
+      }
+    }
+  },
+  {
+    "code": "A040608",
+    "name": "信息传输、软件和信息技术服务业",
+    "name_en": "Information Transmission, Software and IT Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 138.1913,
+        "avg_wage": 43435,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 150.2277,
+        "avg_wage": 47700,
+        "private_avg_wage": null,
+        "employment_change_pct": 8.71,
+        "wage_growth_pct": 9.82,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 159.4985,
+        "avg_wage": 54906,
+        "private_avg_wage": null,
+        "employment_change_pct": 6.17,
+        "wage_growth_pct": 15.11,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 173.8119,
+        "avg_wage": 58154,
+        "private_avg_wage": 28166,
+        "employment_change_pct": 8.97,
+        "wage_growth_pct": 5.92,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 185.7708,
+        "avg_wage": 64436,
+        "private_avg_wage": 31226,
+        "employment_change_pct": 6.88,
+        "wage_growth_pct": 10.8,
+        "private_wage_growth_pct": 10.86
+      },
+      "2011": {
+        "employment": 212.7591,
+        "avg_wage": 70918,
+        "private_avg_wage": 35562,
+        "employment_change_pct": 14.53,
+        "wage_growth_pct": 10.06,
+        "private_wage_growth_pct": 13.89
+      },
+      "2012": {
+        "employment": 222.7996,
+        "avg_wage": 80510,
+        "private_avg_wage": 39518,
+        "employment_change_pct": 4.72,
+        "wage_growth_pct": 13.53,
+        "private_wage_growth_pct": 11.12
+      },
+      "2013": {
+        "employment": 327.3117,
+        "avg_wage": 90915,
+        "private_avg_wage": 44060,
+        "employment_change_pct": 46.91,
+        "wage_growth_pct": 12.92,
+        "private_wage_growth_pct": 11.49
+      },
+      "2014": {
+        "employment": 336.2732,
+        "avg_wage": 100845,
+        "private_avg_wage": 51044,
+        "employment_change_pct": 2.74,
+        "wage_growth_pct": 10.92,
+        "private_wage_growth_pct": 15.85
+      },
+      "2015": {
+        "employment": 349.8697,
+        "avg_wage": 112042,
+        "private_avg_wage": 57719,
+        "employment_change_pct": 4.04,
+        "wage_growth_pct": 11.1,
+        "private_wage_growth_pct": 13.08
+      },
+      "2016": {
+        "employment": 364.0667,
+        "avg_wage": 122478,
+        "private_avg_wage": 63578,
+        "employment_change_pct": 4.06,
+        "wage_growth_pct": 9.31,
+        "private_wage_growth_pct": 10.15
+      },
+      "2017": {
+        "employment": 395.3927,
+        "avg_wage": 133150,
+        "private_avg_wage": 70415,
+        "employment_change_pct": 8.6,
+        "wage_growth_pct": 8.71,
+        "private_wage_growth_pct": 10.75
+      },
+      "2018": {
+        "employment": 424.2577,
+        "avg_wage": 147678,
+        "private_avg_wage": 76326,
+        "employment_change_pct": 7.3,
+        "wage_growth_pct": 10.91,
+        "private_wage_growth_pct": 8.39
+      },
+      "2019": {
+        "employment": 455.2578,
+        "avg_wage": 161352,
+        "private_avg_wage": 85301,
+        "employment_change_pct": 7.31,
+        "wage_growth_pct": 9.26,
+        "private_wage_growth_pct": 11.76
+      },
+      "2020": {
+        "employment": 487.0599612,
+        "avg_wage": 177544,
+        "private_avg_wage": 101281,
+        "employment_change_pct": 6.99,
+        "wage_growth_pct": 10.04,
+        "private_wage_growth_pct": 18.73
+      },
+      "2021": {
+        "employment": 519.165,
+        "avg_wage": 201506,
+        "private_avg_wage": 114618,
+        "employment_change_pct": 6.59,
+        "wage_growth_pct": 13.5,
+        "private_wage_growth_pct": 13.17
+      },
+      "2022": {
+        "employment": 529.157,
+        "avg_wage": 220418,
+        "private_avg_wage": 123894,
+        "employment_change_pct": 1.92,
+        "wage_growth_pct": 9.39,
+        "private_wage_growth_pct": 8.09
+      },
+      "2023": {
+        "employment": 529.509325,
+        "avg_wage": 231810,
+        "private_avg_wage": 129215,
+        "employment_change_pct": 0.07,
+        "wage_growth_pct": 5.17,
+        "private_wage_growth_pct": 4.29
+      },
+      "2024": {
+        "employment": 553.4,
+        "avg_wage": 238966,
+        "private_avg_wage": 123193,
+        "employment_change_pct": 4.51,
+        "wage_growth_pct": 3.09,
+        "private_wage_growth_pct": -4.66
+      }
+    }
+  },
+  {
+    "code": "A040609",
+    "name": "批发和零售业",
+    "name_en": "Wholesale and Retail Trade",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 515.7284,
+        "avg_wage": 17796,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 506.8584,
+        "avg_wage": 21074,
+        "private_avg_wage": null,
+        "employment_change_pct": -1.72,
+        "wage_growth_pct": 18.42,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 514.353,
+        "avg_wage": 25818,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.48,
+        "wage_growth_pct": 22.51,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 520.843,
+        "avg_wage": 29139,
+        "private_avg_wage": 17775,
+        "employment_change_pct": 1.26,
+        "wage_growth_pct": 12.86,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 535.088,
+        "avg_wage": 33635,
+        "private_avg_wage": 19928,
+        "employment_change_pct": 2.73,
+        "wage_growth_pct": 15.43,
+        "private_wage_growth_pct": 12.11
+      },
+      "2011": {
+        "employment": 647.4884,
+        "avg_wage": 40654,
+        "private_avg_wage": 22791,
+        "employment_change_pct": 21.01,
+        "wage_growth_pct": 20.87,
+        "private_wage_growth_pct": 14.37
+      },
+      "2012": {
+        "employment": 711.845,
+        "avg_wage": 46340,
+        "private_avg_wage": 27233,
+        "employment_change_pct": 9.94,
+        "wage_growth_pct": 13.99,
+        "private_wage_growth_pct": 19.49
+      },
+      "2013": {
+        "employment": 890.8129,
+        "avg_wage": 50308,
+        "private_avg_wage": 30604,
+        "employment_change_pct": 25.14,
+        "wage_growth_pct": 8.56,
+        "private_wage_growth_pct": 12.38
+      },
+      "2014": {
+        "employment": 888.569,
+        "avg_wage": 55838,
+        "private_avg_wage": 33894,
+        "employment_change_pct": -0.25,
+        "wage_growth_pct": 10.99,
+        "private_wage_growth_pct": 10.75
+      },
+      "2015": {
+        "employment": 883.3214,
+        "avg_wage": 60328,
+        "private_avg_wage": 36635,
+        "employment_change_pct": -0.59,
+        "wage_growth_pct": 8.04,
+        "private_wage_growth_pct": 8.09
+      },
+      "2016": {
+        "employment": 874.9994,
+        "avg_wage": 65061,
+        "private_avg_wage": 39589,
+        "employment_change_pct": -0.94,
+        "wage_growth_pct": 7.85,
+        "private_wage_growth_pct": 8.06
+      },
+      "2017": {
+        "employment": 842.7934,
+        "avg_wage": 71201,
+        "private_avg_wage": 42359,
+        "employment_change_pct": -3.68,
+        "wage_growth_pct": 9.44,
+        "private_wage_growth_pct": 7.0
+      },
+      "2018": {
+        "employment": 823.2771,
+        "avg_wage": 80551,
+        "private_avg_wage": 45177,
+        "employment_change_pct": -2.32,
+        "wage_growth_pct": 13.13,
+        "private_wage_growth_pct": 6.65
+      },
+      "2019": {
+        "employment": 830.0475,
+        "avg_wage": 89047,
+        "private_avg_wage": 48722,
+        "employment_change_pct": 0.82,
+        "wage_growth_pct": 10.55,
+        "private_wage_growth_pct": 7.85
+      },
+      "2020": {
+        "employment": 786.8964528,
+        "avg_wage": 96521,
+        "private_avg_wage": 53018,
+        "employment_change_pct": -5.2,
+        "wage_growth_pct": 8.39,
+        "private_wage_growth_pct": 8.82
+      },
+      "2021": {
+        "employment": 797.4965,
+        "avg_wage": 107735,
+        "private_avg_wage": 58071,
+        "employment_change_pct": 1.35,
+        "wage_growth_pct": 11.62,
+        "private_wage_growth_pct": 9.53
+      },
+      "2022": {
+        "employment": 785.2953,
+        "avg_wage": 115408,
+        "private_avg_wage": 60630,
+        "employment_change_pct": -1.53,
+        "wage_growth_pct": 7.12,
+        "private_wage_growth_pct": 4.41
+      },
+      "2023": {
+        "employment": 782.4432225,
+        "avg_wage": 124362,
+        "private_avg_wage": 63701,
+        "employment_change_pct": -0.36,
+        "wage_growth_pct": 7.76,
+        "private_wage_growth_pct": 5.07
+      },
+      "2024": {
+        "employment": 776.2,
+        "avg_wage": 129658,
+        "private_avg_wage": 67059,
+        "employment_change_pct": -0.8,
+        "wage_growth_pct": 4.26,
+        "private_wage_growth_pct": 5.27
+      }
+    }
+  },
+  {
+    "code": "A04060A",
+    "name": "住宿和餐饮业",
+    "name_en": "Accommodation and Food Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 183.9052,
+        "avg_wage": 15236,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 185.8073,
+        "avg_wage": 17046,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.03,
+        "wage_growth_pct": 11.88,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 193.2473,
+        "avg_wage": 19321,
+        "private_avg_wage": null,
+        "employment_change_pct": 4.0,
+        "wage_growth_pct": 13.35,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 202.1188,
+        "avg_wage": 20860,
+        "private_avg_wage": 15623,
+        "employment_change_pct": 4.59,
+        "wage_growth_pct": 7.97,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 209.2175,
+        "avg_wage": 23382,
+        "private_avg_wage": 17531,
+        "employment_change_pct": 3.51,
+        "wage_growth_pct": 12.09,
+        "private_wage_growth_pct": 12.21
+      },
+      "2011": {
+        "employment": 242.7382,
+        "avg_wage": 27486,
+        "private_avg_wage": 20882,
+        "employment_change_pct": 16.02,
+        "wage_growth_pct": 17.55,
+        "private_wage_growth_pct": 19.11
+      },
+      "2012": {
+        "employment": 265.0548,
+        "avg_wage": 31267,
+        "private_avg_wage": 23933,
+        "employment_change_pct": 9.19,
+        "wage_growth_pct": 13.76,
+        "private_wage_growth_pct": 14.61
+      },
+      "2013": {
+        "employment": 304.3938,
+        "avg_wage": 34044,
+        "private_avg_wage": 27352,
+        "employment_change_pct": 14.84,
+        "wage_growth_pct": 8.88,
+        "private_wage_growth_pct": 14.29
+      },
+      "2014": {
+        "employment": 289.2857,
+        "avg_wage": 37264,
+        "private_avg_wage": 29483,
+        "employment_change_pct": -4.96,
+        "wage_growth_pct": 9.46,
+        "private_wage_growth_pct": 7.79
+      },
+      "2015": {
+        "employment": 276.1231,
+        "avg_wage": 40806,
+        "private_avg_wage": 31889,
+        "employment_change_pct": -4.55,
+        "wage_growth_pct": 9.51,
+        "private_wage_growth_pct": 8.16
+      },
+      "2016": {
+        "employment": 269.7453,
+        "avg_wage": 43382,
+        "private_avg_wage": 34712,
+        "employment_change_pct": -2.31,
+        "wage_growth_pct": 6.31,
+        "private_wage_growth_pct": 8.85
+      },
+      "2017": {
+        "employment": 265.9378,
+        "avg_wage": 45751,
+        "private_avg_wage": 36886,
+        "employment_change_pct": -1.41,
+        "wage_growth_pct": 5.46,
+        "private_wage_growth_pct": 6.26
+      },
+      "2018": {
+        "employment": 269.8464,
+        "avg_wage": 48260,
+        "private_avg_wage": 39632,
+        "employment_change_pct": 1.47,
+        "wage_growth_pct": 5.48,
+        "private_wage_growth_pct": 7.44
+      },
+      "2019": {
+        "employment": 265.2268,
+        "avg_wage": 50346,
+        "private_avg_wage": 42424,
+        "employment_change_pct": -1.71,
+        "wage_growth_pct": 4.32,
+        "private_wage_growth_pct": 7.04
+      },
+      "2020": {
+        "employment": 256.6091253,
+        "avg_wage": 48833,
+        "private_avg_wage": 42258,
+        "employment_change_pct": -3.25,
+        "wage_growth_pct": -3.01,
+        "private_wage_growth_pct": -0.39
+      },
+      "2021": {
+        "employment": 265.2668,
+        "avg_wage": 53631,
+        "private_avg_wage": 46817,
+        "employment_change_pct": 3.37,
+        "wage_growth_pct": 9.83,
+        "private_wage_growth_pct": 10.79
+      },
+      "2022": {
+        "employment": 255.0024,
+        "avg_wage": 53995,
+        "private_avg_wage": 47547,
+        "employment_change_pct": -3.87,
+        "wage_growth_pct": 0.68,
+        "private_wage_growth_pct": 1.56
+      },
+      "2023": {
+        "employment": 288.4194886,
+        "avg_wage": 58094,
+        "private_avg_wage": 51583,
+        "employment_change_pct": 13.1,
+        "wage_growth_pct": 7.59,
+        "private_wage_growth_pct": 8.49
+      },
+      "2024": {
+        "employment": 290,
+        "avg_wage": 60240,
+        "private_avg_wage": 54042,
+        "employment_change_pct": 0.55,
+        "wage_growth_pct": 3.69,
+        "private_wage_growth_pct": 4.77
+      }
+    }
+  },
+  {
+    "code": "A04060B",
+    "name": "金融业",
+    "name_en": "Finance",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 367.3915,
+        "avg_wage": 35495,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 389.7128,
+        "avg_wage": 44011,
+        "private_avg_wage": null,
+        "employment_change_pct": 6.08,
+        "wage_growth_pct": 23.99,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 417.5503,
+        "avg_wage": 53897,
+        "private_avg_wage": null,
+        "employment_change_pct": 7.14,
+        "wage_growth_pct": 22.46,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 449.0479,
+        "avg_wage": 60398,
+        "private_avg_wage": 30452,
+        "employment_change_pct": 7.54,
+        "wage_growth_pct": 12.06,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 470.0814,
+        "avg_wage": 70146,
+        "private_avg_wage": 30513,
+        "employment_change_pct": 4.68,
+        "wage_growth_pct": 16.14,
+        "private_wage_growth_pct": 0.2
+      },
+      "2011": {
+        "employment": 505.3243,
+        "avg_wage": 81109,
+        "private_avg_wage": 28664,
+        "employment_change_pct": 7.5,
+        "wage_growth_pct": 15.63,
+        "private_wage_growth_pct": -6.06
+      },
+      "2012": {
+        "employment": 527.7677,
+        "avg_wage": 89743,
+        "private_avg_wage": 32696,
+        "employment_change_pct": 4.44,
+        "wage_growth_pct": 10.64,
+        "private_wage_growth_pct": 14.07
+      },
+      "2013": {
+        "employment": 537.9393,
+        "avg_wage": 99653,
+        "private_avg_wage": 37253,
+        "employment_change_pct": 1.93,
+        "wage_growth_pct": 11.04,
+        "private_wage_growth_pct": 13.94
+      },
+      "2014": {
+        "employment": 566.2963,
+        "avg_wage": 108273,
+        "private_avg_wage": 41553,
+        "employment_change_pct": 5.27,
+        "wage_growth_pct": 8.65,
+        "private_wage_growth_pct": 11.54
+      },
+      "2015": {
+        "employment": 606.8346,
+        "avg_wage": 114777,
+        "private_avg_wage": 44898,
+        "employment_change_pct": 7.16,
+        "wage_growth_pct": 6.01,
+        "private_wage_growth_pct": 8.05
+      },
+      "2016": {
+        "employment": 665.166,
+        "avg_wage": 117418,
+        "private_avg_wage": 50366,
+        "employment_change_pct": 9.61,
+        "wage_growth_pct": 2.3,
+        "private_wage_growth_pct": 12.18
+      },
+      "2017": {
+        "employment": 688.8064,
+        "avg_wage": 122851,
+        "private_avg_wage": 52289,
+        "employment_change_pct": 3.55,
+        "wage_growth_pct": 4.63,
+        "private_wage_growth_pct": 3.82
+      },
+      "2018": {
+        "employment": 699.2985,
+        "avg_wage": 129837,
+        "private_avg_wage": 62943,
+        "employment_change_pct": 1.52,
+        "wage_growth_pct": 5.69,
+        "private_wage_growth_pct": 20.38
+      },
+      "2019": {
+        "employment": 826.062,
+        "avg_wage": 131405,
+        "private_avg_wage": 76107,
+        "employment_change_pct": 18.13,
+        "wage_growth_pct": 1.21,
+        "private_wage_growth_pct": 20.91
+      },
+      "2020": {
+        "employment": 858.9842962,
+        "avg_wage": 133390,
+        "private_avg_wage": 82930,
+        "employment_change_pct": 3.99,
+        "wage_growth_pct": 1.51,
+        "private_wage_growth_pct": 8.97
+      },
+      "2021": {
+        "employment": 818.465,
+        "avg_wage": 150843,
+        "private_avg_wage": 95416,
+        "employment_change_pct": -4.72,
+        "wage_growth_pct": 13.08,
+        "private_wage_growth_pct": 15.06
+      },
+      "2022": {
+        "employment": 739.5705,
+        "avg_wage": 174341,
+        "private_avg_wage": 110304,
+        "employment_change_pct": -9.64,
+        "wage_growth_pct": 15.58,
+        "private_wage_growth_pct": 15.6
+      },
+      "2023": {
+        "employment": 692.371145,
+        "avg_wage": 197663,
+        "private_avg_wage": 124812,
+        "employment_change_pct": -6.38,
+        "wage_growth_pct": 13.38,
+        "private_wage_growth_pct": 13.15
+      },
+      "2024": {
+        "employment": 792.8,
+        "avg_wage": 201883,
+        "private_avg_wage": 135339,
+        "employment_change_pct": 14.51,
+        "wage_growth_pct": 2.13,
+        "private_wage_growth_pct": 8.43
+      }
+    }
+  },
+  {
+    "code": "A04060C",
+    "name": "房地产业",
+    "name_en": "Real Estate",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 153.9451,
+        "avg_wage": 22238,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 166.4653,
+        "avg_wage": 26085,
+        "private_avg_wage": null,
+        "employment_change_pct": 8.13,
+        "wage_growth_pct": 17.3,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 172.678,
+        "avg_wage": 30118,
+        "private_avg_wage": null,
+        "employment_change_pct": 3.73,
+        "wage_growth_pct": 15.46,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 190.9221,
+        "avg_wage": 32242,
+        "private_avg_wage": 21334,
+        "employment_change_pct": 10.57,
+        "wage_growth_pct": 7.05,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 211.6302,
+        "avg_wage": 35870,
+        "private_avg_wage": 23228,
+        "employment_change_pct": 10.85,
+        "wage_growth_pct": 11.25,
+        "private_wage_growth_pct": 8.88
+      },
+      "2011": {
+        "employment": 248.5833,
+        "avg_wage": 42837,
+        "private_avg_wage": 27017,
+        "employment_change_pct": 17.46,
+        "wage_growth_pct": 19.42,
+        "private_wage_growth_pct": 16.31
+      },
+      "2012": {
+        "employment": 273.7129,
+        "avg_wage": 46764,
+        "private_avg_wage": 30778,
+        "employment_change_pct": 10.11,
+        "wage_growth_pct": 9.17,
+        "private_wage_growth_pct": 13.92
+      },
+      "2013": {
+        "employment": 373.7341,
+        "avg_wage": 51048,
+        "private_avg_wage": 35038,
+        "employment_change_pct": 36.54,
+        "wage_growth_pct": 9.16,
+        "private_wage_growth_pct": 13.84
+      },
+      "2014": {
+        "employment": 402.2447,
+        "avg_wage": 55568,
+        "private_avg_wage": 37826,
+        "employment_change_pct": 7.63,
+        "wage_growth_pct": 8.85,
+        "private_wage_growth_pct": 7.96
+      },
+      "2015": {
+        "employment": 417.3414,
+        "avg_wage": 60244,
+        "private_avg_wage": 41767,
+        "employment_change_pct": 3.75,
+        "wage_growth_pct": 8.41,
+        "private_wage_growth_pct": 10.42
+      },
+      "2016": {
+        "employment": 431.7379,
+        "avg_wage": 65497,
+        "private_avg_wage": 46063,
+        "employment_change_pct": 3.45,
+        "wage_growth_pct": 8.72,
+        "private_wage_growth_pct": 10.29
+      },
+      "2017": {
+        "employment": 444.7774,
+        "avg_wage": 69277,
+        "private_avg_wage": 48025,
+        "employment_change_pct": 3.02,
+        "wage_growth_pct": 5.77,
+        "private_wage_growth_pct": 4.26
+      },
+      "2018": {
+        "employment": 466.0072,
+        "avg_wage": 75281,
+        "private_avg_wage": 51393,
+        "employment_change_pct": 4.77,
+        "wage_growth_pct": 8.67,
+        "private_wage_growth_pct": 7.01
+      },
+      "2019": {
+        "employment": 510.2621,
+        "avg_wage": 80157,
+        "private_avg_wage": 54416,
+        "employment_change_pct": 9.5,
+        "wage_growth_pct": 6.48,
+        "private_wage_growth_pct": 5.88
+      },
+      "2020": {
+        "employment": 525.351415,
+        "avg_wage": 83807,
+        "private_avg_wage": 55759,
+        "employment_change_pct": 2.96,
+        "wage_growth_pct": 4.55,
+        "private_wage_growth_pct": 2.47
+      },
+      "2021": {
+        "employment": 529.3419,
+        "avg_wage": 91143,
+        "private_avg_wage": 58288,
+        "employment_change_pct": 0.76,
+        "wage_growth_pct": 8.75,
+        "private_wage_growth_pct": 4.54
+      },
+      "2022": {
+        "employment": 511.505,
+        "avg_wage": 90346,
+        "private_avg_wage": 56435,
+        "employment_change_pct": -3.37,
+        "wage_growth_pct": -0.87,
+        "private_wage_growth_pct": -3.18
+      },
+      "2023": {
+        "employment": 509.390618,
+        "avg_wage": 91932,
+        "private_avg_wage": 56119,
+        "employment_change_pct": -0.41,
+        "wage_growth_pct": 1.76,
+        "private_wage_growth_pct": -0.56
+      },
+      "2024": {
+        "employment": 522.1,
+        "avg_wage": 91912,
+        "private_avg_wage": 55979,
+        "employment_change_pct": 2.5,
+        "wage_growth_pct": -0.02,
+        "private_wage_growth_pct": -0.25
+      }
+    }
+  },
+  {
+    "code": "A04060D",
+    "name": "租赁和商务服务业",
+    "name_en": "Leasing and Business Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 236.7468,
+        "avg_wage": 24510,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 247.2289,
+        "avg_wage": 27807,
+        "private_avg_wage": null,
+        "employment_change_pct": 4.43,
+        "wage_growth_pct": 13.45,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 274.6931,
+        "avg_wage": 32915,
+        "private_avg_wage": null,
+        "employment_change_pct": 11.11,
+        "wage_growth_pct": 18.37,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 290.495,
+        "avg_wage": 35494,
+        "private_avg_wage": 21334,
+        "employment_change_pct": 5.75,
+        "wage_growth_pct": 7.84,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 310.065,
+        "avg_wage": 39566,
+        "private_avg_wage": 23879,
+        "employment_change_pct": 6.74,
+        "wage_growth_pct": 11.47,
+        "private_wage_growth_pct": 11.93
+      },
+      "2011": {
+        "employment": 286.5836,
+        "avg_wage": 46976,
+        "private_avg_wage": 27115,
+        "employment_change_pct": -7.57,
+        "wage_growth_pct": 18.73,
+        "private_wage_growth_pct": 13.55
+      },
+      "2012": {
+        "employment": 292.285,
+        "avg_wage": 53162,
+        "private_avg_wage": 31796,
+        "employment_change_pct": 1.99,
+        "wage_growth_pct": 13.17,
+        "private_wage_growth_pct": 17.26
+      },
+      "2013": {
+        "employment": 421.8913,
+        "avg_wage": 62538,
+        "private_avg_wage": 36243,
+        "employment_change_pct": 44.34,
+        "wage_growth_pct": 17.64,
+        "private_wage_growth_pct": 13.99
+      },
+      "2014": {
+        "employment": 449.4463,
+        "avg_wage": 67131,
+        "private_avg_wage": 39414,
+        "employment_change_pct": 6.53,
+        "wage_growth_pct": 7.34,
+        "private_wage_growth_pct": 8.75
+      },
+      "2015": {
+        "employment": 474.0413,
+        "avg_wage": 72489,
+        "private_avg_wage": 43770,
+        "employment_change_pct": 5.47,
+        "wage_growth_pct": 7.98,
+        "private_wage_growth_pct": 11.05
+      },
+      "2016": {
+        "employment": 488.4125,
+        "avg_wage": 76782,
+        "private_avg_wage": 47836,
+        "employment_change_pct": 3.03,
+        "wage_growth_pct": 5.92,
+        "private_wage_growth_pct": 9.29
+      },
+      "2017": {
+        "employment": 522.5646,
+        "avg_wage": 81393,
+        "private_avg_wage": 51394,
+        "employment_change_pct": 6.99,
+        "wage_growth_pct": 6.01,
+        "private_wage_growth_pct": 7.44
+      },
+      "2018": {
+        "employment": 529.5228,
+        "avg_wage": 85147,
+        "private_avg_wage": 53382,
+        "employment_change_pct": 1.33,
+        "wage_growth_pct": 4.61,
+        "private_wage_growth_pct": 3.87
+      },
+      "2019": {
+        "employment": 660.3662,
+        "avg_wage": 88190,
+        "private_avg_wage": 57248,
+        "employment_change_pct": 24.71,
+        "wage_growth_pct": 3.57,
+        "private_wage_growth_pct": 7.24
+      },
+      "2020": {
+        "employment": 643.6369645,
+        "avg_wage": 92924,
+        "private_avg_wage": 58155,
+        "employment_change_pct": -2.53,
+        "wage_growth_pct": 5.37,
+        "private_wage_growth_pct": 1.58
+      },
+      "2021": {
+        "employment": 680.3468,
+        "avg_wage": 102537,
+        "private_avg_wage": 64490,
+        "employment_change_pct": 5.7,
+        "wage_growth_pct": 10.35,
+        "private_wage_growth_pct": 10.89
+      },
+      "2022": {
+        "employment": 738.2784,
+        "avg_wage": 106500,
+        "private_avg_wage": 65731,
+        "employment_change_pct": 8.52,
+        "wage_growth_pct": 3.86,
+        "private_wage_growth_pct": 1.92
+      },
+      "2023": {
+        "employment": 827.8410341,
+        "avg_wage": 109264,
+        "private_avg_wage": 67107,
+        "employment_change_pct": 12.13,
+        "wage_growth_pct": 2.6,
+        "private_wage_growth_pct": 2.09
+      },
+      "2024": {
+        "employment": 910.8,
+        "avg_wage": 110353,
+        "private_avg_wage": 69214,
+        "employment_change_pct": 10.02,
+        "wage_growth_pct": 1.0,
+        "private_wage_growth_pct": 3.14
+      }
+    }
+  },
+  {
+    "code": "A04060E",
+    "name": "科学研究和技术服务业",
+    "name_en": "Scientific Research and Technical Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 235.4549,
+        "avg_wage": 31644,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 243.3867,
+        "avg_wage": 38432,
+        "private_avg_wage": null,
+        "employment_change_pct": 3.37,
+        "wage_growth_pct": 21.45,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 257.0449,
+        "avg_wage": 45512,
+        "private_avg_wage": null,
+        "employment_change_pct": 5.61,
+        "wage_growth_pct": 18.42,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 272.5885,
+        "avg_wage": 50143,
+        "private_avg_wage": 26187,
+        "employment_change_pct": 6.05,
+        "wage_growth_pct": 10.18,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 292.2915,
+        "avg_wage": 56376,
+        "private_avg_wage": 28886,
+        "employment_change_pct": 7.23,
+        "wage_growth_pct": 12.43,
+        "private_wage_growth_pct": 10.31
+      },
+      "2011": {
+        "employment": 298.4714,
+        "avg_wage": 64252,
+        "private_avg_wage": 31320,
+        "employment_change_pct": 2.11,
+        "wage_growth_pct": 13.97,
+        "private_wage_growth_pct": 8.43
+      },
+      "2012": {
+        "employment": 330.6752,
+        "avg_wage": 69254,
+        "private_avg_wage": 36598,
+        "employment_change_pct": 10.79,
+        "wage_growth_pct": 7.78,
+        "private_wage_growth_pct": 16.85
+      },
+      "2013": {
+        "employment": 387.7646,
+        "avg_wage": 76602,
+        "private_avg_wage": 42854,
+        "employment_change_pct": 17.26,
+        "wage_growth_pct": 10.61,
+        "private_wage_growth_pct": 17.09
+      },
+      "2014": {
+        "employment": 408.0405,
+        "avg_wage": 82259,
+        "private_avg_wage": 47462,
+        "employment_change_pct": 5.23,
+        "wage_growth_pct": 7.38,
+        "private_wage_growth_pct": 10.75
+      },
+      "2015": {
+        "employment": 410.5829,
+        "avg_wage": 89410,
+        "private_avg_wage": 50441,
+        "employment_change_pct": 0.62,
+        "wage_growth_pct": 8.69,
+        "private_wage_growth_pct": 6.28
+      },
+      "2016": {
+        "employment": 419.5578,
+        "avg_wage": 96638,
+        "private_avg_wage": 54764,
+        "employment_change_pct": 2.19,
+        "wage_growth_pct": 8.08,
+        "private_wage_growth_pct": 8.57
+      },
+      "2017": {
+        "employment": 420.4109,
+        "avg_wage": 107815,
+        "private_avg_wage": 58102,
+        "employment_change_pct": 0.2,
+        "wage_growth_pct": 11.57,
+        "private_wage_growth_pct": 6.1
+      },
+      "2018": {
+        "employment": 411.5301,
+        "avg_wage": 123343,
+        "private_avg_wage": 61876,
+        "employment_change_pct": -2.11,
+        "wage_growth_pct": 14.4,
+        "private_wage_growth_pct": 6.5
+      },
+      "2019": {
+        "employment": 434.3238,
+        "avg_wage": 133459,
+        "private_avg_wage": 67642,
+        "employment_change_pct": 5.54,
+        "wage_growth_pct": 8.2,
+        "private_wage_growth_pct": 9.32
+      },
+      "2020": {
+        "employment": 431.1950261,
+        "avg_wage": 139851,
+        "private_avg_wage": 72233,
+        "employment_change_pct": -0.72,
+        "wage_growth_pct": 4.79,
+        "private_wage_growth_pct": 6.79
+      },
+      "2021": {
+        "employment": 450.1163,
+        "avg_wage": 151776,
+        "private_avg_wage": 77708,
+        "employment_change_pct": 4.39,
+        "wage_growth_pct": 8.53,
+        "private_wage_growth_pct": 7.58
+      },
+      "2022": {
+        "employment": 455.8142,
+        "avg_wage": 163486,
+        "private_avg_wage": 81569,
+        "employment_change_pct": 1.27,
+        "wage_growth_pct": 7.72,
+        "private_wage_growth_pct": 4.97
+      },
+      "2023": {
+        "employment": 451.6607345,
+        "avg_wage": 171447,
+        "private_avg_wage": 82277,
+        "employment_change_pct": -0.91,
+        "wage_growth_pct": 4.87,
+        "private_wage_growth_pct": 0.87
+      },
+      "2024": {
+        "employment": 482.1,
+        "avg_wage": 175425,
+        "private_avg_wage": 82387,
+        "employment_change_pct": 6.74,
+        "wage_growth_pct": 2.32,
+        "private_wage_growth_pct": 0.13
+      }
+    }
+  },
+  {
+    "code": "A04060F",
+    "name": "水利、环境和公共设施管理业",
+    "name_en": "Water Conservancy, Environment and Public Facilities Management",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 187.0049,
+        "avg_wage": 15630,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 193.4645,
+        "avg_wage": 18383,
+        "private_avg_wage": null,
+        "employment_change_pct": 3.45,
+        "wage_growth_pct": 17.61,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 197.2912,
+        "avg_wage": 21103,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.98,
+        "wage_growth_pct": 14.8,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 205.6635,
+        "avg_wage": 23159,
+        "private_avg_wage": 17170,
+        "employment_change_pct": 4.24,
+        "wage_growth_pct": 9.74,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 218.9109,
+        "avg_wage": 25544,
+        "private_avg_wage": 19607,
+        "employment_change_pct": 6.44,
+        "wage_growth_pct": 10.3,
+        "private_wage_growth_pct": 14.19
+      },
+      "2011": {
+        "employment": 230.3493,
+        "avg_wage": 28868,
+        "private_avg_wage": 22958,
+        "employment_change_pct": 5.23,
+        "wage_growth_pct": 13.01,
+        "private_wage_growth_pct": 17.09
+      },
+      "2012": {
+        "employment": 243.7831,
+        "avg_wage": 32343,
+        "private_avg_wage": 26402,
+        "employment_change_pct": 5.83,
+        "wage_growth_pct": 12.04,
+        "private_wage_growth_pct": 15.0
+      },
+      "2013": {
+        "employment": 259.195,
+        "avg_wage": 36123,
+        "private_avg_wage": 31241,
+        "employment_change_pct": 6.32,
+        "wage_growth_pct": 11.69,
+        "private_wage_growth_pct": 18.33
+      },
+      "2014": {
+        "employment": 269.1186,
+        "avg_wage": 39198,
+        "private_avg_wage": 33847,
+        "employment_change_pct": 3.83,
+        "wage_growth_pct": 8.51,
+        "private_wage_growth_pct": 8.34
+      },
+      "2015": {
+        "employment": 273.3293,
+        "avg_wage": 43528,
+        "private_avg_wage": 37222,
+        "employment_change_pct": 1.56,
+        "wage_growth_pct": 11.05,
+        "private_wage_growth_pct": 9.97
+      },
+      "2016": {
+        "employment": 269.5962,
+        "avg_wage": 47750,
+        "private_avg_wage": 40099,
+        "employment_change_pct": -1.37,
+        "wage_growth_pct": 9.7,
+        "private_wage_growth_pct": 7.73
+      },
+      "2017": {
+        "employment": 268.4986,
+        "avg_wage": 52229,
+        "private_avg_wage": 41061,
+        "employment_change_pct": -0.41,
+        "wage_growth_pct": 9.38,
+        "private_wage_growth_pct": 2.4
+      },
+      "2018": {
+        "employment": 260.6323,
+        "avg_wage": 56670,
+        "private_avg_wage": 42409,
+        "employment_change_pct": -2.93,
+        "wage_growth_pct": 8.5,
+        "private_wage_growth_pct": 3.28
+      },
+      "2019": {
+        "employment": 244.4517,
+        "avg_wage": 61158,
+        "private_avg_wage": 44444,
+        "employment_change_pct": -6.21,
+        "wage_growth_pct": 7.92,
+        "private_wage_growth_pct": 4.8
+      },
+      "2020": {
+        "employment": 245.564164,
+        "avg_wage": 63914,
+        "private_avg_wage": 43287,
+        "employment_change_pct": 0.46,
+        "wage_growth_pct": 4.51,
+        "private_wage_growth_pct": -2.6
+      },
+      "2021": {
+        "employment": 252.5631,
+        "avg_wage": 65802,
+        "private_avg_wage": 43366,
+        "employment_change_pct": 2.85,
+        "wage_growth_pct": 2.95,
+        "private_wage_growth_pct": 0.18
+      },
+      "2022": {
+        "employment": 253.5957,
+        "avg_wage": 68256,
+        "private_avg_wage": 44714,
+        "employment_change_pct": 0.41,
+        "wage_growth_pct": 3.73,
+        "private_wage_growth_pct": 3.11
+      },
+      "2023": {
+        "employment": 257.8987702,
+        "avg_wage": 68656,
+        "private_avg_wage": 47504,
+        "employment_change_pct": 1.7,
+        "wage_growth_pct": 0.59,
+        "private_wage_growth_pct": 6.24
+      },
+      "2024": {
+        "employment": 274.4,
+        "avg_wage": 68315,
+        "private_avg_wage": 49007,
+        "employment_change_pct": 6.4,
+        "wage_growth_pct": -0.5,
+        "private_wage_growth_pct": 3.16
+      }
+    }
+  },
+  {
+    "code": "A04060G",
+    "name": "居民服务、修理和其他服务业",
+    "name_en": "Resident Services, Repairs and Other Services",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 56.5556,
+        "avg_wage": 18030,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 57.3878,
+        "avg_wage": 20370,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.47,
+        "wage_growth_pct": 12.98,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 56.5306,
+        "avg_wage": 22858,
+        "private_avg_wage": null,
+        "employment_change_pct": -1.49,
+        "wage_growth_pct": 12.21,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 58.822,
+        "avg_wage": 25172,
+        "private_avg_wage": 15688,
+        "employment_change_pct": 4.05,
+        "wage_growth_pct": 10.12,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 60.2479,
+        "avg_wage": 28206,
+        "private_avg_wage": 18350,
+        "employment_change_pct": 2.42,
+        "wage_growth_pct": 12.05,
+        "private_wage_growth_pct": 16.97
+      },
+      "2011": {
+        "employment": 59.8548,
+        "avg_wage": 33169,
+        "private_avg_wage": 20543,
+        "employment_change_pct": -0.65,
+        "wage_growth_pct": 17.6,
+        "private_wage_growth_pct": 11.95
+      },
+      "2012": {
+        "employment": 62.1331,
+        "avg_wage": 35135,
+        "private_avg_wage": 24068,
+        "employment_change_pct": 3.81,
+        "wage_growth_pct": 5.93,
+        "private_wage_growth_pct": 17.16
+      },
+      "2013": {
+        "employment": 72.3342,
+        "avg_wage": 38429,
+        "private_avg_wage": 27483,
+        "employment_change_pct": 16.42,
+        "wage_growth_pct": 9.38,
+        "private_wage_growth_pct": 14.19
+      },
+      "2014": {
+        "employment": 75.4145,
+        "avg_wage": 41882,
+        "private_avg_wage": 30580,
+        "employment_change_pct": 4.26,
+        "wage_growth_pct": 8.99,
+        "private_wage_growth_pct": 11.27
+      },
+      "2015": {
+        "employment": 75.1831,
+        "avg_wage": 44802,
+        "private_avg_wage": 33203,
+        "employment_change_pct": -0.31,
+        "wage_growth_pct": 6.97,
+        "private_wage_growth_pct": 8.58
+      },
+      "2016": {
+        "employment": 75.3757,
+        "avg_wage": 47577,
+        "private_avg_wage": 35824,
+        "employment_change_pct": 0.26,
+        "wage_growth_pct": 6.19,
+        "private_wage_growth_pct": 7.89
+      },
+      "2017": {
+        "employment": 78.2342,
+        "avg_wage": 50552,
+        "private_avg_wage": 38417,
+        "employment_change_pct": 3.79,
+        "wage_growth_pct": 6.25,
+        "private_wage_growth_pct": 7.24
+      },
+      "2018": {
+        "employment": 77.4059,
+        "avg_wage": 55343,
+        "private_avg_wage": 41058,
+        "employment_change_pct": -1.06,
+        "wage_growth_pct": 9.48,
+        "private_wage_growth_pct": 6.87
+      },
+      "2019": {
+        "employment": 86.3239,
+        "avg_wage": 60232,
+        "private_avg_wage": 43926,
+        "employment_change_pct": 11.52,
+        "wage_growth_pct": 8.83,
+        "private_wage_growth_pct": 6.99
+      },
+      "2020": {
+        "employment": 82.8103494,
+        "avg_wage": 60722,
+        "private_avg_wage": 44536,
+        "employment_change_pct": -4.07,
+        "wage_growth_pct": 0.81,
+        "private_wage_growth_pct": 1.39
+      },
+      "2021": {
+        "employment": 85.8618,
+        "avg_wage": 65193,
+        "private_avg_wage": 47193,
+        "employment_change_pct": 3.68,
+        "wage_growth_pct": 7.36,
+        "private_wage_growth_pct": 5.97
+      },
+      "2022": {
+        "employment": 90.1009,
+        "avg_wage": 65478,
+        "private_avg_wage": 47760,
+        "employment_change_pct": 4.94,
+        "wage_growth_pct": 0.44,
+        "private_wage_growth_pct": 1.2
+      },
+      "2023": {
+        "employment": 85.1624877,
+        "avg_wage": 68919,
+        "private_avg_wage": 49907,
+        "employment_change_pct": -5.48,
+        "wage_growth_pct": 5.26,
+        "private_wage_growth_pct": 4.5
+      },
+      "2024": {
+        "employment": 89.8,
+        "avg_wage": 68159,
+        "private_avg_wage": 52139,
+        "employment_change_pct": 5.45,
+        "wage_growth_pct": -1.1,
+        "private_wage_growth_pct": 4.47
+      }
+    }
+  },
+  {
+    "code": "A04060H",
+    "name": "教育业",
+    "name_en": "Education",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 1504.4142,
+        "avg_wage": 20918,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 1520.9106,
+        "avg_wage": 25908,
+        "private_avg_wage": null,
+        "employment_change_pct": 1.1,
+        "wage_growth_pct": 23.86,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 1533.9899,
+        "avg_wage": 29831,
+        "private_avg_wage": null,
+        "employment_change_pct": 0.86,
+        "wage_growth_pct": 15.14,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 1550.3524,
+        "avg_wage": 34543,
+        "private_avg_wage": 21066,
+        "employment_change_pct": 1.07,
+        "wage_growth_pct": 15.8,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 1581.7543,
+        "avg_wage": 38968,
+        "private_avg_wage": 21862,
+        "employment_change_pct": 2.03,
+        "wage_growth_pct": 12.81,
+        "private_wage_growth_pct": 3.78
+      },
+      "2011": {
+        "employment": 1617.7726,
+        "avg_wage": 43194,
+        "private_avg_wage": 23636,
+        "employment_change_pct": 2.28,
+        "wage_growth_pct": 10.84,
+        "private_wage_growth_pct": 8.11
+      },
+      "2012": {
+        "employment": 1653.3788,
+        "avg_wage": 47734,
+        "private_avg_wage": 26625,
+        "employment_change_pct": 2.2,
+        "wage_growth_pct": 10.51,
+        "private_wage_growth_pct": 12.65
+      },
+      "2013": {
+        "employment": 1687.2273,
+        "avg_wage": 51950,
+        "private_avg_wage": 31521,
+        "employment_change_pct": 2.05,
+        "wage_growth_pct": 8.83,
+        "private_wage_growth_pct": 18.39
+      },
+      "2014": {
+        "employment": 1727.326,
+        "avg_wage": 56580,
+        "private_avg_wage": 33678,
+        "employment_change_pct": 2.38,
+        "wage_growth_pct": 8.91,
+        "private_wage_growth_pct": 6.84
+      },
+      "2015": {
+        "employment": 1736.468,
+        "avg_wage": 66592,
+        "private_avg_wage": 37040,
+        "employment_change_pct": 0.53,
+        "wage_growth_pct": 17.7,
+        "private_wage_growth_pct": 9.98
+      },
+      "2016": {
+        "employment": 1729.2418,
+        "avg_wage": 74498,
+        "private_avg_wage": 39508,
+        "employment_change_pct": -0.42,
+        "wage_growth_pct": 11.87,
+        "private_wage_growth_pct": 6.66
+      },
+      "2017": {
+        "employment": 1730.3682,
+        "avg_wage": 83412,
+        "private_avg_wage": 43263,
+        "employment_change_pct": 0.07,
+        "wage_growth_pct": 11.97,
+        "private_wage_growth_pct": 9.5
+      },
+      "2018": {
+        "employment": 1735.5819,
+        "avg_wage": 92383,
+        "private_avg_wage": 46228,
+        "employment_change_pct": 0.3,
+        "wage_growth_pct": 10.76,
+        "private_wage_growth_pct": 6.85
+      },
+      "2019": {
+        "employment": 1909.3201,
+        "avg_wage": 97681,
+        "private_avg_wage": 50761,
+        "employment_change_pct": 10.01,
+        "wage_growth_pct": 5.73,
+        "private_wage_growth_pct": 9.81
+      },
+      "2020": {
+        "employment": 1958.9256854,
+        "avg_wage": 106474,
+        "private_avg_wage": 48443,
+        "employment_change_pct": 2.6,
+        "wage_growth_pct": 9.0,
+        "private_wage_growth_pct": -4.57
+      },
+      "2021": {
+        "employment": 1971.9496,
+        "avg_wage": 111392,
+        "private_avg_wage": 52579,
+        "employment_change_pct": 0.66,
+        "wage_growth_pct": 4.62,
+        "private_wage_growth_pct": 8.54
+      },
+      "2022": {
+        "employment": 1950.6241,
+        "avg_wage": 120422,
+        "private_avg_wage": 52771,
+        "employment_change_pct": -1.08,
+        "wage_growth_pct": 8.11,
+        "private_wage_growth_pct": 0.37
+      },
+      "2023": {
+        "employment": 1940.5041179,
+        "avg_wage": 124067,
+        "private_avg_wage": 55775,
+        "employment_change_pct": -0.52,
+        "wage_growth_pct": 3.03,
+        "private_wage_growth_pct": 5.69
+      },
+      "2024": {
+        "employment": 1949,
+        "avg_wage": 126185,
+        "private_avg_wage": 60719,
+        "employment_change_pct": 0.44,
+        "wage_growth_pct": 1.71,
+        "private_wage_growth_pct": 8.86
+      }
+    }
+  },
+  {
+    "code": "A04060I",
+    "name": "卫生和社会工作",
+    "name_en": "Health and Social Work",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 525.4252,
+        "avg_wage": 23590,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 542.8019,
+        "avg_wage": 27892,
+        "private_avg_wage": null,
+        "employment_change_pct": 3.31,
+        "wage_growth_pct": 18.24,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 563.6075,
+        "avg_wage": 32185,
+        "private_avg_wage": null,
+        "employment_change_pct": 3.83,
+        "wage_growth_pct": 15.39,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 595.7664,
+        "avg_wage": 35662,
+        "private_avg_wage": 18641,
+        "employment_change_pct": 5.71,
+        "wage_growth_pct": 10.8,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 632.5394,
+        "avg_wage": 40232,
+        "private_avg_wage": 21571,
+        "employment_change_pct": 6.17,
+        "wage_growth_pct": 12.81,
+        "private_wage_growth_pct": 15.72
+      },
+      "2011": {
+        "employment": 679.0566,
+        "avg_wage": 46206,
+        "private_avg_wage": 25590,
+        "employment_change_pct": 7.35,
+        "wage_growth_pct": 14.85,
+        "private_wage_growth_pct": 18.63
+      },
+      "2012": {
+        "employment": 719.2776,
+        "avg_wage": 52564,
+        "private_avg_wage": 29173,
+        "employment_change_pct": 5.92,
+        "wage_growth_pct": 13.76,
+        "private_wage_growth_pct": 14.0
+      },
+      "2013": {
+        "employment": 770.0266,
+        "avg_wage": 57979,
+        "private_avg_wage": 33862,
+        "employment_change_pct": 7.06,
+        "wage_growth_pct": 10.3,
+        "private_wage_growth_pct": 16.07
+      },
+      "2014": {
+        "employment": 810.4272,
+        "avg_wage": 63267,
+        "private_avg_wage": 37205,
+        "employment_change_pct": 5.25,
+        "wage_growth_pct": 9.12,
+        "private_wage_growth_pct": 9.87
+      },
+      "2015": {
+        "employment": 841.6482,
+        "avg_wage": 71624,
+        "private_avg_wage": 40558,
+        "employment_change_pct": 3.85,
+        "wage_growth_pct": 13.21,
+        "private_wage_growth_pct": 9.01
+      },
+      "2016": {
+        "employment": 866.9874,
+        "avg_wage": 80026,
+        "private_avg_wage": 43993,
+        "employment_change_pct": 3.01,
+        "wage_growth_pct": 11.73,
+        "private_wage_growth_pct": 8.47
+      },
+      "2017": {
+        "employment": 897.9367,
+        "avg_wage": 89648,
+        "private_avg_wage": 47296,
+        "employment_change_pct": 3.57,
+        "wage_growth_pct": 12.02,
+        "private_wage_growth_pct": 7.51
+      },
+      "2018": {
+        "employment": 912.3741,
+        "avg_wage": 98118,
+        "private_avg_wage": 52343,
+        "employment_change_pct": 1.61,
+        "wage_growth_pct": 9.45,
+        "private_wage_growth_pct": 10.67
+      },
+      "2019": {
+        "employment": 1006.2298,
+        "avg_wage": 108903,
+        "private_avg_wage": 57140,
+        "employment_change_pct": 10.29,
+        "wage_growth_pct": 10.99,
+        "private_wage_growth_pct": 9.16
+      },
+      "2020": {
+        "employment": 1051.8573986,
+        "avg_wage": 115449,
+        "private_avg_wage": 60689,
+        "employment_change_pct": 4.53,
+        "wage_growth_pct": 6.01,
+        "private_wage_growth_pct": 6.21
+      },
+      "2021": {
+        "employment": 1094.6985,
+        "avg_wage": 126828,
+        "private_avg_wage": 67750,
+        "employment_change_pct": 4.07,
+        "wage_growth_pct": 9.86,
+        "private_wage_growth_pct": 11.63
+      },
+      "2022": {
+        "employment": 1114.4959,
+        "avg_wage": 135222,
+        "private_avg_wage": 71060,
+        "employment_change_pct": 1.81,
+        "wage_growth_pct": 6.62,
+        "private_wage_growth_pct": 4.89
+      },
+      "2023": {
+        "employment": 1126.8723209,
+        "avg_wage": 143818,
+        "private_avg_wage": 74462,
+        "employment_change_pct": 1.11,
+        "wage_growth_pct": 6.36,
+        "private_wage_growth_pct": 4.79
+      },
+      "2024": {
+        "employment": 1132.3,
+        "avg_wage": 143173,
+        "private_avg_wage": 75287,
+        "employment_change_pct": 0.48,
+        "wage_growth_pct": -0.45,
+        "private_wage_growth_pct": 1.11
+      }
+    }
+  },
+  {
+    "code": "A04060J",
+    "name": "文化、体育和娱乐业",
+    "name_en": "Culture, Sports and Entertainment",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 122.3566,
+        "avg_wage": 25847,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 125.0123,
+        "avg_wage": 30430,
+        "private_avg_wage": null,
+        "employment_change_pct": 2.17,
+        "wage_growth_pct": 17.73,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 125.9592,
+        "avg_wage": 34158,
+        "private_avg_wage": null,
+        "employment_change_pct": 0.76,
+        "wage_growth_pct": 12.25,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 129.5161,
+        "avg_wage": 37755,
+        "private_avg_wage": 17339,
+        "employment_change_pct": 2.82,
+        "wage_growth_pct": 10.53,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 131.3736,
+        "avg_wage": 41428,
+        "private_avg_wage": 20012,
+        "employment_change_pct": 1.43,
+        "wage_growth_pct": 9.73,
+        "private_wage_growth_pct": 15.42
+      },
+      "2011": {
+        "employment": 134.9854,
+        "avg_wage": 47878,
+        "private_avg_wage": 22666,
+        "employment_change_pct": 2.75,
+        "wage_growth_pct": 15.57,
+        "private_wage_growth_pct": 13.26
+      },
+      "2012": {
+        "employment": 137.7422,
+        "avg_wage": 53558,
+        "private_avg_wage": 26177,
+        "employment_change_pct": 2.04,
+        "wage_growth_pct": 11.86,
+        "private_wage_growth_pct": 15.49
+      },
+      "2013": {
+        "employment": 146.9503,
+        "avg_wage": 59336,
+        "private_avg_wage": 30402,
+        "employment_change_pct": 6.69,
+        "wage_growth_pct": 10.79,
+        "private_wage_growth_pct": 16.14
+      },
+      "2014": {
+        "employment": 145.519,
+        "avg_wage": 64375,
+        "private_avg_wage": 32024,
+        "employment_change_pct": -0.97,
+        "wage_growth_pct": 8.49,
+        "private_wage_growth_pct": 5.34
+      },
+      "2015": {
+        "employment": 149.0884,
+        "avg_wage": 72764,
+        "private_avg_wage": 34974,
+        "employment_change_pct": 2.45,
+        "wage_growth_pct": 13.03,
+        "private_wage_growth_pct": 9.21
+      },
+      "2016": {
+        "employment": 150.7728,
+        "avg_wage": 79875,
+        "private_avg_wage": 38228,
+        "employment_change_pct": 1.13,
+        "wage_growth_pct": 9.77,
+        "private_wage_growth_pct": 9.3
+      },
+      "2017": {
+        "employment": 152.2395,
+        "avg_wage": 87803,
+        "private_avg_wage": 41201,
+        "employment_change_pct": 0.97,
+        "wage_growth_pct": 9.93,
+        "private_wage_growth_pct": 7.78
+      },
+      "2018": {
+        "employment": 146.5829,
+        "avg_wage": 98621,
+        "private_avg_wage": 44592,
+        "employment_change_pct": -3.72,
+        "wage_growth_pct": 12.32,
+        "private_wage_growth_pct": 8.23
+      },
+      "2019": {
+        "employment": 151.162,
+        "avg_wage": 107708,
+        "private_avg_wage": 49289,
+        "employment_change_pct": 3.12,
+        "wage_growth_pct": 9.21,
+        "private_wage_growth_pct": 10.53
+      },
+      "2020": {
+        "employment": 149.5132553,
+        "avg_wage": 112081,
+        "private_avg_wage": 51300,
+        "employment_change_pct": -1.09,
+        "wage_growth_pct": 4.06,
+        "private_wage_growth_pct": 4.08
+      },
+      "2021": {
+        "employment": 151.7059,
+        "avg_wage": 117329,
+        "private_avg_wage": 56171,
+        "employment_change_pct": 1.47,
+        "wage_growth_pct": 4.68,
+        "private_wage_growth_pct": 9.5
+      },
+      "2022": {
+        "employment": 146.5018,
+        "avg_wage": 121151,
+        "private_avg_wage": 56769,
+        "employment_change_pct": -3.43,
+        "wage_growth_pct": 3.26,
+        "private_wage_growth_pct": 1.06
+      },
+      "2023": {
+        "employment": 147.0247783,
+        "avg_wage": 127334,
+        "private_avg_wage": 59407,
+        "employment_change_pct": 0.36,
+        "wage_growth_pct": 5.1,
+        "private_wage_growth_pct": 4.65
+      },
+      "2024": {
+        "employment": 159.1,
+        "avg_wage": 126040,
+        "private_avg_wage": 61669,
+        "employment_change_pct": 8.21,
+        "wage_growth_pct": -1.02,
+        "private_wage_growth_pct": 3.81
+      }
+    }
+  },
+  {
+    "code": "A04060K",
+    "name": "公共管理、社会保障和社会组织",
+    "name_en": "Public Administration, Social Security and Social Organizations",
+    "category": "tertiary",
+    "is_aggregate": false,
+    "yearly_data": {
+      "2006": {
+        "employment": 1265.5669,
+        "avg_wage": 22546,
+        "private_avg_wage": null,
+        "employment_change_pct": null,
+        "wage_growth_pct": null,
+        "private_wage_growth_pct": null
+      },
+      "2007": {
+        "employment": 1291.2122,
+        "avg_wage": 27731,
+        "private_avg_wage": null,
+        "employment_change_pct": 2.03,
+        "wage_growth_pct": 23.0,
+        "private_wage_growth_pct": null
+      },
+      "2008": {
+        "employment": 1334.9919,
+        "avg_wage": 32296,
+        "private_avg_wage": null,
+        "employment_change_pct": 3.39,
+        "wage_growth_pct": 16.46,
+        "private_wage_growth_pct": null
+      },
+      "2009": {
+        "employment": 1394.2983,
+        "avg_wage": 35326,
+        "private_avg_wage": 8190.54760339755,
+        "employment_change_pct": 4.44,
+        "wage_growth_pct": 9.38,
+        "private_wage_growth_pct": null
+      },
+      "2010": {
+        "employment": 1428.4708,
+        "avg_wage": 38242,
+        "private_avg_wage": 8900,
+        "employment_change_pct": 2.45,
+        "wage_growth_pct": 8.25,
+        "private_wage_growth_pct": 8.66
+      },
+      "2011": {
+        "employment": 1467.632,
+        "avg_wage": 42062,
+        "private_avg_wage": 11738,
+        "employment_change_pct": 2.74,
+        "wage_growth_pct": 9.99,
+        "private_wage_growth_pct": 31.89
+      },
+      "2012": {
+        "employment": 1541.5126,
+        "avg_wage": 46074,
+        "private_avg_wage": 10858,
+        "employment_change_pct": 5.03,
+        "wage_growth_pct": 9.54,
+        "private_wage_growth_pct": -7.5
+      },
+      "2013": {
+        "employment": 1566.988,
+        "avg_wage": 49259,
+        "private_avg_wage": 33953,
+        "employment_change_pct": 1.65,
+        "wage_growth_pct": 6.91,
+        "private_wage_growth_pct": 212.7
+      },
+      "2014": {
+        "employment": 1599.325,
+        "avg_wage": 53110,
+        "private_avg_wage": 26744,
+        "employment_change_pct": 2.06,
+        "wage_growth_pct": 7.82,
+        "private_wage_growth_pct": -21.23
+      },
+      "2015": {
+        "employment": 1637.8019,
+        "avg_wage": 62323,
+        "private_avg_wage": null,
+        "employment_change_pct": 2.41,
+        "wage_growth_pct": 17.35,
+        "private_wage_growth_pct": null
+      },
+      "2016": {
+        "employment": 1672.5851,
+        "avg_wage": 70959,
+        "private_avg_wage": null,
+        "employment_change_pct": 2.12,
+        "wage_growth_pct": 13.86,
+        "private_wage_growth_pct": null
+      },
+      "2017": {
+        "employment": 1725.5709,
+        "avg_wage": 80372,
+        "private_avg_wage": null,
+        "employment_change_pct": 3.17,
+        "wage_growth_pct": 13.27,
+        "private_wage_growth_pct": null
+      },
+      "2018": {
+        "employment": 1817.4633,
+        "avg_wage": 87932,
+        "private_avg_wage": null,
+        "employment_change_pct": 5.33,
+        "wage_growth_pct": 9.41,
+        "private_wage_growth_pct": null
+      },
+      "2019": {
+        "employment": 1989.8185,
+        "avg_wage": 94369,
+        "private_avg_wage": null,
+        "employment_change_pct": 9.48,
+        "wage_growth_pct": 7.32,
+        "private_wage_growth_pct": null
+      },
+      "2020": {
+        "employment": 1972.1826686,
+        "avg_wage": 104487,
+        "private_avg_wage": null,
+        "employment_change_pct": -0.89,
+        "wage_growth_pct": 10.72,
+        "private_wage_growth_pct": null
+      },
+      "2021": {
+        "employment": 1985.8295,
+        "avg_wage": 111361,
+        "private_avg_wage": null,
+        "employment_change_pct": 0.69,
+        "wage_growth_pct": 6.58,
+        "private_wage_growth_pct": null
+      },
+      "2022": {
+        "employment": 1985.7817,
+        "avg_wage": 117440,
+        "private_avg_wage": null,
+        "employment_change_pct": -0.0,
+        "wage_growth_pct": 5.46,
+        "private_wage_growth_pct": null
+      },
+      "2023": {
+        "employment": 1985.7779286,
+        "avg_wage": 117108,
+        "private_avg_wage": null,
+        "employment_change_pct": -0.0,
+        "wage_growth_pct": -0.28,
+        "private_wage_growth_pct": null
+      },
+      "2024": {
+        "employment": 2026.8,
+        "avg_wage": 114840,
+        "private_avg_wage": null,
+        "employment_change_pct": 2.07,
+        "wage_growth_pct": -1.94,
+        "private_wage_growth_pct": null
+      }
+    }
+  }
+]
